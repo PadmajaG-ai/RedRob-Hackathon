@@ -1,0 +1,7 @@
+torch
+transformers>=4.36.0
+sentence-transformers
+peft>=0.7.0
+faiss-cpu
+tqdm
+anthropic

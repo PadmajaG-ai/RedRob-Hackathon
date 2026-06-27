@@ -1,0 +1,1249 @@
+{
+  "metadata": {
+    "total_pairs": 248,
+    "positive": 124,
+    "negative": 124
+  },
+  "pairs": [
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: .NET Developer | Company: Flipkart | Industry: E-commerce | Experience: 5.8 years | Skills: webpack, statistical modeling, llms, yolo, salesforce crm, snowflake, rust, node.js, react, django | Headline: .NET Developer | Full-stack development | Location: Bangalore, Karnataka",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Customer Support | Company: TCS | Industry: IT Services | Experience: 7.2 years | Skills: gcp, redux, javascript, typescript, excel, html, terraform | Headline: Customer Support | 7.2+ yrs experience | Location: Vizag, Andhra Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 5.6 years | Skills: fastapi, kafka, powerpoint, ci/cd, kubernetes, html, css, java | Headline: Mechanical Engineer | Driving business outcomes | Location: Indore, Madhya Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Backend Engineer | Company: Acme Corp | Industry: Manufacturing | Experience: 6.9 years | Skills: etl, computer vision, qlora, pytorch, opencv, node.js, object detection, tensorflow, azure | Headline: Backend Engineer | SQL, Spark, Cloud | Location: Jaipur, Rajasthan",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Accountant | Company: Stark Industries | Industry: Manufacturing | Experience: 7.8 years | Skills: excel, yolo, redux, mongodb, ci/cd, aws | Headline: Accountant | Helping teams scale | Location: Pune, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Customer Support | Company: Globex Inc | Industry: Manufacturing | Experience: 11.1 years | Skills: aws, angular, rust, seo, css, node.js, javascript, webpack, flask | Headline: Customer Support | Helping teams scale | Location: Ahmedabad, Gujarat",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Sales Executive | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 6.7 years | Skills: salesforce crm, docker, content writing, javascript, bigquery, gcp, aws, kubernetes, seo, sales | Headline: Sales Executive | 6.7+ yrs experience | Location: San Francisco",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Civil Engineer | Company: TCS | Industry: IT Services | Experience: 14.0 years | Skills: css, excel, fastapi, accounting, content writing, figma, weights & biases, spark, dbt, react | Headline: Civil Engineer | Driving business outcomes | Location: Sydney",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Marketing Manager | Company: Initech | Industry: Software | Experience: 6.2 years | Skills: sql, sales, docker, tally, aws, react, sap | Headline: Marketing Manager | Driving business outcomes | Location: Kolkata, West Bengal",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Full Stack Developer | Company: Razorpay | Industry: Fintech | Experience: 3.0 years | Skills: postgresql, dbt, project management, opensearch, elasticsearch, speech recognition, seo, reinforcement learning, time series, sql | Headline: Full Stack Developer | Backend systems & APIs | Location: Seattle",
+      "label": 0
+    },
+    {
+      "jd": "Role: Data Scientist | Required skills: data science, python, sql, statistics, ml | Experience: 4+ years",
+      "candidate": "Title: Full Stack Developer | Company: Capgemini | Industry: IT Services | Experience: 8.7 years | Skills: tally, sql, next.js, seo, terraform, spark, css, machine learning, data science, etl | Headline: Full Stack Developer | Cloud & DevOps | Location: Sydney",
+      "label": 1
+    },
+    {
+      "jd": "Role: Data Scientist | Required skills: data science, python, sql, statistics, ml | Experience: 4+ years",
+      "candidate": "Title: Frontend Engineer | Company: Accenture | Industry: Consulting | Experience: 2.9 years | Skills: seo, tts, project management, figma, spring boot, airflow | Headline: Frontend Engineer | Cloud & DevOps | Location: Bangalore, Karnataka",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Infosys | Industry: IT Services | Experience: 3.9 years | Skills: ci/cd, spring boot, kubernetes, figma, time series, gcp, node.js, sales, seo, docker | Headline: Mechanical Engineer | AI enthusiast | Building with LLMs | Location: Jaipur, Rajasthan",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Operations Manager | Company: Globex Inc | Industry: Manufacturing | Experience: 4.9 years | Skills: bigquery, go, agile, mongodb, salesforce crm, node.js, fastapi, opencv, angular | Headline: Operations Manager | Helping teams scale | Location: Chandigarh, Chandigarh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Sales Executive | Company: Infosys | Industry: IT Services | Experience: 8.4 years | Skills: microservices, angular, data pipelines, azure, yolo, photoshop, docker, fastapi, kubernetes | Headline: Sales Executive | Driving business outcomes | Location: Trivandrum, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Java Developer | Company: TCS | Industry: IT Services | Experience: 7.5 years | Skills: redux, mongodb, apache beam, databricks, scikit-learn, fastapi, information retrieval, rust, seo | Headline: Java Developer | Full-stack development | Location: Indore, Madhya Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Civil Engineer | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 4.2 years | Skills: diffusion models, sql, aws, scrum, kubernetes, node.js, content writing, microservices | Headline: Civil Engineer | 4.2+ yrs experience | Location: Toronto",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Backend Engineer | Company: CRED | Industry: Fintech | Experience: 7.4 years | Skills: gans, graphql, scikit-learn, scrum, qlora, ci/cd, faiss, powerpoint, opensearch, project management | Headline: Backend Engineer | 7.4+ yrs in data engineering | Location: Chandigarh, Chandigarh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Operations Manager | Company: Acme Corp | Industry: Manufacturing | Experience: 8.4 years | Skills: flask, docker, postgresql, yolo, accounting, kafka, node.js, aws, project management | Headline: Operations Manager | Helping teams scale | Location: Bangalore, Karnataka",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Software Engineer | Company: Stark Industries | Industry: Manufacturing | Experience: 5.4 years | Skills: yolo, six sigma, vue.js, kubeflow, sales, learning to rank, data pipelines, mongodb, apache flink, angular | Headline: Software Engineer | Backend systems & APIs | Location: Ahmedabad, Gujarat",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Marketing Manager | Company: Pied Piper | Industry: Software | Experience: 13.6 years | Skills: typescript, snowflake, agile, docker, tts, photoshop, postgresql, kubernetes, content writing, prompt engineering | Headline: Marketing Manager | Generative AI explorer | Location: Hyderabad, Telangana",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Sales Executive | Company: Hooli | Industry: Software | Experience: 7.0 years | Skills: diffusion models, dbt, terraform, fastapi, salesforce crm, figma | Headline: Sales Executive | Driving business outcomes | Location: Kolkata, West Bengal",
+      "label": 0
+    },
+    {
+      "jd": "Role: Senior AI/ML Engineer | Required skills: machine learning, python, pytorch, transformers, deep learning | Experience: 5+ years",
+      "candidate": "Title: Applied ML Engineer | Company: Verloop.io | Industry: Conversational AI | Experience: 4.2 years | Skills: llamaindex, bentoml, pytorch, learning to rank, angular, sentence transformers, microservices, machine learning, embeddings, kubeflow | Headline: Applied ML Engineer | Search, Ranking & Retrieval | Location: Pune, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: Senior AI/ML Engineer | Required skills: machine learning, python, pytorch, transformers, deep learning | Experience: 5+ years",
+      "candidate": "Title: Business Analyst | Company: Stark Industries | Industry: Manufacturing | Experience: 6.7 years | Skills: agile, hadoop, salesforce crm, sap, css, docker, sales, django, dbt, html | Headline: Business Analyst | Helping teams scale | Location: Kolkata, West Bengal",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: .NET Developer | Company: Globex Inc | Industry: Manufacturing | Experience: 2.5 years | Skills: sap, reinforcement learning, webpack, cnn, excel, seo, aws, salesforce crm, sql, illustrator | Headline: .NET Developer | Backend systems & APIs | Location: Indore, Madhya Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: HR Manager | Company: Pied Piper | Industry: Software | Experience: 12.1 years | Skills: powerpoint, fastapi, redux, vue.js, terraform, microservices, accounting, salesforce crm, seo | Headline: HR Manager | 12.1+ yrs experience | Location: Seattle",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: QA Engineer | Company: Mindtree | Industry: IT Services | Experience: 3.7 years | Skills: databricks, fastapi, webpack, docker, react, diffusion models, javascript, kafka, html, figma | Headline: QA Engineer | Cloud & DevOps | Location: Indore, Madhya Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Project Manager | Company: Hooli | Industry: Software | Experience: 4.6 years | Skills: go, typescript, sap, apache beam, react, databricks, photoshop, bigquery, project management, seo | Headline: Project Manager | 4.6+ yrs experience | Location: Seattle",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: DevOps Engineer | Company: Razorpay | Industry: Fintech | Experience: 4.4 years | Skills: gans, time series, webpack, aws, vector search, node.js, scrum, illustrator, tailwind, tts | Headline: DevOps Engineer | Backend systems & APIs | Location: Jaipur, Rajasthan",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Project Manager | Company: Wipro | Industry: IT Services | Experience: 6.4 years | Skills: ci/cd, terraform, snowflake, go, graphql, project management | Headline: Project Manager | 6.4+ yrs experience | Location: Berlin",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Project Manager | Company: Wipro | Industry: IT Services | Experience: 5.7 years | Skills: docker, time series, javascript, sales, data pipelines, six sigma, spark, angular, ci/cd | Headline: Project Manager | Helping teams scale | Location: Coimbatore, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Graphic Designer | Company: Globex Inc | Industry: Manufacturing | Experience: 9.1 years | Skills: marketing, azure, kafka, apache beam, figma, typescript, scrum, aws, apache flink, etl | Headline: Graphic Designer | 9.1+ yrs experience | Location: Noida, Uttar Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Data Engineer | Company: Ola | Industry: Transportation | Experience: 2.8 years | Skills: kubeflow, data science, statistical modeling, image classification, sap, qdrant, hadoop, aws, weights & biases, css | Headline: Data Engineer | 2.8+ yrs in data engineering | Location: Bhubaneswar, Odisha",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Marketing Manager | Company: Infosys | Industry: IT Services | Experience: 1.2 years | Skills: illustrator, photoshop, airflow, typescript, vue.js, figma, hadoop, tts, tally, mongodb | Headline: Marketing Manager | Helping teams scale | Location: Sydney",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: QA Engineer | Company: Infosys | Industry: IT Services | Experience: 7.2 years | Skills: fastapi, aws, gans, docker, javascript, embeddings, forecasting, fine-tuning llms, statistical modeling, grpc | Headline: QA Engineer | Backend systems & APIs | Location: Hyderabad, Telangana",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Business Analyst | Company: Dunder Mifflin | Industry: Paper Products | Experience: 13.2 years | Skills: six sigma, kubernetes, azure, spark, aws, vue.js | Headline: Business Analyst | 13.2+ yrs experience | Location: Chandigarh, Chandigarh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Data Analyst | Company: Mindtree | Industry: IT Services | Experience: 4.1 years | Skills: mlops, angular, marketing, python, kubeflow, databricks, speech recognition, forecasting, css, milvus | Headline: Data Analyst | SQL, Spark, Cloud | Location: Trivandrum, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Accountant | Company: Acme Corp | Industry: Manufacturing | Experience: 14.4 years | Skills: scrum, bigquery, java, data science, aws, apache flink | Headline: Accountant | 14.4+ yrs experience | Location: Jaipur, Rajasthan",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Graphic Designer | Company: TCS | Industry: IT Services | Experience: 11.7 years | Skills: kubernetes, scrum, next.js, node.js, angular, six sigma, ci/cd | Headline: Graphic Designer | Helping teams scale | Location: Jaipur, Rajasthan",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Marketing Manager | Company: Wipro | Industry: IT Services | Experience: 11.6 years | Skills: bigquery, mongodb, rest apis, vue.js, spring boot, rust, agile, kubernetes, javascript | Headline: Marketing Manager | 11.6+ yrs experience | Location: Austin",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Civil Engineer | Company: Dunder Mifflin | Industry: Paper Products | Experience: 8.7 years | Skills: vue.js, graphql, data pipelines, spark, react, aws, mongodb, redux, fastapi | Headline: Civil Engineer | Driving business outcomes | Location: London",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: QA Engineer | Company: Razorpay | Industry: Fintech | Experience: 2.0 years | Skills: snowflake, opencv, scrum, image classification, peft, aws, vue.js, grpc | Headline: QA Engineer | Full-stack development | Location: Delhi, Delhi",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: DevOps Engineer | Company: Razorpay | Industry: Fintech | Experience: 2.5 years | Skills: node.js, reinforcement learning, gcp, llamaindex, sales, rust, html, spark, javascript, data science | Headline: DevOps Engineer | Full-stack development | Location: Chennai, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Sales Executive | Company: Globex Inc | Industry: Manufacturing | Experience: 10.2 years | Skills: hadoop, azure, rust, grpc, angular | Headline: Sales Executive | Driving business outcomes | Location: Bhubaneswar, Odisha",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Acme Corp | Industry: Manufacturing | Experience: 11.8 years | Skills: agile, redis, node.js, react, scrum, bentoml, photoshop, seo, content writing, html | Headline: Mechanical Engineer | Exploring AI & GenAI applications | Location: Vizag, Andhra Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Senior Software Engineer | Company: BYJU'S | Industry: EdTech | Experience: 5.7 years | Skills: mlops, asr, illustrator, scrum, bentoml, learning to rank, bigquery, salesforce crm, kubernetes, rust | Headline: Senior Software Engineer | 5.7+ yrs in data engineering | Location: Sydney",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Civil Engineer | Company: Infosys | Industry: IT Services | Experience: 8.7 years | Skills: sql, hadoop, postgresql, terraform, databricks, sales, go, kubernetes, docker, gcp | Headline: Civil Engineer | 8.7+ yrs experience | Location: Dubai",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Business Analyst | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 10.6 years | Skills: grpc, webpack, apache flink, rust, agile, kubernetes, feature engineering, seo | Headline: Business Analyst | 10.6+ yrs experience | Location: Dubai",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Accountant | Company: Wipro | Industry: IT Services | Experience: 11.1 years | Skills: redis, object detection, illustrator, ci/cd, salesforce crm, docker | Headline: Accountant | Helping teams scale | Location: Indore, Madhya Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Sales Executive | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 6.3 years | Skills: scrum, excel, hadoop, airflow, spark, webpack, css, mongodb, agile, redis | Headline: Sales Executive | 6.3+ yrs experience | Location: Chandigarh, Chandigarh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Full Stack Developer | Company: TCS | Industry: IT Services | Experience: 8.5 years | Skills: python, spark, tensorflow, mongodb, react, next.js, spring boot, tally, scrum, microservices | Headline: Full Stack Developer | Backend systems & APIs | Location: Chennai, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Operations Manager | Company: Wipro | Industry: IT Services | Experience: 12.7 years | Skills: java, accounting, redux, redis, time series, html | Headline: Operations Manager | Driving business outcomes | Location: Hyderabad, Telangana",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Software Engineer | Company: Stark Industries | Industry: Manufacturing | Experience: 10.0 years | Skills: fine-tuning llms, bentoml, kubeflow, snowflake, kubernetes, go, scrum, tally, rest apis, cnn | Headline: Software Engineer | Cloud & DevOps | Location: Pune, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Marketing Manager | Company: Initech | Industry: Software | Experience: 10.2 years | Skills: sql, cnn, next.js, apache flink, salesforce crm, seo | Headline: Marketing Manager | Driving business outcomes | Location: Bangalore, Karnataka",
+      "label": 0
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Graphic Designer | Company: Infosys | Industry: IT Services | Experience: 11.2 years | Skills: project management, go, airflow, java, content writing, six sigma, mongodb, excel, databricks | Headline: Graphic Designer | Driving business outcomes | Location: London",
+      "label": 1
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Customer Support | Company: Initech | Industry: Software | Experience: 3.5 years | Skills: rust, webpack, fastapi, kubernetes, project management, node.js, rest apis, next.js, sql | Headline: Customer Support | Driving business outcomes | Location: Chandigarh, Chandigarh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: .NET Developer | Company: Globex Inc | Industry: Manufacturing | Experience: 6.7 years | Skills: spark, kubernetes, django, agile, haystack, elasticsearch, cnn, aws, accounting | Headline: .NET Developer | Full-stack development | Location: Chandigarh, Chandigarh",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Mobile Developer | Company: Infosys | Industry: IT Services | Experience: 3.8 years | Skills: data pipelines, salesforce crm, javascript, hadoop, redis, weights & biases, java, vue.js | Headline: Mobile Developer | Full-stack development | Location: Chennai, Tamil Nadu",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Content Writer | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 11.5 years | Skills: kubernetes, angular, docker, rust, agile | Headline: Content Writer | Driving business outcomes | Location: Jaipur, Rajasthan",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Content Writer | Company: Initech | Industry: Software | Experience: 4.5 years | Skills: kubernetes, project management, next.js, dbt, illustrator, hadoop, content writing, apache flink | Headline: Content Writer | Helping teams scale | Location: Mumbai, Maharashtra",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Graphic Designer | Company: Hooli | Industry: Software | Experience: 6.8 years | Skills: typescript, excel, postgresql, html, scrum, rust, kafka, react, ci/cd, javascript | Headline: Graphic Designer | 6.8+ yrs experience | Location: Seattle",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Operations Manager | Company: Infosys | Industry: IT Services | Experience: 4.3 years | Skills: spark, scrum, apache beam, angular, rest apis, bigquery, java, hadoop, kafka | Headline: Operations Manager | Helping teams scale | Location: Austin",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Software Engineer | Company: Flipkart | Industry: E-commerce | Experience: 7.9 years | Skills: accounting, next.js, tally, snowflake, kubernetes, docker, forecasting, typescript, qlora, sql | Headline: Software Engineer | Backend systems & APIs | Location: Trivandrum, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Project Manager | Company: Stark Industries | Industry: Manufacturing | Experience: 13.8 years | Skills: go, angular, postgresql, javascript, kafka | Headline: Project Manager | Driving business outcomes | Location: Noida, Uttar Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: HR Manager | Company: Pied Piper | Industry: Software | Experience: 13.8 years | Skills: project management, redux, javascript, salesforce crm, aws, langchain, fine-tuning llms, vector search, sentence transformers, faiss | Headline: HR Manager | Generative AI explorer | Location: Trivandrum, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Cloud Engineer | Company: Initech | Industry: Software | Experience: 10.0 years | Skills: prompt engineering, redis, gans, javascript, go, sap, java, faiss, webpack, feature engineering | Headline: Cloud Engineer | Full-stack development | Location: Austin",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: DevOps Engineer | Company: Zomato | Industry: Food Delivery | Experience: 5.6 years | Skills: image classification, python, html, diffusion models, next.js, kubernetes, weights & biases, redis, gcp, docker | Headline: DevOps Engineer | Cloud & DevOps | Location: Ahmedabad, Gujarat",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Accountant | Company: Infosys | Industry: IT Services | Experience: 13.0 years | Skills: six sigma, docker, sql, html, rust, gcp, javascript, yolo | Headline: Accountant | 13.0+ yrs experience | Location: Gurgaon, Haryana",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Cloud Engineer | Company: Acme Corp | Industry: Manufacturing | Experience: 8.1 years | Skills: node.js, react, apache flink, illustrator, microservices, graphql, powerpoint, scrum, terraform, content writing | Headline: Cloud Engineer | Full-stack development | Location: Seattle",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Cloud Engineer | Company: Hooli | Industry: Software | Experience: 7.8 years | Skills: redux, airflow, weaviate, fastapi, vector search, tailwind, css | Headline: Cloud Engineer | Full-stack development | Location: Singapore",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Acme Corp | Industry: Manufacturing | Experience: 2.7 years | Skills: airflow, css, react, grpc, accounting, angular, javascript, scrum, java | Headline: Mechanical Engineer | Helping teams scale | Location: Chennai, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Initech | Industry: Software | Experience: 7.4 years | Skills: next.js, databricks, photoshop, etl, tailwind, gcp, image classification, css, marketing, ci/cd | Headline: Mechanical Engineer | 7.4+ yrs experience | Location: Chandigarh, Chandigarh",
+      "label": 0
+    },
+    {
+      "jd": "Role: Data Scientist | Required skills: data science, python, sql, statistics, ml | Experience: 4+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Infosys | Industry: IT Services | Experience: 5.9 years | Skills: postgresql, photoshop, data science, graphql, powerpoint, sql, agile, html | Headline: Mechanical Engineer | 5.9+ yrs experience | Location: Pune, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: Data Scientist | Required skills: data science, python, sql, statistics, ml | Experience: 4+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Wipro | Industry: IT Services | Experience: 6.1 years | Skills: redis, spark, javascript, typescript, html, rust, opencv, grpc, aws, flask | Headline: Mechanical Engineer | Helping teams scale | Location: Hyderabad, Telangana",
+      "label": 0
+    },
+    {
+      "jd": "Role: Senior AI/ML Engineer | Required skills: machine learning, python, pytorch, transformers, deep learning | Experience: 5+ years",
+      "candidate": "Title: ML Engineer | Company: Genpact AI | Industry: AI Services | Experience: 4.9 years | Skills: pytorch, vue.js, speech recognition, photoshop, pinecone, feature engineering, image classification, yolo, qlora, forecasting | Headline: ML Engineer | Building ML-powered solutions | Location: Delhi, Delhi",
+      "label": 1
+    },
+    {
+      "jd": "Role: Senior AI/ML Engineer | Required skills: machine learning, python, pytorch, transformers, deep learning | Experience: 5+ years",
+      "candidate": "Title: Civil Engineer | Company: Stark Industries | Industry: Manufacturing | Experience: 6.5 years | Skills: redux, azure, html, mlops, java, agile | Headline: Civil Engineer | Helping teams scale | Location: Hyderabad, Telangana",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: HR Manager | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 7.3 years | Skills: sql, flask, gcp, kubernetes, yolo, postgresql, javascript, project management, figma, illustrator | Headline: HR Manager | 7.3+ yrs experience | Location: Hyderabad, Telangana",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Backend Engineer | Company: Wipro | Industry: IT Services | Experience: 3.4 years | Skills: qdrant, asr, speech recognition, postgresql, feature engineering, opencv, content writing, image classification, angular, mlops | Headline: Backend Engineer | 3.4+ yrs in data engineering | Location: New York",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: QA Engineer | Company: TCS | Industry: IT Services | Experience: 3.4 years | Skills: mlflow, spring boot, spark, fastapi, snowflake, seo, redis, react, ci/cd, node.js | Headline: QA Engineer | Cloud & DevOps | Location: San Francisco",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Content Writer | Company: Pied Piper | Industry: Software | Experience: 4.3 years | Skills: react, tally, fastapi, apache flink, typescript, kubernetes, go | Headline: Content Writer | 4.3+ yrs experience | Location: Pune, Maharashtra",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Accountant | Company: Wipro | Industry: IT Services | Experience: 6.0 years | Skills: apache beam, node.js, react, microservices, agile, data pipelines, figma, java, scrum, django | Headline: Accountant | Helping teams scale | Location: Kochi, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Operations Manager | Company: Infosys | Industry: IT Services | Experience: 1.0 years | Skills: redis, postgresql, agile, next.js, dbt, illustrator, rag, hugging face transformers, sentence transformers, information retrieval | Headline: Operations Manager | Exploring AI & GenAI applications | Location: Hyderabad, Telangana",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Operations Manager | Company: Globex Inc | Industry: Manufacturing | Experience: 4.2 years | Skills: react, terraform, node.js, accounting, flask, powerpoint, apache beam, redux, vue.js | Headline: Operations Manager | Helping teams scale | Location: Bangalore, Karnataka",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Dunder Mifflin | Industry: Paper Products | Experience: 10.8 years | Skills: java, gcp, six sigma, marketing, bigquery, time series, html, go | Headline: Mechanical Engineer | Driving business outcomes | Location: San Francisco",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Analytics Engineer | Company: Infosys | Industry: IT Services | Experience: 5.7 years | Skills: opencv, aws, figma, haystack, etl, statistical modeling, six sigma, machine learning, docker, tts | Headline: Analytics Engineer | 5.7+ yrs in data engineering | Location: Kochi, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Mobile Developer | Company: Infosys | Industry: IT Services | Experience: 8.9 years | Skills: snowflake, tally, dbt, javascript, sales, illustrator, redis, go, diffusion models, grpc | Headline: Mobile Developer | Full-stack development | Location: Chennai, Tamil Nadu",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Customer Support | Company: Globex Inc | Industry: Manufacturing | Experience: 4.0 years | Skills: kafka, sap, spring boot, apache flink, aws, react, html, terraform, postgresql, langchain | Headline: Customer Support | Generative AI explorer | Location: Delhi, Delhi",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Operations Manager | Company: Initech | Industry: Software | Experience: 10.0 years | Skills: sales, postgresql, graphql, tailwind, angular, illustrator, rust, feature engineering | Headline: Operations Manager | Driving business outcomes | Location: Kolkata, West Bengal",
+      "label": 0
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Accountant | Company: Globex Inc | Industry: Manufacturing | Experience: 10.5 years | Skills: speech recognition, data pipelines, sap, dbt, kubernetes, seo, java, go, rust, figma | Headline: Accountant | Helping teams scale | Location: Noida, Uttar Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Analytics Engineer | Company: Pied Piper | Industry: Software | Experience: 4.3 years | Skills: feature engineering, mlops, data science, kafka, redis, object detection, forecasting, go, asr, weights & biases | Headline: Analytics Engineer | SQL, Spark, Cloud | Location: Bangalore, Karnataka",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Full Stack Developer | Company: Hooli | Industry: Software | Experience: 8.8 years | Skills: ci/cd, docker, salesforce crm, next.js, sap, html, mlflow | Headline: Full Stack Developer | Full-stack development | Location: Seattle",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Graphic Designer | Company: Initech | Industry: Software | Experience: 6.8 years | Skills: tally, redis, typescript, angular, image classification, rust, ci/cd, content writing, react | Headline: Graphic Designer | Driving business outcomes | Location: Austin",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: QA Engineer | Company: Cognizant | Industry: IT Services | Experience: 2.6 years | Skills: docker, gcp, yolo, photoshop, grpc, kubernetes | Headline: QA Engineer | Full-stack development | Location: San Francisco",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Content Writer | Company: Infosys | Industry: IT Services | Experience: 2.2 years | Skills: node.js, redis, snowflake, figma, go, accounting, hadoop, redux | Headline: Content Writer | Helping teams scale | Location: Bhubaneswar, Odisha",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Java Developer | Company: Razorpay | Industry: Fintech | Experience: 7.9 years | Skills: apache beam, accounting, bentoml, databricks, machine learning, python, docker, next.js, sql, feature engineering | Headline: Java Developer | Cloud & DevOps | Location: Ahmedabad, Gujarat",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Civil Engineer | Company: Acme Corp | Industry: Manufacturing | Experience: 2.0 years | Skills: illustrator, photoshop, node.js, go, postgresql, microservices | Headline: Civil Engineer | Driving business outcomes | Location: Jaipur, Rajasthan",
+      "label": 0
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Operations Manager | Company: Pied Piper | Industry: Software | Experience: 4.9 years | Skills: webpack, fastapi, postgresql, java, azure, go | Headline: Operations Manager | Driving business outcomes | Location: Kolkata, West Bengal",
+      "label": 1
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Sales Executive | Company: Pied Piper | Industry: Software | Experience: 9.7 years | Skills: css, excel, redis, snowflake, agile, data science, salesforce crm, vue.js | Headline: Sales Executive | Driving business outcomes | Location: London",
+      "label": 0
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Business Analyst | Company: TCS | Industry: IT Services | Experience: 12.1 years | Skills: six sigma, java, go, sap, project management, graphql, sales | Headline: Business Analyst | 12.1+ yrs experience | Location: Noida, Uttar Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Business Analyst | Company: Initech | Industry: Software | Experience: 3.1 years | Skills: sql, redis, tailwind, postgresql, microservices, terraform, css | Headline: Business Analyst | 3.1+ yrs experience | Location: Berlin",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Full Stack Developer | Company: Wipro | Industry: IT Services | Experience: 8.0 years | Skills: redis, kubernetes, peft, aws, hadoop, information retrieval, java, terraform, accounting, scrum | Headline: Full Stack Developer | Backend systems & APIs | Location: Austin",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: HR Manager | Company: Hooli | Industry: Software | Experience: 4.4 years | Skills: azure, rest apis, graphql, html, node.js | Headline: HR Manager | Helping teams scale | Location: Noida, Uttar Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Software Engineer | Company: Tech Mahindra | Industry: IT Services | Experience: 5.3 years | Skills: java, speech recognition, content writing, weights & biases, data pipelines, dbt, etl, terraform, ci/cd, sap | Headline: Software Engineer | Backend systems & APIs | Location: Dubai",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Civil Engineer | Company: Dunder Mifflin | Industry: Paper Products | Experience: 10.1 years | Skills: rust, gans, redis, kubernetes, illustrator, css, redux, scrum | Headline: Civil Engineer | 10.1+ yrs experience | Location: Dubai",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Customer Support | Company: Infosys | Industry: IT Services | Experience: 13.3 years | Skills: postgresql, aws, ci/cd, agile, sales, kubernetes, typescript, project management, azure, redis | Headline: Customer Support | Helping teams scale | Location: Pune, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Project Manager | Company: Globex Inc | Industry: Manufacturing | Experience: 3.8 years | Skills: reinforcement learning, powerpoint, project management, rust, postgresql, graphql, six sigma | Headline: Project Manager | 3.8+ yrs experience | Location: Bangalore, Karnataka",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Operations Manager | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 7.4 years | Skills: tailwind, docker, bigquery, graphql, kubernetes, apache flink, azure, microservices | Headline: Operations Manager | Helping teams scale | Location: Trivandrum, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: HR Manager | Company: Dunder Mifflin | Industry: Paper Products | Experience: 9.8 years | Skills: node.js, object detection, azure, fastapi, rust, aws, java, kafka, apache flink, sap | Headline: HR Manager | Driving business outcomes | Location: Ahmedabad, Gujarat",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Frontend Engineer | Company: Globex Inc | Industry: Manufacturing | Experience: 3.0 years | Skills: azure, react, grpc, javascript, angular, gcp, bigquery, time series, aws, airflow | Headline: Frontend Engineer | Cloud & DevOps | Location: London",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Graphic Designer | Company: Acme Corp | Industry: Manufacturing | Experience: 3.9 years | Skills: sales, microservices, etl, six sigma, docker, rust, marketing, sql, next.js | Headline: Graphic Designer | Driving business outcomes | Location: Toronto",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: DevOps Engineer | Company: Swiggy | Industry: Food Delivery | Experience: 8.9 years | Skills: seo, flask, rest apis, peft, javascript, node.js, graphql, etl, project management, learning to rank | Headline: DevOps Engineer | Full-stack development | Location: Delhi, Delhi",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Backend Engineer | Company: Zoho | Industry: SaaS | Experience: 2.9 years | Skills: tts, llamaindex, spark, bentoml, dbt, embeddings, time series, flask, rag, sql | Headline: Backend Engineer | Data pipelines & analytics | Location: Ahmedabad, Gujarat",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: .NET Developer | Company: Infosys | Industry: IT Services | Experience: 5.6 years | Skills: tailwind, node.js, react, postgresql, salesforce crm, docker, weights & biases, time series, bm25, redis | Headline: .NET Developer | Cloud & DevOps | Location: Noida, Uttar Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Analytics Engineer | Company: Capgemini | Industry: IT Services | Experience: 2.3 years | Skills: learning to rank, forecasting, apache beam, feature engineering, sales, opencv, scrum, project management, six sigma, django | Headline: Analytics Engineer | SQL, Spark, Cloud | Location: Berlin",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Accountant | Company: Dunder Mifflin | Industry: Paper Products | Experience: 4.2 years | Skills: gans, docker, mongodb, ci/cd, tailwind, apache beam, illustrator, spring boot, vector search, llms | Headline: Accountant | Exploring AI & GenAI applications | Location: Seattle",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Accountant | Company: Infosys | Industry: IT Services | Experience: 13.0 years | Skills: scrum, apache flink, marketing, node.js, css, tailwind, kafka, kubernetes, redis | Headline: Accountant | 13.0+ yrs experience | Location: Seattle",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Senior Software Engineer | Company: Nykaa | Industry: E-commerce | Experience: 2.5 years | Skills: microservices, feature engineering, rust, azure, vue.js, redis, haystack, kubeflow, ci/cd, statistical modeling | Headline: Senior Software Engineer | 2.5+ yrs in data engineering | Location: Trivandrum, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Full Stack Developer | Company: Zomato | Industry: Food Delivery | Experience: 1.7 years | Skills: css, sales, mlflow, excel, salesforce crm, tailwind, rag, go, content writing, gcp | Headline: Full Stack Developer | Full-stack development | Location: Singapore",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Content Writer | Company: Globex Inc | Industry: Manufacturing | Experience: 10.0 years | Skills: illustrator, javascript, aws, microservices, next.js, mlflow | Headline: Content Writer | Driving business outcomes | Location: Noida, Uttar Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: HR Manager | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 13.5 years | Skills: hadoop, accounting, bigquery, javascript, powerpoint, bentoml | Headline: HR Manager | Driving business outcomes | Location: Sydney",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Backend Engineer | Company: Infosys | Industry: IT Services | Experience: 4.3 years | Skills: deep learning, azure, yolo, machine learning, cnn, flask, opencv, reinforcement learning, asr, grpc | Headline: Backend Engineer | SQL, Spark, Cloud | Location: Jaipur, Rajasthan",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Operations Manager | Company: Dunder Mifflin | Industry: Paper Products | Experience: 14.7 years | Skills: javascript, gcp, microservices, sales, agile, scrum, data pipelines, powerpoint | Headline: Operations Manager | 14.7+ yrs experience | Location: San Francisco",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: QA Engineer | Company: Dunder Mifflin | Industry: Paper Products | Experience: 7.1 years | Skills: faiss, tailwind, sql, grpc, python, javascript, content writing, spark, aws, agile | Headline: QA Engineer | Full-stack development | Location: Kolkata, West Bengal",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Business Analyst | Company: Initech | Industry: Software | Experience: 12.9 years | Skills: content writing, illustrator, bentoml, seo, powerpoint, react, sap, six sigma, typescript, excel | Headline: Business Analyst | 12.9+ yrs experience | Location: Delhi, Delhi",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Operations Manager | Company: Infosys | Industry: IT Services | Experience: 9.7 years | Skills: kafka, docker, etl, six sigma, kubernetes, content writing, bigquery, javascript, django, powerpoint | Headline: Operations Manager | 9.7+ yrs experience | Location: Mumbai, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Full Stack Developer | Company: Cognizant | Industry: IT Services | Experience: 3.6 years | Skills: hugging face transformers, angular, fine-tuning llms, figma, spark, accounting, sap, dbt, gans, kafka | Headline: Full Stack Developer | Cloud & DevOps | Location: Bangalore, Karnataka",
+      "label": 0
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: .NET Developer | Company: HCL | Industry: IT Services | Experience: 7.1 years | Skills: photoshop, bigquery, mlflow, weaviate, java, lora, salesforce crm, bentoml, databricks, html | Headline: .NET Developer | Full-stack development | Location: New York",
+      "label": 1
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Customer Support | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 10.9 years | Skills: sql, node.js, ci/cd, apache flink, accounting, kubeflow, azure, marketing, rust, redux | Headline: Customer Support | 10.9+ yrs experience | Location: Hyderabad, Telangana",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: DevOps Engineer | Company: Cognizant | Industry: IT Services | Experience: 5.0 years | Skills: illustrator, aws, databricks, javascript, vector search, airflow, gcp, content writing, postgresql | Headline: DevOps Engineer | Full-stack development | Location: San Francisco",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Graphic Designer | Company: Initech | Industry: Software | Experience: 7.7 years | Skills: django, docker, azure, etl, databricks, sap | Headline: Graphic Designer | Helping teams scale | Location: Bhubaneswar, Odisha",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Analytics Engineer | Company: PharmEasy | Industry: HealthTech | Experience: 3.4 years | Skills: apache flink, html, object detection, airflow, weaviate, spark, machine learning, pgvector, reinforcement learning, gans | Headline: Analytics Engineer | SQL, Spark, Cloud | Location: Chennai, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Content Writer | Company: Infosys | Industry: IT Services | Experience: 7.7 years | Skills: typescript, ci/cd, gcp, webpack, powerpoint, java, graphql | Headline: Content Writer | Driving business outcomes | Location: Bhubaneswar, Odisha",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: DevOps Engineer | Company: Pied Piper | Industry: Software | Experience: 3.5 years | Skills: scrum, haystack, aws, spring boot, azure, figma, javascript, redis, content writing, lora | Headline: DevOps Engineer | Backend systems & APIs | Location: Noida, Uttar Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: QA Engineer | Company: Dunder Mifflin | Industry: Paper Products | Experience: 8.9 years | Skills: diffusion models, figma, asr, java, marketing, photoshop, weaviate, graphql, angular, vector search | Headline: QA Engineer | Full-stack development | Location: Vizag, Andhra Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Civil Engineer | Company: Acme Corp | Industry: Manufacturing | Experience: 5.6 years | Skills: six sigma, angular, figma, redis, photoshop, flask, docker, airflow, marketing, kubernetes | Headline: Civil Engineer | 5.6+ yrs experience | Location: Noida, Uttar Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Operations Manager | Company: Globex Inc | Industry: Manufacturing | Experience: 13.1 years | Skills: seo, asr, azure, bigquery, tailwind, react, css, typescript, microservices, fastapi | Headline: Operations Manager | Driving business outcomes | Location: Vizag, Andhra Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: Senior AI/ML Engineer | Required skills: machine learning, python, pytorch, transformers, deep learning | Experience: 5+ years",
+      "candidate": "Title: Software Engineer | Company: Accenture | Industry: Consulting | Experience: 3.8 years | Skills: sap, project management, machine learning, python, go, hadoop, data pipelines, webpack, illustrator, apache flink | Headline: Software Engineer | Cloud & DevOps | Location: London",
+      "label": 1
+    },
+    {
+      "jd": "Role: Senior AI/ML Engineer | Required skills: machine learning, python, pytorch, transformers, deep learning | Experience: 5+ years",
+      "candidate": "Title: Sales Executive | Company: Initech | Industry: Software | Experience: 1.1 years | Skills: django, seo, apache beam, scrum, azure, flask, fastapi, kubeflow, data pipelines | Headline: Sales Executive | Driving business outcomes | Location: Chandigarh, Chandigarh",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Mobile Developer | Company: Stark Industries | Industry: Manufacturing | Experience: 4.5 years | Skills: computer vision, salesforce crm, figma, flask, aws, airflow, docker, ci/cd, feature engineering, faiss | Headline: Mobile Developer | Cloud & DevOps | Location: Chandigarh, Chandigarh",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: DevOps Engineer | Company: Swiggy | Industry: Food Delivery | Experience: 7.2 years | Skills: rust, photoshop, tailwind, cnn, illustrator, webpack, microservices, qdrant, terraform, mongodb | Headline: DevOps Engineer | Cloud & DevOps | Location: Hyderabad, Telangana",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Project Manager | Company: Infosys | Industry: IT Services | Experience: 6.8 years | Skills: kubernetes, vue.js, tally, hadoop, flask, statistical modeling, sql, ci/cd, aws | Headline: Project Manager | Driving business outcomes | Location: Jaipur, Rajasthan",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: HR Manager | Company: Stark Industries | Industry: Manufacturing | Experience: 12.0 years | Skills: excel, databricks, dbt, aws, fastapi | Headline: HR Manager | Helping teams scale | Location: Ahmedabad, Gujarat",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Civil Engineer | Company: Dunder Mifflin | Industry: Paper Products | Experience: 10.5 years | Skills: dbt, webpack, yolo, tally, javascript, project management, figma, aws | Headline: Civil Engineer | 10.5+ yrs experience | Location: Pune, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: .NET Developer | Company: Capgemini | Industry: IT Services | Experience: 5.8 years | Skills: redis, apache flink, bentoml, object detection, kafka, sales, redux, docker, project management | Headline: .NET Developer | Backend systems & APIs | Location: Indore, Madhya Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Sales Executive | Company: Globex Inc | Industry: Manufacturing | Experience: 9.4 years | Skills: java, apache beam, graphql, fastapi, react, go, asr, data pipelines, terraform | Headline: Sales Executive | 9.4+ yrs experience | Location: Ahmedabad, Gujarat",
+      "label": 1
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Business Analyst | Company: Dunder Mifflin | Industry: Paper Products | Experience: 11.7 years | Skills: kubernetes, powerpoint, project management, html, next.js, postgresql, docker, tailwind, six sigma, graphql | Headline: Business Analyst | 11.7+ yrs experience | Location: Kochi, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Full Stack Developer | Company: Wipro | Industry: IT Services | Experience: 9.7 years | Skills: javascript, graphql, ci/cd, dbt, webpack, rest apis, node.js, redux, tally, mlflow | Headline: Full Stack Developer | Cloud & DevOps | Location: Noida, Uttar Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Software Engineer | Company: Flipkart | Industry: E-commerce | Experience: 6.0 years | Skills: semantic search, sap, rust, redux, azure, tailwind, gans, scikit-learn, dbt, snowflake | Headline: Software Engineer | Full-stack development | Location: Indore, Madhya Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Project Manager | Company: TCS | Industry: IT Services | Experience: 3.9 years | Skills: microservices, scrum, marketing, tailwind, databricks, react, flask, node.js | Headline: Project Manager | 3.9+ yrs experience | Location: Chennai, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Java Developer | Company: Razorpay | Industry: Fintech | Experience: 1.7 years | Skills: azure, redis, diffusion models, javascript, tts, microservices, flask, go, hugging face transformers, redux | Headline: Java Developer | Cloud & DevOps | Location: Chandigarh, Chandigarh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Java Developer | Company: Hooli | Industry: Software | Experience: 9.4 years | Skills: weights & biases, postgresql, salesforce crm, speech recognition, microservices, fastapi, ci/cd, mongodb, seo, hugging face transformers | Headline: Java Developer | Backend systems & APIs | Location: New York",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Marketing Manager | Company: Pied Piper | Industry: Software | Experience: 1.3 years | Skills: airflow, javascript, illustrator, typescript, project management, data science, etl, graphql, go | Headline: Marketing Manager | Driving business outcomes | Location: Vizag, Andhra Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: Data Scientist | Required skills: data science, python, sql, statistics, ml | Experience: 4+ years",
+      "candidate": "Title: Java Developer | Company: Globex Inc | Industry: Manufacturing | Experience: 7.1 years | Skills: java, sales, databricks, accounting, rust, tts, sql, tailwind, javascript, kubeflow | Headline: Java Developer | Backend systems & APIs | Location: New York",
+      "label": 1
+    },
+    {
+      "jd": "Role: Data Scientist | Required skills: data science, python, sql, statistics, ml | Experience: 4+ years",
+      "candidate": "Title: Graphic Designer | Company: Globex Inc | Industry: Manufacturing | Experience: 7.5 years | Skills: figma, docker, go, grpc, django | Headline: Graphic Designer | Helping teams scale | Location: London",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: HR Manager | Company: Wipro | Industry: IT Services | Experience: 9.8 years | Skills: powerpoint, go, data pipelines, aws, django, node.js, postgresql | Headline: HR Manager | Driving business outcomes | Location: Pune, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: HR Manager | Company: Wipro | Industry: IT Services | Experience: 6.9 years | Skills: css, docker, rust, typescript, figma, etl, javascript, seo | Headline: HR Manager | Helping teams scale | Location: Bangalore, Karnataka",
+      "label": 0
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Mobile Developer | Company: Zomato | Industry: Food Delivery | Experience: 6.7 years | Skills: bigquery, six sigma, java, opencv, content writing, go, tensorflow, seo, lora, rest apis | Headline: Mobile Developer | Cloud & DevOps | Location: Jaipur, Rajasthan",
+      "label": 1
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Customer Support | Company: Acme Corp | Industry: Manufacturing | Experience: 2.5 years | Skills: apache beam, aws, kubernetes, ci/cd, redux, reinforcement learning, terraform | Headline: Customer Support | Helping teams scale | Location: Trivandrum, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Civil Engineer | Company: Infosys | Industry: IT Services | Experience: 9.7 years | Skills: computer vision, django, project management, accounting, react, snowflake, node.js | Headline: Civil Engineer | 9.7+ yrs experience | Location: Coimbatore, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: DevOps Engineer | Company: Globex Inc | Industry: Manufacturing | Experience: 4.8 years | Skills: tts, flask, time series, rust, embeddings, figma, apache flink, html, java, illustrator | Headline: DevOps Engineer | Cloud & DevOps | Location: Pune, Maharashtra",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Operations Manager | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 4.3 years | Skills: fastapi, vue.js, go, aws, react, data pipelines | Headline: Operations Manager | 4.3+ yrs experience | Location: Seattle",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Dunder Mifflin | Industry: Paper Products | Experience: 10.9 years | Skills: cnn, airflow, grpc, seo, apache beam, html, graphql | Headline: Mechanical Engineer | Helping teams scale | Location: Kochi, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Content Writer | Company: Globex Inc | Industry: Manufacturing | Experience: 8.9 years | Skills: gcp, css, project management, typescript, docker, marketing, apache flink, kubernetes | Headline: Content Writer | Driving business outcomes | Location: Trivandrum, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Accountant | Company: TCS | Industry: IT Services | Experience: 14.3 years | Skills: snowflake, azure, etl, spring boot, graphql, grpc, html, java, next.js | Headline: Accountant | Driving business outcomes | Location: Bangalore, Karnataka",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Operations Manager | Company: Initech | Industry: Software | Experience: 5.8 years | Skills: django, seo, content writing, apache flink, mlops, angular, marketing, css, docker, java | Headline: Operations Manager | Driving business outcomes | Location: New York",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Business Analyst | Company: Infosys | Industry: IT Services | Experience: 4.8 years | Skills: angular, sql, aws, content writing, hadoop, javascript, mlops | Headline: Business Analyst | Driving business outcomes | Location: Trivandrum, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Java Developer | Company: Mindtree | Industry: IT Services | Experience: 7.3 years | Skills: fastapi, mlops, docker, kubernetes, spark, kubeflow, go, java, photoshop, airflow | Headline: Java Developer | Full-stack development | Location: Pune, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Project Manager | Company: TCS | Industry: IT Services | Experience: 7.1 years | Skills: fastapi, postgresql, yolo, kafka, next.js, sap | Headline: Project Manager | Driving business outcomes | Location: Kochi, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Business Analyst | Company: Wipro | Industry: IT Services | Experience: 5.2 years | Skills: project management, go, tailwind, redis, java, accounting, weights & biases, aws, kafka, salesforce crm | Headline: Business Analyst | 5.2+ yrs experience | Location: Coimbatore, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Dunder Mifflin | Industry: Paper Products | Experience: 14.4 years | Skills: gans, terraform, etl, postgresql, apache flink, redux, typescript, django, sales, figma | Headline: Mechanical Engineer | 14.4+ yrs experience | Location: New York",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Accountant | Company: Initech | Industry: Software | Experience: 9.2 years | Skills: node.js, html, content writing, apache beam, postgresql, javascript | Headline: Accountant | Driving business outcomes | Location: Noida, Uttar Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Java Developer | Company: Globex Inc | Industry: Manufacturing | Experience: 7.2 years | Skills: time series, tailwind, project management, fastapi, faiss, salesforce crm, apache beam, rag | Headline: Java Developer | Backend systems & APIs | Location: Coimbatore, Tamil Nadu",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Graphic Designer | Company: TCS | Industry: IT Services | Experience: 10.0 years | Skills: redux, next.js, figma, dbt, aws, content writing, react, sentence transformers, vector search, prompt engineering | Headline: Graphic Designer | AI enthusiast | Building with LLMs | Location: Mumbai, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Customer Support | Company: TCS | Industry: IT Services | Experience: 1.6 years | Skills: tailwind, node.js, sales, css, azure, webpack, databricks, information retrieval, semantic search, recommendation systems | Headline: Customer Support | Generative AI explorer | Location: Austin",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Accountant | Company: Globex Inc | Industry: Manufacturing | Experience: 13.5 years | Skills: accounting, illustrator, sql, bigquery, aws, java, fastapi, sales, webpack, ci/cd | Headline: Accountant | AI enthusiast | Building with LLMs | Location: Kochi, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Sales Executive | Company: TCS | Industry: IT Services | Experience: 10.6 years | Skills: snowflake, hadoop, opencv, spring boot, illustrator, django, azure, powerpoint | Headline: Sales Executive | Helping teams scale | Location: Trivandrum, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Sales Executive | Company: Infosys | Industry: IT Services | Experience: 14.3 years | Skills: hadoop, aws, ci/cd, powerpoint, postgresql, excel, accounting, spark, embeddings, hugging face transformers | Headline: Sales Executive | Generative AI explorer | Location: Kochi, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Acme Corp | Industry: Manufacturing | Experience: 14.6 years | Skills: spark, gcp, data pipelines, vue.js, microservices, dbt, illustrator, next.js | Headline: Mechanical Engineer | 14.6+ yrs experience | Location: Hyderabad, Telangana",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Graphic Designer | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 9.7 years | Skills: ci/cd, kubernetes, node.js, marketing, java, sales, cnn, html, microservices, aws | Headline: Graphic Designer | Helping teams scale | Location: Coimbatore, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Mobile Developer | Company: Pied Piper | Industry: Software | Experience: 1.6 years | Skills: azure, kafka, rest apis, typescript, apache flink, kubernetes, redux, webpack, agile, hadoop | Headline: Mobile Developer | Full-stack development | Location: Pune, Maharashtra",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Business Analyst | Company: Hooli | Industry: Software | Experience: 13.0 years | Skills: bentoml, typescript, flask, agile, gcp, marketing, docker, vue.js, kubernetes | Headline: Business Analyst | 13.0+ yrs experience | Location: Kolkata, West Bengal",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Civil Engineer | Company: Wipro | Industry: IT Services | Experience: 11.0 years | Skills: figma, marketing, mongodb, webpack, tailwind, content writing, illustrator, snowflake, excel | Headline: Civil Engineer | 11.0+ yrs experience | Location: Toronto",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Cloud Engineer | Company: Initech | Industry: Software | Experience: 6.0 years | Skills: react, tailwind, machine learning, seo, nlp, mongodb, kubernetes, snowflake, javascript | Headline: Cloud Engineer | Backend systems & APIs | Location: Berlin",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Accountant | Company: Dunder Mifflin | Industry: Paper Products | Experience: 8.4 years | Skills: flask, azure, postgresql, photoshop, graphql | Headline: Accountant | 8.4+ yrs experience | Location: Gurgaon, Haryana",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Sales Executive | Company: Pied Piper | Industry: Software | Experience: 3.3 years | Skills: gcp, snowflake, opencv, azure, react, kafka, node.js, redis | Headline: Sales Executive | 3.3+ yrs experience | Location: Chennai, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Cloud Engineer | Company: Stark Industries | Industry: Manufacturing | Experience: 9.8 years | Skills: webpack, rest apis, object detection, sales, node.js, redis, mongodb, hadoop, tally, go | Headline: Cloud Engineer | Cloud & DevOps | Location: Chandigarh, Chandigarh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Sales Executive | Company: Dunder Mifflin | Industry: Paper Products | Experience: 6.4 years | Skills: airflow, kubernetes, ci/cd, spark, accounting, fastapi, django, tailwind, redis, project management | Headline: Sales Executive | Helping teams scale | Location: Chennai, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Operations Manager | Company: TCS | Industry: IT Services | Experience: 9.3 years | Skills: excel, sap, webpack, vue.js, rust, dbt, aws, mlflow, azure | Headline: Operations Manager | Driving business outcomes | Location: Austin",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Business Analyst | Company: Hooli | Industry: Software | Experience: 12.2 years | Skills: feature engineering, docker, scrum, excel, rust, ci/cd, content writing, java | Headline: Business Analyst | Driving business outcomes | Location: Pune, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: HR Manager | Company: Globex Inc | Industry: Manufacturing | Experience: 13.9 years | Skills: scrum, accounting, fastapi, opencv, azure, node.js, apache beam | Headline: HR Manager | Helping teams scale | Location: Bhubaneswar, Odisha",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Project Manager | Company: TCS | Industry: IT Services | Experience: 4.0 years | Skills: sales, gans, go, docker, gcp, redux, fastapi, rest apis, postgresql, aws | Headline: Project Manager | Helping teams scale | Location: Bangalore, Karnataka",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Mobile Developer | Company: Zomato | Industry: Food Delivery | Experience: 1.3 years | Skills: content writing, apache beam, reinforcement learning, typescript, node.js, webpack, html, flask, javascript, bigquery | Headline: Mobile Developer | Full-stack development | Location: Vizag, Andhra Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: QA Engineer | Company: Mphasis | Industry: IT Services | Experience: 4.8 years | Skills: spark, kubernetes, kafka, sales, postgresql, docker, css, deep learning, node.js, computer vision | Headline: QA Engineer | Cloud & DevOps | Location: Pune, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Project Manager | Company: Dunder Mifflin | Industry: Paper Products | Experience: 13.2 years | Skills: bigquery, azure, figma, aws, typescript, sales, css | Headline: Project Manager | Driving business outcomes | Location: Trivandrum, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: Data Scientist | Required skills: data science, python, sql, statistics, ml | Experience: 4+ years",
+      "candidate": "Title: Full Stack Developer | Company: Cognizant | Industry: IT Services | Experience: 9.8 years | Skills: mlops, content writing, statistical modeling, excel, sql, six sigma, data science, rest apis, webpack | Headline: Full Stack Developer | Full-stack development | Location: Bhubaneswar, Odisha",
+      "label": 1
+    },
+    {
+      "jd": "Role: Data Scientist | Required skills: data science, python, sql, statistics, ml | Experience: 4+ years",
+      "candidate": "Title: Marketing Manager | Company: Infosys | Industry: IT Services | Experience: 8.4 years | Skills: airflow, go, yolo, sales, django, ci/cd, snowflake, project management, databricks, accounting | Headline: Marketing Manager | Helping teams scale | Location: Gurgaon, Haryana",
+      "label": 0
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Customer Support | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 6.9 years | Skills: spring boot, sql, docker, kubeflow, ci/cd, go, six sigma, project management, excel, java | Headline: Customer Support | Driving business outcomes | Location: Kolkata, West Bengal",
+      "label": 1
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Cloud Engineer | Company: Accenture | Industry: Consulting | Experience: 8.7 years | Skills: grpc, content writing, photoshop, scrum, html | Headline: Cloud Engineer | Full-stack development | Location: New York",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Graphic Designer | Company: Dunder Mifflin | Industry: Paper Products | Experience: 2.8 years | Skills: tally, redis, javascript, docker, speech recognition, snowflake, spring boot, ci/cd | Headline: Graphic Designer | Driving business outcomes | Location: Bangalore, Karnataka",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Cloud Engineer | Company: Hooli | Industry: Software | Experience: 9.9 years | Skills: opencv, redis, yolo, postgresql, semantic search, django, rest apis, react, project management, graphql | Headline: Cloud Engineer | Cloud & DevOps | Location: Chennai, Tamil Nadu",
+      "label": 0
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Sales Executive | Company: Pied Piper | Industry: Software | Experience: 14.3 years | Skills: airflow, go, react, java, rust, kubeflow, spark, spring boot, etl | Headline: Sales Executive | 14.3+ yrs experience | Location: Chennai, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Content Writer | Company: Pied Piper | Industry: Software | Experience: 5.8 years | Skills: mongodb, terraform, grpc, kubernetes, go, statistical modeling | Headline: Content Writer | 5.8+ yrs experience | Location: Pune, Maharashtra",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Graphic Designer | Company: Dunder Mifflin | Industry: Paper Products | Experience: 10.1 years | Skills: docker, django, airflow, time series, javascript, vue.js, six sigma, angular, aws, spark | Headline: Graphic Designer | Helping teams scale | Location: Indore, Madhya Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Business Analyst | Company: Pied Piper | Industry: Software | Experience: 6.3 years | Skills: figma, speech recognition, six sigma, marketing, rust, css, redux | Headline: Business Analyst | Helping teams scale | Location: Pune, Maharashtra",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Project Manager | Company: Hooli | Industry: Software | Experience: 7.1 years | Skills: scrum, gcp, kubernetes, postgresql, computer vision, spring boot, docker, dbt | Headline: Project Manager | 7.1+ yrs experience | Location: Toronto",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Civil Engineer | Company: Dunder Mifflin | Industry: Paper Products | Experience: 9.7 years | Skills: azure, apache beam, photoshop, node.js, html, webpack, sql | Headline: Civil Engineer | 9.7+ yrs experience | Location: Gurgaon, Haryana",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Content Writer | Company: Wipro | Industry: IT Services | Experience: 6.9 years | Skills: react, salesforce crm, excel, bigquery, aws, sales, seo, sap | Headline: Content Writer | 6.9+ yrs experience | Location: Delhi, Delhi",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Marketing Manager | Company: Pied Piper | Industry: Software | Experience: 9.2 years | Skills: agile, webpack, terraform, graphql, postgresql, rust, microservices, fastapi, go | Headline: Marketing Manager | Helping teams scale | Location: Jaipur, Rajasthan",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Content Writer | Company: Infosys | Industry: IT Services | Experience: 3.2 years | Skills: mongodb, aws, java, node.js, bigquery, hadoop, javascript, redux | Headline: Content Writer | 3.2+ yrs experience | Location: Kochi, Kerala",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Business Analyst | Company: Dunder Mifflin | Industry: Paper Products | Experience: 6.0 years | Skills: react, angular, bigquery, rust, kubernetes, data pipelines, bentoml, gcp, hadoop | Headline: Business Analyst | 6.0+ yrs experience | Location: Coimbatore, Tamil Nadu",
+      "label": 0
+    },
+    {
+      "jd": "Role: Senior AI/ML Engineer | Required skills: machine learning, python, pytorch, transformers, deep learning | Experience: 5+ years",
+      "candidate": "Title: Senior Software Engineer | Company: Zoho | Industry: SaaS | Experience: 7.5 years | Skills: pytorch, bentoml, grpc, typescript, ci/cd, deep learning, pinecone, airflow, powerpoint, speech recognition | Headline: Senior Software Engineer | 7.5+ yrs in data engineering | Location: Kolkata, West Bengal",
+      "label": 1
+    },
+    {
+      "jd": "Role: Senior AI/ML Engineer | Required skills: machine learning, python, pytorch, transformers, deep learning | Experience: 5+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Hooli | Industry: Software | Experience: 3.6 years | Skills: excel, css, snowflake, sap, airflow, postgresql, bigquery, javascript, agile, terraform | Headline: Mechanical Engineer | Driving business outcomes | Location: Kochi, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Customer Support | Company: Infosys | Industry: IT Services | Experience: 8.8 years | Skills: seo, spring boot, sap, microservices, forecasting, kubernetes, content writing, docker, react, sales | Headline: Customer Support | Driving business outcomes | Location: Austin",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Sales Executive | Company: Globex Inc | Industry: Manufacturing | Experience: 10.9 years | Skills: java, time series, scrum, kubernetes, redux, airflow, bigquery | Headline: Sales Executive | Driving business outcomes | Location: Bangalore, Karnataka",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: HR Manager | Company: Hooli | Industry: Software | Experience: 3.8 years | Skills: javascript, excel, node.js, spark, feature engineering, rest apis, agile | Headline: HR Manager | 3.8+ yrs experience | Location: Delhi, Delhi",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Project Manager | Company: Infosys | Industry: IT Services | Experience: 14.5 years | Skills: angular, figma, vue.js, microservices, sap | Headline: Project Manager | Helping teams scale | Location: San Francisco",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Customer Support | Company: TCS | Industry: IT Services | Experience: 11.5 years | Skills: illustrator, hadoop, mongodb, microservices, go, graphql, docker, figma, ci/cd, flask | Headline: Customer Support | Helping teams scale | Location: Jaipur, Rajasthan",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Customer Support | Company: Acme Corp | Industry: Manufacturing | Experience: 2.4 years | Skills: java, airflow, fastapi, javascript, angular, kubernetes, webpack, marketing, content writing, hadoop | Headline: Customer Support | Driving business outcomes | Location: Gurgaon, Haryana",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Marketing Manager | Company: Hooli | Industry: Software | Experience: 1.6 years | Skills: html, etl, fastapi, apache flink, react, illustrator, sales, databricks, java, javascript | Headline: Marketing Manager | 1.6+ yrs experience | Location: Toronto",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Sales Executive | Company: Stark Industries | Industry: Manufacturing | Experience: 1.6 years | Skills: agile, rest apis, mongodb, scrum, go, etl, figma, content writing, project management | Headline: Sales Executive | Helping teams scale | Location: Trivandrum, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: DevOps Engineer | Company: Wipro | Industry: IT Services | Experience: 7.4 years | Skills: spark, scrum, javascript, docker, project management, node.js, apache flink, sales, six sigma | Headline: DevOps Engineer | Full-stack development | Location: Toronto",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Customer Support | Company: TCS | Industry: IT Services | Experience: 7.8 years | Skills: next.js, excel, aws, redux, forecasting, java, django, sales, flask, databricks | Headline: Customer Support | Helping teams scale | Location: Kochi, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Marketing Manager | Company: Dunder Mifflin | Industry: Paper Products | Experience: 9.5 years | Skills: docker, powerpoint, aws, typescript, marketing, postgresql, sales, mongodb, speech recognition, graphql | Headline: Marketing Manager | Driving business outcomes | Location: Ahmedabad, Gujarat",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Graphic Designer | Company: Initech | Industry: Software | Experience: 9.0 years | Skills: dbt, tally, scrum, accounting, six sigma | Headline: Graphic Designer | 9.0+ yrs experience | Location: Ahmedabad, Gujarat",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Mechanical Engineer | Company: Stark Industries | Industry: Manufacturing | Experience: 9.8 years | Skills: apache flink, css, rust, flask, aws, ci/cd | Headline: Mechanical Engineer | Helping teams scale | Location: Chennai, Tamil Nadu",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Marketing Manager | Company: Pied Piper | Industry: Software | Experience: 3.3 years | Skills: mongodb, vue.js, postgresql, webpack, rust, prompt engineering, information retrieval, sentence transformers, recommendation systems, rag | Headline: Marketing Manager | Exploring AI & GenAI applications | Location: Bhubaneswar, Odisha",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Software Engineer | Company: Swiggy | Industry: Food Delivery | Experience: 5.3 years | Skills: gcp, six sigma, kafka, databricks, microservices, spring boot, python, image classification, scrum, docker | Headline: Software Engineer | Full-stack development | Location: Hyderabad, Telangana",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Frontend Engineer | Company: Infosys | Industry: IT Services | Experience: 2.8 years | Skills: sap, image classification, embeddings, go, etl, webpack, kafka, react, hadoop, learning to rank | Headline: Frontend Engineer | Full-stack development | Location: Kolkata, West Bengal",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Operations Manager | Company: Dunder Mifflin | Industry: Paper Products | Experience: 6.2 years | Skills: node.js, tally, redux, react, six sigma, graphql, go | Headline: Operations Manager | 6.2+ yrs experience | Location: Kolkata, West Bengal",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: .NET Developer | Company: HCL | Industry: IT Services | Experience: 5.0 years | Skills: angular, qlora, illustrator, terraform, snowflake, recommendation systems, hadoop | Headline: .NET Developer | Backend systems & APIs | Location: New York",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Accountant | Company: Infosys | Industry: IT Services | Experience: 8.7 years | Skills: azure, aws, docker, javascript, computer vision, rust, apache beam, kafka, tailwind, go | Headline: Accountant | 8.7+ yrs experience | Location: Gurgaon, Haryana",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Content Writer | Company: Initech | Industry: Software | Experience: 10.8 years | Skills: azure, postgresql, salesforce crm, next.js, project management, seo | Headline: Content Writer | Driving business outcomes | Location: Trivandrum, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Marketing Manager | Company: Stark Industries | Industry: Manufacturing | Experience: 11.8 years | Skills: javascript, docker, typescript, kubernetes, grpc, java, mlflow | Headline: Marketing Manager | Driving business outcomes | Location: Ahmedabad, Gujarat",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: HR Manager | Company: Globex Inc | Industry: Manufacturing | Experience: 8.9 years | Skills: airflow, mongodb, typescript, sales, gcp, scrum, powerpoint, data pipelines, webpack, agile | Headline: HR Manager | Helping teams scale | Location: Singapore",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Customer Support | Company: Hooli | Industry: Software | Experience: 2.6 years | Skills: ci/cd, tailwind, postgresql, figma, apache flink, django, azure, fastapi, docker | Headline: Customer Support | 2.6+ yrs experience | Location: Pune, Maharashtra",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Customer Support | Company: Hooli | Industry: Software | Experience: 4.1 years | Skills: terraform, postgresql, tally, html, reinforcement learning, angular, data pipelines | Headline: Customer Support | Driving business outcomes | Location: Jaipur, Rajasthan",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Graphic Designer | Company: Pied Piper | Industry: Software | Experience: 13.9 years | Skills: bigquery, node.js, figma, apache flink, accounting, sql, apache beam, react, tailwind, angular | Headline: Graphic Designer | Exploring AI & GenAI applications | Location: Jaipur, Rajasthan",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Accountant | Company: Acme Corp | Industry: Manufacturing | Experience: 7.3 years | Skills: rust, azure, typescript, agile, docker, snowflake, django | Headline: Accountant | Helping teams scale | Location: Kochi, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Frontend Engineer | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 1.1 years | Skills: react, photoshop, opencv, typescript, data pipelines, fine-tuning llms, weaviate, snowflake, scrum, aws | Headline: Frontend Engineer | Full-stack development | Location: San Francisco",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Software Engineer | Company: Initech | Industry: Software | Experience: 7.1 years | Skills: spark, graphql, typescript, powerpoint, hadoop, excel, six sigma, python, seo, rust | Headline: Software Engineer | Backend systems & APIs | Location: Hyderabad, Telangana",
+      "label": 0
+    },
+    {
+      "jd": "Role: Data Scientist | Required skills: data science, python, sql, statistics, ml | Experience: 4+ years",
+      "candidate": "Title: HR Manager | Company: Initech | Industry: Software | Experience: 9.5 years | Skills: scrum, six sigma, data science, excel, kafka, apache beam, sql, content writing | Headline: HR Manager | 9.5+ yrs experience | Location: Indore, Madhya Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: Data Scientist | Required skills: data science, python, sql, statistics, ml | Experience: 4+ years",
+      "candidate": "Title: HR Manager | Company: TCS | Industry: IT Services | Experience: 1.8 years | Skills: powerpoint, redis, etl, dbt, typescript, photoshop, node.js, snowflake, spark, rust | Headline: HR Manager | Driving business outcomes | Location: Vizag, Andhra Pradesh",
+      "label": 0
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Data Engineer | Company: Ola | Industry: Transportation | Experience: 4.6 years | Skills: gcp, spring boot, kubeflow, java, gans, figma, elasticsearch, opencv, cnn, azure | Headline: Data Engineer | Data pipelines & analytics | Location: London",
+      "label": 1
+    },
+    {
+      "jd": "Role: Backend Engineer | Required skills: python, java, go, system design, databases | Experience: 5+ years",
+      "candidate": "Title: Software Engineer | Company: Swiggy | Industry: Food Delivery | Experience: 7.9 years | Skills: ci/cd, powerpoint, kafka, speech recognition, opencv, typescript, six sigma, seo, accounting | Headline: Software Engineer | Cloud & DevOps | Location: Trivandrum, Kerala",
+      "label": 0
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Full Stack Developer | Company: TCS | Industry: IT Services | Experience: 6.0 years | Skills: seo, photoshop, next.js, illustrator, information retrieval, weights & biases, kubernetes, bentoml, opencv, docker | Headline: Full Stack Developer | Full-stack development | Location: Vizag, Andhra Pradesh",
+      "label": 1
+    },
+    {
+      "jd": "Role: DevOps Engineer | Required skills: kubernetes, docker, aws, ci/cd, python | Experience: 4+ years",
+      "candidate": "Title: Recommendation Systems Engineer | Company: Zomato | Industry: Food Delivery | Experience: 4.8 years | Skills: prompt engineering, time series, pgvector, tts, lora, peft, embeddings, semantic search, information retrieval, bentoml | Headline: Recommendation Systems Engineer | Search, Ranking & Retrieval | Location: Chennai, Tamil Nadu",
+      "label": 0
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Business Analyst | Company: Pied Piper | Industry: Software | Experience: 12.1 years | Skills: vue.js, go, airflow, sap, node.js, kafka, javascript, flask, webpack, ci/cd | Headline: Business Analyst | Driving business outcomes | Location: Singapore",
+      "label": 1
+    },
+    {
+      "jd": "Role: Full Stack Engineer | Required skills: javascript, react, node.js, databases, aws | Experience: 3+ years",
+      "candidate": "Title: Project Manager | Company: Wayne Enterprises | Industry: Conglomerate | Experience: 7.2 years | Skills: apache beam, css, fastapi, docker, figma, weights & biases, redux, microservices | Headline: Project Manager | Driving business outcomes | Location: Indore, Madhya Pradesh",
+      "label": 0
+    }
+  ]
+}

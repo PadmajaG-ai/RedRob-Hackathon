@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" version="21.0.0" type="device">
+  <diagram id="arch" name="AI Candidate Ranking System">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1"
+                  connect="1" arrows="1" fold="1" page="0" pageScale="1"
+                  pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ═══════════════════════════════════════════════════
+             TITLE
+        ═══════════════════════════════════════════════════ -->
+        <mxCell id="title" value="AI Candidate Ranking System — Architecture"
+          style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#202729;"
+          vertex="1" parent="1">
+          <mxGeometry x="0" y="16" width="1400" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- ═══════════════════════════════════════════════════
+             INPUTS (Row 1)
+        ═══════════════════════════════════════════════════ -->
+        <mxCell id="jd_in" value="&lt;b&gt;Job Description&lt;/b&gt;&lt;br/&gt;job_description.txt"
+          style="shape=mxgraph.flowchart.document;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;"
+          vertex="1" parent="1">
+          <mxGeometry x="80" y="76" width="220" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="cands_in" value="&lt;b&gt;100K Candidate Profiles&lt;/b&gt;&lt;br/&gt;structured JSON / CSV"
+          style="shape=mxgraph.flowchart.database;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;"
+          vertex="1" parent="1">
+          <mxGeometry x="1100" y="76" width="220" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- ═══════════════════════════════════════════════════
+             PARSERS (Row 2)
+        ═══════════════════════════════════════════════════ -->
+        <mxCell id="jd_parser" value="&lt;b&gt;JD Parser (LLM)&lt;/b&gt;&lt;br/&gt;▸ Required skills list&lt;br/&gt;▸ Min. years of experience&lt;br/&gt;▸ Domain · Seniority type"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=left;spacingLeft=8;"
+          vertex="1" parent="1">
+          <mxGeometry x="60" y="204" width="260" height="90" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="precomp" value="&lt;b&gt;Precomputed Embeddings&lt;/b&gt;&lt;br/&gt;▸ all-MiniLM-L6-v2 (384-dim)&lt;br/&gt;▸ 100K vectors in FAISS index&lt;br/&gt;▸ candidate_embeddings.npy"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=left;spacingLeft=8;"
+          vertex="1" parent="1">
+          <mxGeometry x="1080" y="204" width="260" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- ═══════════════════════════════════════════════════
+             STAGE 1 — Hybrid Retrieval
+        ═══════════════════════════════════════════════════ -->
+        <mxCell id="s1" value="STAGE 1 — Hybrid Retrieval  (high recall)"
+          style="swimlane;startSize=34;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;fontColor=#1a5e1e;rounded=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="1000" height="215" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="bm25" value="&lt;b&gt;BM25 Sparse Retrieval&lt;/b&gt;&lt;br/&gt;rank_bm25 library&lt;br/&gt;Lexical keyword matching&lt;br/&gt;Top-500 candidates"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11;"
+          vertex="1" parent="s1">
+          <mxGeometry x="60" y="54" width="240" height="85" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="dense" value="&lt;b&gt;bge-m3 Dense Retrieval&lt;/b&gt;&lt;br/&gt;FAISS cosine similarity&lt;br/&gt;Semantic matching&lt;br/&gt;Top-500 candidates"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11;"
+          vertex="1" parent="s1">
+          <mxGeometry x="700" y="54" width="240" height="85" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="rrf" value="&lt;b&gt;Reciprocal Rank Fusion (RRF)&lt;/b&gt;&lt;br/&gt;Union of both retriever outputs → ~1000-candidate pool"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;"
+          vertex="1" parent="s1">
+          <mxGeometry x="330" y="150" width="340" height="52" as="geometry"/>
+        </mxCell>
+
+        <!-- edges inside Stage 1 -->
+        <mxCell id="ie1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="bm25" target="rrf" parent="s1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ie2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="dense" target="rrf" parent="s1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ═══════════════════════════════════════════════════
+             STAGE 2 — Feature Extraction + LTR
+        ═══════════════════════════════════════════════════ -->
+        <mxCell id="s2" value="STAGE 2 — Feature Extraction + CatBoost LTR  (precision re-ranking)"
+          style="swimlane;startSize=34;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontStyle=1;fontColor=#7d5c00;rounded=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="200" y="636" width="1000" height="175" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="feat_ext" value="&lt;b&gt;Feature Extractor&lt;/b&gt;&lt;br/&gt;24 signals per candidate:&lt;br/&gt;skill overlap · career trajectory · production evidence&lt;br/&gt;platform activity · GitHub score · retrieval scores"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=#d6b656;fontSize=11;"
+          vertex="1" parent="s2">
+          <mxGeometry x="50" y="47" width="380" height="110" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ltr" value="&lt;b&gt;CatBoostRegressor&lt;/b&gt;&lt;br/&gt;Trained on 100K candidates&lt;br/&gt;Label: interview_rate×0.6 + offer_rate×0.4&lt;br/&gt;Output: composite score → Top-100"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=11;"
+          vertex="1" parent="s2">
+          <mxGeometry x="570" y="47" width="380" height="110" as="geometry"/>
+        </mxCell>
+
+        <!-- edge inside Stage 2 -->
+        <mxCell id="ie3" value="24 features" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=10;" edge="1" source="feat_ext" target="ltr" parent="s2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ═══════════════════════════════════════════════════
+             STAGE 3 — LLM Reasoning
+        ═══════════════════════════════════════════════════ -->
+        <mxCell id="s3" value="STAGE 3 — LLM Reasoning  (explainability)"
+          style="swimlane;startSize=34;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;fontColor=#7d3c00;rounded=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="200" y="874" width="1000" height="148" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="llm_p1" value="&lt;b&gt;Pass 1 — Ranking&lt;/b&gt;&lt;br/&gt;Top-50 candidates&lt;br/&gt;Compact JSON ranking"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;"
+          vertex="1" parent="s3">
+          <mxGeometry x="60" y="50" width="240" height="84" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="llm_p2" value="&lt;b&gt;Pass 2 — Reasoning&lt;/b&gt;&lt;br/&gt;Top-15 candidates&lt;br/&gt;Specific per-candidate justification&lt;br/&gt;(actual skills, company, role fit)"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;"
+          vertex="1" parent="s3">
+          <mxGeometry x="700" y="50" width="240" height="84" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="qwen_label" value="Qwen2.5-3B-Instruct  ·  local inference  ·  24GB GPU  ·  ~3 min end-to-end"
+          style="text;html=1;align=center;fontSize=10;fontStyle=2;fontColor=#7d3c00;"
+          vertex="1" parent="s3">
+          <mxGeometry x="250" y="120" width="500" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- arrow inside Stage 3 -->
+        <mxCell id="ie4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="llm_p1" target="llm_p2" parent="s3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ═══════════════════════════════════════════════════
+             OUTPUT
+        ═══════════════════════════════════════════════════ -->
+        <mxCell id="output" value="&lt;b&gt;OUTPUT — submission_best.csv  (100 ranked candidates)&lt;/b&gt;&lt;br/&gt;candidate_id  ·  rank  ·  composite_score  ·  Tech / Traj / Domain / Engage / Fit / Bonus  (0–10 each)  ·  reasoning&lt;br/&gt;&lt;i&gt;Example:  [Tech:3.5/10 | Traj:10/10 | Engage:10/10]  Senior Applied Scientist @ Meta — llamaIndex, Qdrant, NLP fine-tuning...&lt;/i&gt;"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="200" y="1084" width="1000" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- ═══════════════════════════════════════════════════
+             OUTER EDGES
+        ═══════════════════════════════════════════════════ -->
+
+        <!-- JD → JD Parser -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;"
+          edge="1" source="jd_in" target="jd_parser" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Candidates → Precomputed Embeddings -->
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;"
+          edge="1" source="cands_in" target="precomp" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- JD Parser → Stage 1 (BM25 side) — JD text as query -->
+        <mxCell id="e3" value="JD text as query"
+          style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;"
+          edge="1" source="jd_parser" target="bm25" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="344"/>
+              <mxPoint x="380" y="344"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Precomputed → Stage 1 (Dense side) — embedding query -->
+        <mxCell id="e4" value="JD embedding query"
+          style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;"
+          edge="1" source="precomp" target="dense" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="344"/>
+              <mxPoint x="1020" y="344"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Stage 1 → Stage 2 -->
+        <mxCell id="e5" value="~1000 candidates"
+          style="edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=10;"
+          edge="1" source="s1" target="s2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Stage 2 → Stage 3 -->
+        <mxCell id="e6" value="Top-100"
+          style="edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=10;"
+          edge="1" source="s2" target="s3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Stage 3 → Output -->
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;"
+          edge="1" source="s3" target="output" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- JD Parser → Stage 2 Feature Extractor (dashed — JD criteria for feature matching) -->
+        <mxCell id="e8" value="JD criteria"
+          style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;fontSize=10;strokeColor=#9673a6;fontColor=#9673a6;"
+          edge="1" source="jd_parser" target="feat_ext" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="760"/>
+              <mxPoint x="60" y="760"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

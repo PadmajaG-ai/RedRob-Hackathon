@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Large precomputed embeddings (148MB)
+precompute/
+
+# LoRA adapter weights (36MB each)
+reranker_adapter/
+reranker_behavioral_adapter/
+test_adapter/
+
+# Dataset zip
+\[PUB\] India_runs_data_and_ai_challenge.zip
+
+# Stray pip file
+=0.7.0
+
+# CatBoost training logs
+catboost_info/
+
+# EDA output images/plots
+eda_outputs/

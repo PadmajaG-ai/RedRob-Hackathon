@@ -1,0 +1,4567 @@
+{
+  "CAND_0066791": {
+    "candidate_id": "CAND_0066791",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Krutrim",
+      "years": 5.6,
+      "headline": "Senior Software Engineer (ML) | 5.6 yrs in analytics & ML",
+      "skills": [
+        "bm25",
+        "fastapi",
+        "django",
+        "bigquery",
+        "python",
+        "lora",
+        "prompt engineering",
+        "weights & biases",
+        "spark",
+        "image classification",
+        "langchain",
+        "speech recognition",
+        "statistical modeling",
+        "pytorch",
+        "bentoml",
+        "recommendation systems",
+        "mlops",
+        "faiss"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.1,
+      "career_trajectory": 7.4,
+      "domain_relevance": 8.0,
+      "behavioral_engagement": 8.6,
+      "cultural_fit": 4.2,
+      "bonus_signals": 2.9
+    },
+    "composite_score": 47.65,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.6 years experience (senior software engineer (ml) at Krutrim), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. Direct industry match (ai/ml). Location match (Pune, Maharashtra).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0054318": {
+    "candidate_id": "CAND_0054318",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "BYJU'S",
+      "years": 3.5,
+      "headline": "AI Research Engineer | Building ML-powered solutions",
+      "skills": [
+        "diffusion models",
+        "speech recognition",
+        "scrum",
+        "reinforcement learning",
+        "grpc",
+        "mlflow",
+        "semantic search",
+        "information retrieval",
+        "pytorch",
+        "html",
+        "faiss",
+        "gans",
+        "qlora",
+        "gcp",
+        "lora",
+        "python"
+      ],
+      "industry": "EdTech"
+    },
+    "scores": {
+      "technical_skill_match": 1.1,
+      "career_trajectory": 4.4,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 10.0,
+      "cultural_fit": 7.2,
+      "bonus_signals": 6.4
+    },
+    "composite_score": 45.1,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.5 years experience (ai research engineer at BYJU'S), needs 9+. Actively open to new opportunities. Highly responsive to recruiters (87%). India-based (Chandigarh, Chandigarh) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0098952": {
+    "candidate_id": "CAND_0098952",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "CRED",
+      "years": 5.5,
+      "headline": "AI Research Engineer | Building ML-powered solutions",
+      "skills": [
+        "airflow",
+        "recommendation systems",
+        "statistical modeling",
+        "redis",
+        "object detection",
+        "qlora",
+        "opensearch",
+        "tts",
+        "spring boot",
+        "scikit-learn",
+        "feature engineering",
+        "semantic search",
+        "diffusion models",
+        "prompt engineering",
+        "nlp",
+        "reinforcement learning",
+        "python"
+      ],
+      "industry": "Fintech"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 5.6,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.2,
+      "cultural_fit": 7.5,
+      "bonus_signals": 6.8
+    },
+    "composite_score": 47.1,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (nlp, python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.5 years experience (ai research engineer at CRED), needs 9+. Actively open to new opportunities. India-based (Gurgaon, Haryana) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0072803": {
+    "candidate_id": "CAND_0072803",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Wipro",
+      "years": 3.3,
+      "headline": "AI Research Engineer | Building ML-powered solutions",
+      "skills": [
+        "scikit-learn",
+        "statistical modeling",
+        "langchain",
+        "speech recognition",
+        "object detection",
+        "mlops",
+        "cnn",
+        "aws",
+        "kubernetes",
+        "learning to rank",
+        "tts",
+        "fine-tuning llms",
+        "yolo",
+        "six sigma",
+        "forecasting"
+      ],
+      "industry": "IT Services"
+    },
+    "scores": {
+      "technical_skill_match": 0.1,
+      "career_trajectory": 3.8,
+      "domain_relevance": 3.0,
+      "behavioral_engagement": 8.6,
+      "cultural_fit": 7.2,
+      "bonus_signals": 7.7
+    },
+    "composite_score": 0,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.3 years experience (ai research engineer at Wipro), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. NOTE: Currently at Wipro \u2014 JD flags consulting-only backgrounds.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0060538": {
+    "candidate_id": "CAND_0060538",
+    "profile": {
+      "title": "ML Engineer",
+      "company": "Verloop.io",
+      "years": 5.2,
+      "headline": "ML Engineer | 5.2 yrs in analytics & ML",
+      "skills": [
+        "pgvector",
+        "gcp",
+        "tts",
+        "opensearch",
+        "six sigma",
+        "apache flink",
+        "machine learning",
+        "scikit-learn",
+        "gans",
+        "asr",
+        "embeddings",
+        "langchain",
+        "diffusion models",
+        "image classification",
+        "forecasting",
+        "reinforcement learning",
+        "rust",
+        "milvus",
+        "object detection"
+      ],
+      "industry": "Conversational AI"
+    },
+    "scores": {
+      "technical_skill_match": 1.8,
+      "career_trajectory": 5.4,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 8.4,
+      "cultural_fit": 5.2,
+      "bonus_signals": 5.4
+    },
+    "composite_score": 45.5,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (embeddings, rust). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 5.2 years experience (ml engineer at Verloop.io), needs 9+. Actively open to new opportunities. Location match (Pune, Maharashtra).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0012632": {
+    "candidate_id": "CAND_0012632",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Razorpay",
+      "years": 6.0,
+      "headline": "AI Specialist | Data Science & ML enthusiast",
+      "skills": [
+        "project management",
+        "mlops",
+        "tts",
+        "image classification",
+        "feature engineering",
+        "python",
+        "rest apis",
+        "pinecone",
+        "deep learning",
+        "pgvector",
+        "vector search",
+        "milvus",
+        "embeddings"
+      ],
+      "industry": "Fintech"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 5.9,
+      "domain_relevance": 3.0,
+      "behavioral_engagement": 8.7,
+      "cultural_fit": 4.0,
+      "bonus_signals": 6.4
+    },
+    "composite_score": 38.15,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (python, embeddings). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 6.0 years experience (ai specialist at Razorpay), needs 9+. Long notice period (120 days) may slow hiring. Strong open-source presence (GitHub score: 71/100).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0010791": {
+    "candidate_id": "CAND_0010791",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Mad Street Den",
+      "years": 4.2,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "microservices",
+        "cnn",
+        "feature engineering",
+        "qlora",
+        "data science",
+        "pytorch",
+        "diffusion models",
+        "embeddings",
+        "six sigma",
+        "elasticsearch",
+        "tensorflow",
+        "speech recognition"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.1,
+      "career_trajectory": 6.6,
+      "domain_relevance": 8.0,
+      "behavioral_engagement": 7.8,
+      "cultural_fit": 3.4,
+      "bonus_signals": 2.0
+    },
+    "composite_score": 43.6,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (embeddings). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 4.2 years experience (senior software engineer (ml) at Mad Street Den), needs 9+. Long notice period (120 days) may slow hiring. Direct industry match (ai/ml). Location match (Pune, Maharashtra).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0094358": {
+    "candidate_id": "CAND_0094358",
+    "profile": {
+      "title": "ML Engineer",
+      "company": "Saarthi.ai",
+      "years": 4.1,
+      "headline": "ML Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "prompt engineering",
+        "deep learning",
+        "weights & biases",
+        "gans",
+        "aws",
+        "bm25",
+        "elasticsearch",
+        "tts",
+        "machine learning",
+        "mlflow",
+        "qdrant",
+        "vector search",
+        "mlops",
+        "bentoml",
+        "kubeflow",
+        "vue.js"
+      ],
+      "industry": "Voice AI"
+    },
+    "scores": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 4.8,
+      "domain_relevance": 5.0,
+      "behavioral_engagement": 7.0,
+      "cultural_fit": 7.9,
+      "bonus_signals": 7.4
+    },
+    "composite_score": 27.6,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.1 years experience (ml engineer at Saarthi.ai), needs 9+. Actively open to new opportunities. Available quickly (30-day notice).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0087744": {
+    "candidate_id": "CAND_0087744",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Niramai",
+      "years": 3.9,
+      "headline": "Senior Software Engineer (ML) | 3.9 yrs in analytics & ML",
+      "skills": [
+        "speech recognition",
+        "accounting",
+        "langchain",
+        "pinecone",
+        "pytorch",
+        "time series",
+        "bentoml",
+        "rest apis",
+        "faiss",
+        "kubeflow",
+        "pgvector",
+        "learning to rank",
+        "computer vision",
+        "hugging face transformers",
+        "tensorflow"
+      ],
+      "industry": "HealthTech AI"
+    },
+    "scores": {
+      "technical_skill_match": 1.1,
+      "career_trajectory": 6.4,
+      "domain_relevance": 5.8,
+      "behavioral_engagement": 8.7,
+      "cultural_fit": 9.7,
+      "bonus_signals": 6.6
+    },
+    "composite_score": 53.75,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 3.9 years experience (senior software engineer (ml) at Niramai), needs 9+. Actively open to new opportunities. Available quickly (30-day notice). Highly responsive to recruiters (88%). India-based (Indore, Madhya Pradesh) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0061175": {
+    "candidate_id": "CAND_0061175",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Haptik",
+      "years": 6.7,
+      "headline": "AI Research Engineer | Building ML-powered solutions",
+      "skills": [
+        "python",
+        "milvus",
+        "recommendation systems",
+        "vector search",
+        "llamaindex",
+        "azure",
+        "mlops",
+        "data science",
+        "tts",
+        "speech recognition",
+        "qdrant",
+        "sales",
+        "sentence transformers"
+      ],
+      "industry": "Conversational AI"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 6.3,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.6,
+      "cultural_fit": 5.7,
+      "bonus_signals": 5.1
+    },
+    "composite_score": 39.05,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.7 years experience (ai research engineer at Haptik), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. India-based (Gurgaon, Haryana) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0058412": {
+    "candidate_id": "CAND_0058412",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "InMobi",
+      "years": 6.6,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "embeddings",
+        "speech recognition",
+        "data science",
+        "object detection",
+        "milvus",
+        "time series",
+        "grpc",
+        "statistical modeling",
+        "webpack",
+        "fine-tuning llms",
+        "weights & biases",
+        "reinforcement learning",
+        "rag",
+        "prompt engineering",
+        "opencv",
+        "machine learning",
+        "tensorflow"
+      ],
+      "industry": "AdTech"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 8.0,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.6,
+      "cultural_fit": 4.9,
+      "bonus_signals": 6.9
+    },
+    "composite_score": 49.95,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (embeddings, rag). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 6.6 years experience (senior software engineer (ml) at InMobi), needs 9+. India-based (Indore, Madhya Pradesh) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0091254": {
+    "candidate_id": "CAND_0091254",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Zoho",
+      "years": 5.2,
+      "headline": "AI Research Engineer | 5.2 yrs in analytics & ML",
+      "skills": [
+        "mlops",
+        "azure",
+        "diffusion models",
+        "image classification",
+        "elasticsearch",
+        "bentoml",
+        "reinforcement learning",
+        "machine learning",
+        "gans",
+        "scikit-learn",
+        "redis",
+        "peft",
+        "html",
+        "nlp",
+        "python",
+        "feature engineering",
+        "computer vision",
+        "pytorch"
+      ],
+      "industry": "SaaS"
+    },
+    "scores": {
+      "technical_skill_match": 2.4,
+      "career_trajectory": 5.4,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 9.0,
+      "cultural_fit": 6.2,
+      "bonus_signals": 5.0
+    },
+    "composite_score": 47.8,
+    "recommendation": "maybe",
+    "reasoning": "Matches 3/13 required skills (nlp, python, computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 5.2 years experience (ai research engineer at Zoho), needs 9+. Actively open to new opportunities. India-based (Chandigarh, Chandigarh) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0060303": {
+    "candidate_id": "CAND_0060303",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "upGrad",
+      "years": 4.9,
+      "headline": "AI Research Engineer | 4.9 yrs in analytics & ML",
+      "skills": [
+        "semantic search",
+        "asr",
+        "excel",
+        "rag",
+        "pytorch",
+        "forecasting",
+        "weights & biases",
+        "llamaindex",
+        "terraform",
+        "lora",
+        "statistical modeling",
+        "powerpoint",
+        "weaviate",
+        "sales",
+        "faiss"
+      ],
+      "industry": "EdTech"
+    },
+    "scores": {
+      "technical_skill_match": 1.1,
+      "career_trajectory": 5.2,
+      "domain_relevance": 3.0,
+      "behavioral_engagement": 6.6,
+      "cultural_fit": 4.6,
+      "bonus_signals": 5.5
+    },
+    "composite_score": 36.95,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (rag). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.9 years experience (ai research engineer at upGrad), needs 9+. Strong open-source presence (GitHub score: 58/100). Highly responsive to recruiters (75%).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0089012": {
+    "candidate_id": "CAND_0089012",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "TCS",
+      "years": 4.2,
+      "headline": "AI Specialist | 4.2 yrs in analytics & ML",
+      "skills": [
+        "python",
+        "node.js",
+        "nlp",
+        "cnn",
+        "etl",
+        "learning to rank",
+        "scikit-learn",
+        "mlops",
+        "fine-tuning llms",
+        "opencv",
+        "statistical modeling",
+        "speech recognition",
+        "computer vision"
+      ],
+      "industry": "IT Services"
+    },
+    "scores": {
+      "technical_skill_match": 2.1,
+      "career_trajectory": 4.3,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 9.7,
+      "cultural_fit": 5.9,
+      "bonus_signals": 7.7
+    },
+    "composite_score": 28.0,
+    "recommendation": "no",
+    "reasoning": "Matches 3/13 required skills (python, nlp, computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 4.2 years experience (ai specialist at TCS), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 56/100). Highly responsive to recruiters (88%). Location match (Mumbai, Maharashtra). NOTE: Currently at TCS \u2014 JD flags consulting-only backgrounds.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0061156": {
+    "candidate_id": "CAND_0061156",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Sarvam AI",
+      "years": 6.0,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "airflow",
+        "opensearch",
+        "weaviate",
+        "pgvector",
+        "langchain",
+        "asr",
+        "scikit-learn",
+        "python",
+        "gans",
+        "opencv",
+        "information retrieval",
+        "data science",
+        "image classification",
+        "pinecone"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 7.7,
+      "domain_relevance": 8.6,
+      "behavioral_engagement": 8.5,
+      "cultural_fit": 3.7,
+      "bonus_signals": 2.0
+    },
+    "composite_score": 48.05,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.0 years experience (senior software engineer (ml) at Sarvam AI), needs 9+. Long notice period (120 days) may slow hiring. Direct industry match (ai/ml).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0059017": {
+    "candidate_id": "CAND_0059017",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "PhonePe",
+      "years": 6.8,
+      "headline": "AI Research Engineer | 6.8 yrs in analytics & ML",
+      "skills": [
+        "speech recognition",
+        "sentence transformers",
+        "faiss",
+        "object detection",
+        "machine learning",
+        "tensorflow",
+        "qlora",
+        "feature engineering",
+        "gcp",
+        "yolo",
+        "python",
+        "forecasting",
+        "fine-tuning llms",
+        "statistical modeling"
+      ],
+      "industry": "Fintech"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 6.4,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.5,
+      "cultural_fit": 7.6,
+      "bonus_signals": 6.8
+    },
+    "composite_score": 46.85,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.8 years experience (ai research engineer at PhonePe), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 76/100). Highly responsive to recruiters (75%). India-based (Ahmedabad, Gujarat) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0012988": {
+    "candidate_id": "CAND_0012988",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Niramai",
+      "years": 4.3,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "feature engineering",
+        "hugging face transformers",
+        "forecasting",
+        "speech recognition",
+        "pytorch",
+        "gans",
+        "computer vision",
+        "opencv",
+        "fine-tuning llms",
+        "excel",
+        "bm25",
+        "pgvector",
+        "prompt engineering"
+      ],
+      "industry": "HealthTech AI"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 6.6,
+      "domain_relevance": 6.4,
+      "behavioral_engagement": 8.6,
+      "cultural_fit": 5.0,
+      "bonus_signals": 7.7
+    },
+    "composite_score": 50.75,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 4.3 years experience (senior software engineer (ml) at Niramai), needs 9+. Highly responsive to recruiters (73%). Location match (Mumbai, Maharashtra).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0094292": {
+    "candidate_id": "CAND_0094292",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Vedantu",
+      "years": 6.5,
+      "headline": "AI Specialist | 6.5 yrs in analytics & ML",
+      "skills": [
+        "computer vision",
+        "grpc",
+        "diffusion models",
+        "llms",
+        "image classification",
+        "bm25",
+        "cnn",
+        "deep learning",
+        "redux",
+        "pytorch",
+        "nlp",
+        "prompt engineering",
+        "opensearch",
+        "spring boot",
+        "machine learning",
+        "javascript"
+      ],
+      "industry": "EdTech"
+    },
+    "scores": {
+      "technical_skill_match": 2.5,
+      "career_trajectory": 6.2,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 8.7,
+      "cultural_fit": 7.1,
+      "bonus_signals": 2.0
+    },
+    "composite_score": 49.85,
+    "recommendation": "maybe",
+    "reasoning": "Matches 3/13 required skills (computer vision, llms, nlp). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 6.5 years experience (ai specialist at Vedantu), needs 9+. Actively open to new opportunities. Location match (Mumbai, Maharashtra).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0059795": {
+    "candidate_id": "CAND_0059795",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Locobuzz",
+      "years": 5.6,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "langchain",
+        "javascript",
+        "llms",
+        "gans",
+        "speech recognition",
+        "hugging face transformers",
+        "python",
+        "machine learning",
+        "time series",
+        "forecasting",
+        "azure",
+        "object detection",
+        "data science",
+        "yolo"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.6,
+      "career_trajectory": 7.4,
+      "domain_relevance": 8.0,
+      "behavioral_engagement": 9.8,
+      "cultural_fit": 7.2,
+      "bonus_signals": 7.9
+    },
+    "composite_score": 61.45,
+    "recommendation": "yes",
+    "reasoning": "Matches 2/13 required skills (llms, python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.6 years experience (senior software engineer (ml) at Locobuzz), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 57/100). Highly responsive to recruiters (75%). Direct industry match (ai/ml). Location match (Mumbai, Maharashtra).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0019288": {
+    "candidate_id": "CAND_0019288",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Paytm",
+      "years": 5.7,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "cnn",
+        "data science",
+        "flask",
+        "gans",
+        "pgvector",
+        "faiss",
+        "tensorflow",
+        "time series",
+        "opensearch",
+        "nlp",
+        "feature engineering",
+        "object detection",
+        "prompt engineering"
+      ],
+      "industry": "Fintech"
+    },
+    "scores": {
+      "technical_skill_match": 1.1,
+      "career_trajectory": 5.7,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 7.6,
+      "cultural_fit": 8.0,
+      "bonus_signals": 4.8
+    },
+    "composite_score": 45.3,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (nlp). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.7 years experience (ai research engineer at Paytm), needs 9+. Actively open to new opportunities. Available quickly (30-day notice). Location match (Noida, Uttar Pradesh).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0046459": {
+    "candidate_id": "CAND_0046459",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "upGrad",
+      "years": 4.5,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "kubeflow",
+        "django",
+        "bm25",
+        "qdrant",
+        "marketing",
+        "semantic search",
+        "machine learning",
+        "speech recognition",
+        "yolo",
+        "rag",
+        "gans",
+        "time series",
+        "cnn",
+        "python",
+        "pgvector"
+      ],
+      "industry": "EdTech"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 5.0,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 8.9,
+      "cultural_fit": 7.3,
+      "bonus_signals": 2.8
+    },
+    "composite_score": 45.95,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (rag, python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.5 years experience (ai research engineer at upGrad), needs 9+. Actively open to new opportunities. Available quickly (30-day notice). Highly responsive to recruiters (84%). Location match (Pune, Maharashtra).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0068985": {
+    "candidate_id": "CAND_0068985",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Locobuzz",
+      "years": 5.2,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "prompt engineering",
+        "tensorflow",
+        "reinforcement learning",
+        "rust",
+        "time series",
+        "hugging face transformers",
+        "azure",
+        "machine learning",
+        "speech recognition",
+        "semantic search",
+        "qdrant",
+        "computer vision",
+        "opensearch",
+        "java",
+        "rest apis",
+        "diffusion models"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.6,
+      "career_trajectory": 7.2,
+      "domain_relevance": 6.6,
+      "behavioral_engagement": 9.2,
+      "cultural_fit": 4.1,
+      "bonus_signals": 7.6
+    },
+    "composite_score": 54.1,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (rust, computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 5.2 years experience (senior software engineer (ml) at Locobuzz), needs 9+. Strong open-source presence (GitHub score: 62/100). Highly responsive to recruiters (88%). Direct industry match (ai/ml).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0045778": {
+    "candidate_id": "CAND_0045778",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "PhonePe",
+      "years": 4.4,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "milvus",
+        "deep learning",
+        "llms",
+        "tts",
+        "bentoml",
+        "diffusion models",
+        "speech recognition",
+        "tensorflow",
+        "pytorch",
+        "java"
+      ],
+      "industry": "Fintech"
+    },
+    "scores": {
+      "technical_skill_match": 0.7,
+      "career_trajectory": 6.7,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 9.7,
+      "cultural_fit": 4.7,
+      "bonus_signals": 7.0
+    },
+    "composite_score": 45.85,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (llms). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.4 years experience (senior software engineer (ml) at PhonePe), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 84/100). Highly responsive to recruiters (83%). India-based (Ahmedabad, Gujarat) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0073450": {
+    "candidate_id": "CAND_0073450",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Wysa",
+      "years": 3.6,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "hugging face transformers",
+        "reinforcement learning",
+        "diffusion models",
+        "prompt engineering",
+        "redux",
+        "opensearch",
+        "embeddings",
+        "python",
+        "mlflow",
+        "kubeflow",
+        "weights & biases",
+        "bm25",
+        "html",
+        "scikit-learn"
+      ],
+      "industry": "HealthTech AI"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 4.5,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 7.0,
+      "cultural_fit": 5.0,
+      "bonus_signals": 6.3
+    },
+    "composite_score": 41.55,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (embeddings, python). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 3.6 years experience (ai research engineer at Wysa), needs 9+. Available quickly (30-day notice). Location match (Noida, Uttar Pradesh).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0009516": {
+    "candidate_id": "CAND_0009516",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Verloop.io",
+      "years": 6.9,
+      "headline": "AI Specialist | 6.9 yrs in analytics & ML",
+      "skills": [
+        "pinecone",
+        "bentoml",
+        "aws",
+        "langchain",
+        "object detection",
+        "nlp",
+        "time series",
+        "mlflow",
+        "rag",
+        "asr"
+      ],
+      "industry": "Conversational AI"
+    },
+    "scores": {
+      "technical_skill_match": 1.5,
+      "career_trajectory": 6.5,
+      "domain_relevance": 3.0,
+      "behavioral_engagement": 8.1,
+      "cultural_fit": 5.3,
+      "bonus_signals": 8.9
+    },
+    "composite_score": 45.4,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (nlp, rag). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.9 years experience (ai specialist at Verloop.io), needs 9+. Available quickly (30-day notice). Strong open-source presence (GitHub score: 76/100).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0022720": {
+    "candidate_id": "CAND_0022720",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Sarvam AI",
+      "years": 6.5,
+      "headline": "AI Research Engineer | 6.5 yrs in analytics & ML",
+      "skills": [
+        "elasticsearch",
+        "lora",
+        "time series",
+        "kubeflow",
+        "css",
+        "tensorflow",
+        "statistical modeling",
+        "weights & biases",
+        "accounting",
+        "image classification",
+        "cnn",
+        "pytorch",
+        "llms",
+        "bm25",
+        "pgvector",
+        "agile",
+        "azure"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.2,
+      "career_trajectory": 6.2,
+      "domain_relevance": 8.6,
+      "behavioral_engagement": 8.8,
+      "cultural_fit": 1.9,
+      "bonus_signals": 9.1
+    },
+    "composite_score": 47.85,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (llms). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.5 years experience (ai research engineer at Sarvam AI), needs 9+. Long notice period (120 days) may slow hiring. Strong open-source presence (GitHub score: 65/100). Direct industry match (ai/ml).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0068393": {
+    "candidate_id": "CAND_0068393",
+    "profile": {
+      "title": "Junior ML Engineer",
+      "company": "Haptik",
+      "years": 4.4,
+      "headline": "Junior ML Engineer | Building ML-powered solutions",
+      "skills": [
+        "information retrieval",
+        "asr",
+        "qdrant",
+        "gans",
+        "project management",
+        "azure",
+        "cnn",
+        "faiss",
+        "mlflow",
+        "python"
+      ],
+      "industry": "Conversational AI"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 4.9,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.5,
+      "cultural_fit": 5.3,
+      "bonus_signals": 5.0
+    },
+    "composite_score": 40.65,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.4 years experience (junior ml engineer at Haptik), needs 9+. Actively open to new opportunities. India-based (Indore, Madhya Pradesh) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0008517": {
+    "candidate_id": "CAND_0008517",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Locobuzz",
+      "years": 5.6,
+      "headline": "AI Research Engineer | 5.6 yrs in analytics & ML",
+      "skills": [
+        "gans",
+        "feature engineering",
+        "speech recognition",
+        "lora",
+        "recommendation systems",
+        "html",
+        "redux",
+        "mlops",
+        "qdrant",
+        "weights & biases",
+        "react",
+        "pytorch",
+        "opencv"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 0.2,
+      "career_trajectory": 5.7,
+      "domain_relevance": 8.0,
+      "behavioral_engagement": 9.3,
+      "cultural_fit": 6.1,
+      "bonus_signals": 3.6
+    },
+    "composite_score": 29.85,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.6 years experience (ai research engineer at Locobuzz), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. Highly responsive to recruiters (80%). Direct industry match (ai/ml). Location match (Noida, Uttar Pradesh).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0081321": {
+    "candidate_id": "CAND_0081321",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Freshworks",
+      "years": 5.3,
+      "headline": "Senior Software Engineer (ML) | 5.3 yrs in analytics & ML",
+      "skills": [
+        "weaviate",
+        "mlflow",
+        "machine learning",
+        "speech recognition",
+        "lora",
+        "python",
+        "agile",
+        "reinforcement learning",
+        "time series",
+        "milvus",
+        "tts",
+        "pytorch",
+        "data science",
+        "peft",
+        "object detection"
+      ],
+      "industry": "SaaS"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 7.2,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.8,
+      "cultural_fit": 7.2,
+      "bonus_signals": 2.0
+    },
+    "composite_score": 41.1,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.3 years experience (senior software engineer (ml) at Freshworks), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. India-based (Coimbatore, Tamil Nadu) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0014683": {
+    "candidate_id": "CAND_0014683",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Rephrase.ai",
+      "years": 5.6,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "feature engineering",
+        "content writing",
+        "qlora",
+        "deep learning",
+        "asr",
+        "object detection",
+        "bentoml",
+        "weights & biases",
+        "faiss",
+        "mlflow",
+        "terraform",
+        "pgvector",
+        "gcp",
+        "image classification"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 7.4,
+      "domain_relevance": 9.4,
+      "behavioral_engagement": 7.5,
+      "cultural_fit": 7.1,
+      "bonus_signals": 3.5
+    },
+    "composite_score": 34.6,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.6 years experience (senior software engineer (ml) at Rephrase.ai), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. Highly responsive to recruiters (70%). Direct industry match (ai/ml). India-based (Jaipur, Rajasthan) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0076995": {
+    "candidate_id": "CAND_0076995",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Haptik",
+      "years": 4.4,
+      "headline": "AI Research Engineer | Building ML-powered solutions",
+      "skills": [
+        "time series",
+        "docker",
+        "image classification",
+        "speech recognition",
+        "tensorflow",
+        "reinforcement learning",
+        "llamaindex",
+        "semantic search",
+        "scikit-learn",
+        "nlp",
+        "prompt engineering",
+        "data pipelines",
+        "diffusion models",
+        "peft",
+        "asr"
+      ],
+      "industry": "Conversational AI"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 4.9,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 7.7,
+      "cultural_fit": 5.3,
+      "bonus_signals": 2.0
+    },
+    "composite_score": 37.95,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (nlp). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.4 years experience (ai research engineer at Haptik), needs 9+. Actively open to new opportunities. Highly responsive to recruiters (73%). India-based (Coimbatore, Tamil Nadu) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0074648": {
+    "candidate_id": "CAND_0074648",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Flipkart",
+      "years": 4.1,
+      "headline": "AI Research Engineer | 4.1 yrs in analytics & ML",
+      "skills": [
+        "pytorch",
+        "weights & biases",
+        "data science",
+        "langchain",
+        "forecasting",
+        "opencv",
+        "opensearch",
+        "sentence transformers",
+        "pinecone",
+        "java",
+        "embeddings",
+        "tts",
+        "time series",
+        "qdrant",
+        "python",
+        "gans"
+      ],
+      "industry": "E-commerce"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 4.8,
+      "domain_relevance": 7.4,
+      "behavioral_engagement": 9.7,
+      "cultural_fit": 3.1,
+      "bonus_signals": 4.9
+    },
+    "composite_score": 49.6,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (embeddings, python). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 4.1 years experience (ai research engineer at Flipkart), needs 9+. Highly responsive to recruiters (82%). Direct industry match (e-commerce). India-based (Ahmedabad, Gujarat) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0092568": {
+    "candidate_id": "CAND_0092568",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "TCS",
+      "years": 5.7,
+      "headline": "AI Specialist | Building ML-powered solutions",
+      "skills": [
+        "pgvector",
+        "weights & biases",
+        "hugging face transformers",
+        "llamaindex",
+        "mlflow",
+        "feature engineering",
+        "deep learning",
+        "speech recognition",
+        "vector search",
+        "opencv",
+        "asr",
+        "tts",
+        "milvus",
+        "python",
+        "pinecone",
+        "seo",
+        "excel",
+        "cnn"
+      ],
+      "industry": "IT Services"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 5.2,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 5.7,
+      "cultural_fit": 7.7,
+      "bonus_signals": 6.9
+    },
+    "composite_score": 21.6,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.7 years experience (ai specialist at TCS), needs 9+. Actively open to new opportunities. Location match (Noida, Uttar Pradesh). NOTE: Currently at TCS \u2014 JD flags consulting-only backgrounds.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0078810": {
+    "candidate_id": "CAND_0078810",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Dream11",
+      "years": 6.9,
+      "headline": "Senior Software Engineer (ML) | 6.9 yrs in analytics & ML",
+      "skills": [
+        "recommendation systems",
+        "sentence transformers",
+        "dbt",
+        "bentoml",
+        "diffusion models",
+        "elasticsearch",
+        "kubeflow",
+        "langchain",
+        "object detection",
+        "embeddings",
+        "tensorflow",
+        "microservices",
+        "deep learning",
+        "qlora"
+      ],
+      "industry": "Gaming"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 8.2,
+      "domain_relevance": 3.0,
+      "behavioral_engagement": 6.4,
+      "cultural_fit": 2.8,
+      "bonus_signals": 3.2
+    },
+    "composite_score": 34.4,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (embeddings). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 6.9 years experience (senior software engineer (ml) at Dream11), needs 9+. Long notice period (120 days) may slow hiring. Highly responsive to recruiters (80%).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0053472": {
+    "candidate_id": "CAND_0053472",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "HCL",
+      "years": 6.5,
+      "headline": "Senior Software Engineer (ML) | 6.5 yrs in analytics & ML",
+      "skills": [
+        "speech recognition",
+        "milvus",
+        "terraform",
+        "time series",
+        "llamaindex",
+        "six sigma",
+        "llms",
+        "qdrant",
+        "statistical modeling",
+        "semantic search",
+        "cnn",
+        "python",
+        "bm25"
+      ],
+      "industry": "IT Services"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 8.0,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 3.8,
+      "cultural_fit": 5.4,
+      "bonus_signals": 3.1
+    },
+    "composite_score": 37.55,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (llms, python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.5 years experience (senior software engineer (ml) at HCL), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. Location match (Noida, Uttar Pradesh).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0026913": {
+    "candidate_id": "CAND_0026913",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Ola",
+      "years": 3.9,
+      "headline": "AI Specialist | Data Science & ML enthusiast",
+      "skills": [
+        "spring boot",
+        "scikit-learn",
+        "mlflow",
+        "time series",
+        "llamaindex",
+        "mlops",
+        "kubernetes",
+        "tensorflow",
+        "tts",
+        "yolo",
+        "reinforcement learning",
+        "fine-tuning llms",
+        "nlp",
+        "asr",
+        "recommendation systems",
+        "feature engineering",
+        "sql"
+      ],
+      "industry": "Transportation"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 4.6,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 9.3,
+      "cultural_fit": 8.4,
+      "bonus_signals": 5.3
+    },
+    "composite_score": 44.5,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (nlp). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.9 years experience (ai specialist at Ola), needs 9+. Actively open to new opportunities. Highly responsive to recruiters (87%). India-based (Chandigarh, Chandigarh) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0078508": {
+    "candidate_id": "CAND_0078508",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Rephrase.ai",
+      "years": 5.2,
+      "headline": "AI Research Engineer | 5.2 yrs in analytics & ML",
+      "skills": [
+        "sentence transformers",
+        "llms",
+        "tts",
+        "feature engineering",
+        "embeddings",
+        "prompt engineering",
+        "kubeflow",
+        "postgresql",
+        "reinforcement learning",
+        "object detection",
+        "aws",
+        "pgvector",
+        "nlp",
+        "fine-tuning llms",
+        "weaviate"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 2.3,
+      "career_trajectory": 5.4,
+      "domain_relevance": 9.4,
+      "behavioral_engagement": 8.2,
+      "cultural_fit": 4.6,
+      "bonus_signals": 4.5
+    },
+    "composite_score": 55.65,
+    "recommendation": "maybe",
+    "reasoning": "Matches 3/13 required skills (llms, embeddings, nlp). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 5.2 years experience (ai research engineer at Rephrase.ai), needs 9+. Available quickly (30-day notice). Direct industry match (ai/ml). India-based (Chandigarh, Chandigarh) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0008202": {
+    "candidate_id": "CAND_0008202",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Yellow.ai",
+      "years": 5.7,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "haystack",
+        "typescript",
+        "faiss",
+        "python",
+        "computer vision",
+        "image classification",
+        "llms",
+        "pytorch",
+        "qdrant",
+        "rag",
+        "deep learning",
+        "feature engineering",
+        "tailwind",
+        "ci/cd",
+        "diffusion models"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 3.0,
+      "career_trajectory": 7.5,
+      "domain_relevance": 9.4,
+      "behavioral_engagement": 8.7,
+      "cultural_fit": 4.1,
+      "bonus_signals": 3.2
+    },
+    "composite_score": 61.55,
+    "recommendation": "yes",
+    "reasoning": "Matches 4/13 required skills (python, computer vision, llms, rag). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 5.7 years experience (senior software engineer (ml) at Yellow.ai), needs 9+. Direct industry match (ai/ml). India-based (Vizag, Andhra Pradesh) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0001126": {
+    "candidate_id": "CAND_0001126",
+    "profile": {
+      "title": "Junior ML Engineer",
+      "company": "Vedantu",
+      "years": 4.9,
+      "headline": "Junior ML Engineer | Building ML-powered solutions",
+      "skills": [
+        "mlops",
+        "gcp",
+        "sql",
+        "data pipelines",
+        "feature engineering",
+        "nlp",
+        "recommendation systems",
+        "forecasting",
+        "kubeflow",
+        "haystack",
+        "qdrant",
+        "speech recognition",
+        "weights & biases",
+        "statistical modeling",
+        "opensearch",
+        "data science"
+      ],
+      "industry": "EdTech"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 5.2,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.9,
+      "cultural_fit": 4.6,
+      "bonus_signals": 7.0
+    },
+    "composite_score": 42.45,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (nlp). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.9 years experience (junior ml engineer at Vedantu), needs 9+. Strong open-source presence (GitHub score: 78/100). Highly responsive to recruiters (82%). India-based (Indore, Madhya Pradesh) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0082262": {
+    "candidate_id": "CAND_0082262",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Wipro",
+      "years": 5.9,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "langchain",
+        "python",
+        "tts",
+        "qlora",
+        "cnn",
+        "weaviate",
+        "reinforcement learning",
+        "etl",
+        "speech recognition",
+        "llamaindex",
+        "pytorch"
+      ],
+      "industry": "IT Services"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 7.1,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 9.4,
+      "cultural_fit": 8.3,
+      "bonus_signals": 2.0
+    },
+    "composite_score": 29.1,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.9 years experience (senior software engineer (ml) at Wipro), needs 9+. Actively open to new opportunities. Available quickly (30-day notice). Location match (Bangalore, Karnataka). NOTE: Currently at Wipro \u2014 JD flags consulting-only backgrounds.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0011923": {
+    "candidate_id": "CAND_0011923",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "PolicyBazaar",
+      "years": 4.0,
+      "headline": "AI Research Engineer | Building ML-powered solutions",
+      "skills": [
+        "mlops",
+        "tensorflow",
+        "mongodb",
+        "llms",
+        "machine learning",
+        "terraform",
+        "yolo",
+        "mlflow",
+        "scikit-learn",
+        "semantic search",
+        "bm25",
+        "node.js",
+        "prompt engineering",
+        "go",
+        "sentence transformers",
+        "object detection"
+      ],
+      "industry": "Insurance Tech"
+    },
+    "scores": {
+      "technical_skill_match": 1.8,
+      "career_trajectory": 4.7,
+      "domain_relevance": 3.0,
+      "behavioral_engagement": 6.8,
+      "cultural_fit": 5.2,
+      "bonus_signals": 4.0
+    },
+    "composite_score": 38.2,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (llms, go). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.0 years experience (ai research engineer at PolicyBazaar), needs 9+.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0016657": {
+    "candidate_id": "CAND_0016657",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "PhonePe",
+      "years": 5.3,
+      "headline": "AI Research Engineer | 5.3 yrs in analytics & ML",
+      "skills": [
+        "marketing",
+        "pytorch",
+        "mlops",
+        "time series",
+        "opencv",
+        "tensorflow",
+        "feature engineering",
+        "vector search",
+        "computer vision",
+        "rag",
+        "cnn",
+        "forecasting",
+        "webpack",
+        "pinecone",
+        "gans"
+      ],
+      "industry": "Fintech"
+    },
+    "scores": {
+      "technical_skill_match": 1.6,
+      "career_trajectory": 5.5,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 7.7,
+      "cultural_fit": 5.3,
+      "bonus_signals": 4.5
+    },
+    "composite_score": 43.7,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (computer vision, rag). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 5.3 years experience (ai research engineer at PhonePe), needs 9+. Location match (Delhi, Delhi).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0016267": {
+    "candidate_id": "CAND_0016267",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Freshworks",
+      "years": 3.6,
+      "headline": "AI Specialist | 3.6 yrs in analytics & ML",
+      "skills": [
+        "reinforcement learning",
+        "pytorch",
+        "sentence transformers",
+        "llms",
+        "javascript",
+        "yolo",
+        "llamaindex",
+        "time series",
+        "tts",
+        "image classification",
+        "learning to rank",
+        "prompt engineering",
+        "speech recognition",
+        "information retrieval",
+        "statistical modeling",
+        "opensearch",
+        "powerpoint",
+        "spark"
+      ],
+      "industry": "SaaS"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 4.5,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 6.1,
+      "cultural_fit": 4.0,
+      "bonus_signals": 5.6
+    },
+    "composite_score": 30.25,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (llms). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.6 years experience (ai specialist at Freshworks), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. Strong open-source presence (GitHub score: 59/100). India-based (Coimbatore, Tamil Nadu) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0053605": {
+    "candidate_id": "CAND_0053605",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Verloop.io",
+      "years": 6.9,
+      "headline": "Senior Software Engineer (ML) | 6.9 yrs in analytics & ML",
+      "skills": [
+        "graphql",
+        "langchain",
+        "cnn",
+        "pgvector",
+        "gcp",
+        "semantic search",
+        "gans",
+        "rag",
+        "bentoml",
+        "bm25",
+        "apache flink",
+        "reinforcement learning",
+        "sap",
+        "asr"
+      ],
+      "industry": "Conversational AI"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 8.2,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 10.0,
+      "cultural_fit": 8.0,
+      "bonus_signals": 4.5
+    },
+    "composite_score": 53.45,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (rag). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.9 years experience (senior software engineer (ml) at Verloop.io), needs 9+. Actively open to new opportunities. Available quickly (30-day notice). Highly responsive to recruiters (88%). Location match (Noida, Uttar Pradesh).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0003609": {
+    "candidate_id": "CAND_0003609",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Sarvam AI",
+      "years": 6.1,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "fine-tuning llms",
+        "object detection",
+        "kubeflow",
+        "tts",
+        "terraform",
+        "speech recognition",
+        "data science",
+        "python",
+        "bm25",
+        "bentoml",
+        "illustrator",
+        "html",
+        "fastapi",
+        "machine learning"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 7.7,
+      "domain_relevance": 9.4,
+      "behavioral_engagement": 7.4,
+      "cultural_fit": 4.8,
+      "bonus_signals": 7.5
+    },
+    "composite_score": 56.85,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.1 years experience (senior software engineer (ml) at Sarvam AI), needs 9+. Strong open-source presence (GitHub score: 65/100). Direct industry match (ai/ml). India-based (Bhubaneswar, Odisha) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0064331": {
+    "candidate_id": "CAND_0064331",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Swiggy",
+      "years": 4.2,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "llms",
+        "bentoml",
+        "forecasting",
+        "data science",
+        "tensorflow",
+        "yolo",
+        "learning to rank",
+        "image classification",
+        "dbt",
+        "deep learning",
+        "information retrieval",
+        "photoshop",
+        "fine-tuning llms",
+        "sentence transformers",
+        "opensearch"
+      ],
+      "industry": "Food Delivery"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 6.6,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 9.4,
+      "cultural_fit": 4.4,
+      "bonus_signals": 2.0
+    },
+    "composite_score": 43.0,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (llms). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.2 years experience (senior software engineer (ml) at Swiggy), needs 9+. Available quickly (30-day notice). Highly responsive to recruiters (74%). India-based (Jaipur, Rajasthan) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0088602": {
+    "candidate_id": "CAND_0088602",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Niramai",
+      "years": 4.8,
+      "headline": "AI Specialist | 4.8 yrs in analytics & ML",
+      "skills": [
+        "asr",
+        "semantic search",
+        "vue.js",
+        "feature engineering",
+        "rust",
+        "llamaindex",
+        "powerpoint",
+        "mlops",
+        "forecasting",
+        "fine-tuning llms",
+        "peft",
+        "qlora",
+        "tensorflow"
+      ],
+      "industry": "HealthTech AI"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 5.2,
+      "domain_relevance": 5.8,
+      "behavioral_engagement": 7.3,
+      "cultural_fit": 5.8,
+      "bonus_signals": 2.0
+    },
+    "composite_score": 42.45,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (rust). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.8 years experience (ai specialist at Niramai), needs 9+. Actively open to new opportunities. Highly responsive to recruiters (78%). India-based (Jaipur, Rajasthan) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0004402": {
+    "candidate_id": "CAND_0004402",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Yellow.ai",
+      "years": 6.0,
+      "headline": "AI Research Engineer | 6.0 yrs in analytics & ML",
+      "skills": [
+        "typescript",
+        "tts",
+        "opensearch",
+        "speech recognition",
+        "object detection",
+        "kubeflow",
+        "peft",
+        "pytorch",
+        "bentoml",
+        "rest apis",
+        "learning to rank",
+        "data pipelines",
+        "qdrant",
+        "computer vision",
+        "sentence transformers",
+        "fine-tuning llms"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 5.9,
+      "domain_relevance": 10.0,
+      "behavioral_engagement": 9.6,
+      "cultural_fit": 7.2,
+      "bonus_signals": 2.0
+    },
+    "composite_score": 57.1,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 6.0 years experience (ai research engineer at Yellow.ai), needs 9+. Actively open to new opportunities. Highly responsive to recruiters (83%). Direct industry match (ai/ml). Location match (Delhi, Delhi).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0008218": {
+    "candidate_id": "CAND_0008218",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Aganitha",
+      "years": 7.0,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "tensorflow",
+        "forecasting",
+        "sql",
+        "opencv",
+        "statistical modeling",
+        "langchain",
+        "vector search",
+        "milvus",
+        "opensearch",
+        "yolo",
+        "rag"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 8.3,
+      "domain_relevance": 7.4,
+      "behavioral_engagement": 6.9,
+      "cultural_fit": 3.4,
+      "bonus_signals": 4.2
+    },
+    "composite_score": 50.25,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (rag). Missing: a/b testing, computer vision, embeddings.... Below required experience: 7.0 years experience (senior software engineer (ml) at Aganitha), needs 9+. Direct industry match (ai/ml). India-based (Coimbatore, Tamil Nadu) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0007008": {
+    "candidate_id": "CAND_0007008",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Genpact AI",
+      "years": 3.7,
+      "headline": "Senior Software Engineer (ML) | 3.7 yrs in analytics & ML",
+      "skills": [
+        "llamaindex",
+        "learning to rank",
+        "bentoml",
+        "gans",
+        "tensorflow",
+        "recommendation systems",
+        "hugging face transformers",
+        "dbt",
+        "computer vision",
+        "asr",
+        "llms",
+        "bm25",
+        "forecasting",
+        "lora",
+        "kubeflow"
+      ],
+      "industry": "AI Services"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 6.3,
+      "domain_relevance": 5.8,
+      "behavioral_engagement": 9.5,
+      "cultural_fit": 7.2,
+      "bonus_signals": 4.9
+    },
+    "composite_score": 53.2,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (computer vision, llms). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 3.7 years experience (senior software engineer (ml) at Genpact AI), needs 9+. Actively open to new opportunities. India-based (Coimbatore, Tamil Nadu) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0058146": {
+    "candidate_id": "CAND_0058146",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "PolicyBazaar",
+      "years": 5.1,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "information retrieval",
+        "llms",
+        "computer vision",
+        "scrum",
+        "mlops",
+        "tailwind",
+        "opencv",
+        "recommendation systems",
+        "qdrant",
+        "hugging face transformers",
+        "prompt engineering",
+        "gcp",
+        "mlflow"
+      ],
+      "industry": "Insurance Tech"
+    },
+    "scores": {
+      "technical_skill_match": 1.6,
+      "career_trajectory": 5.4,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 9.3,
+      "cultural_fit": 4.6,
+      "bonus_signals": 7.0
+    },
+    "composite_score": 45.25,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (llms, computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 5.1 years experience (ai research engineer at PolicyBazaar), needs 9+. Strong open-source presence (GitHub score: 80/100). Highly responsive to recruiters (79%). India-based (Ahmedabad, Gujarat) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0025640": {
+    "candidate_id": "CAND_0025640",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "HCL",
+      "years": 5.6,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "semantic search",
+        "peft",
+        "information retrieval",
+        "weights & biases",
+        "faiss",
+        "flask",
+        "next.js",
+        "pytorch",
+        "opensearch",
+        "opencv",
+        "kubeflow",
+        "recommendation systems",
+        "elasticsearch",
+        "cnn"
+      ],
+      "industry": "IT Services"
+    },
+    "scores": {
+      "technical_skill_match": 0.5,
+      "career_trajectory": 5.7,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 9.8,
+      "cultural_fit": 6.3,
+      "bonus_signals": 4.2
+    },
+    "composite_score": 28.6,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.6 years experience (ai research engineer at HCL), needs 9+. Actively open to new opportunities. Available quickly (30-day notice). Highly responsive to recruiters (87%). India-based (Jaipur, Rajasthan) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0070930": {
+    "candidate_id": "CAND_0070930",
+    "profile": {
+      "title": "Data Scientist",
+      "company": "CRED",
+      "years": 3.1,
+      "headline": "Data Scientist | Building ML-powered solutions",
+      "skills": [
+        "statistical modeling",
+        "qdrant",
+        "tensorflow",
+        "tts",
+        "information retrieval",
+        "bm25",
+        "weaviate",
+        "pgvector",
+        "speech recognition",
+        "airflow",
+        "mlflow"
+      ],
+      "industry": "Fintech"
+    },
+    "scores": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 4.1,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.9,
+      "cultural_fit": 6.2,
+      "bonus_signals": 6.6
+    },
+    "composite_score": 24.55,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.1 years experience (data scientist at CRED), needs 9+. Highly responsive to recruiters (82%). India-based (Ahmedabad, Gujarat) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0015097": {
+    "candidate_id": "CAND_0015097",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Zoho",
+      "years": 6.0,
+      "headline": "Senior Software Engineer (ML) | 6.0 yrs in analytics & ML",
+      "skills": [
+        "speech recognition",
+        "opencv",
+        "object detection",
+        "bigquery",
+        "python",
+        "statistical modeling",
+        "peft",
+        "nlp",
+        "yolo",
+        "langchain",
+        "bentoml",
+        "data science"
+      ],
+      "industry": "SaaS"
+    },
+    "scores": {
+      "technical_skill_match": 1.5,
+      "career_trajectory": 7.7,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.5,
+      "cultural_fit": 6.9,
+      "bonus_signals": 3.3
+    },
+    "composite_score": 48.8,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (python, nlp). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.0 years experience (senior software engineer (ml) at Zoho), needs 9+. Actively open to new opportunities. Available quickly (30-day notice). India-based (Coimbatore, Tamil Nadu) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0091229": {
+    "candidate_id": "CAND_0091229",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Niramai",
+      "years": 7.0,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "redis",
+        "faiss",
+        "opencv",
+        "snowflake",
+        "elasticsearch",
+        "scikit-learn",
+        "yolo",
+        "image classification",
+        "microservices",
+        "qdrant",
+        "next.js",
+        "tensorflow",
+        "weights & biases",
+        "kubeflow",
+        "bentoml"
+      ],
+      "industry": "HealthTech AI"
+    },
+    "scores": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 8.3,
+      "domain_relevance": 5.8,
+      "behavioral_engagement": 6.2,
+      "cultural_fit": 7.2,
+      "bonus_signals": 7.5
+    },
+    "composite_score": 34.35,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 7.0 years experience (senior software engineer (ml) at Niramai), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 72/100). India-based (Bhubaneswar, Odisha) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0060886": {
+    "candidate_id": "CAND_0060886",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Genpact AI",
+      "years": 4.6,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "faiss",
+        "python",
+        "mlflow",
+        "statistical modeling",
+        "gans",
+        "image classification",
+        "speech recognition",
+        "tailwind",
+        "langchain",
+        "microservices",
+        "java",
+        "machine learning",
+        "vector search",
+        "pinecone"
+      ],
+      "industry": "AI Services"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 6.8,
+      "domain_relevance": 5.8,
+      "behavioral_engagement": 6.1,
+      "cultural_fit": 8.8,
+      "bonus_signals": 3.2
+    },
+    "composite_score": 47.75,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.6 years experience (senior software engineer (ml) at Genpact AI), needs 9+. Actively open to new opportunities. India-based (Jaipur, Rajasthan) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0010541": {
+    "candidate_id": "CAND_0010541",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Wysa",
+      "years": 6.2,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "pinecone",
+        "gans",
+        "weaviate",
+        "computer vision",
+        "tts",
+        "mlops",
+        "data science",
+        "lora",
+        "python",
+        "feature engineering",
+        "java",
+        "yolo",
+        "bm25",
+        "qdrant",
+        "scrum",
+        "nlp"
+      ],
+      "industry": "HealthTech AI"
+    },
+    "scores": {
+      "technical_skill_match": 2.3,
+      "career_trajectory": 6.0,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 8.1,
+      "cultural_fit": 6.5,
+      "bonus_signals": 6.1
+    },
+    "composite_score": 49.4,
+    "recommendation": "maybe",
+    "reasoning": "Matches 3/13 required skills (computer vision, python, nlp). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 6.2 years experience (ai research engineer at Wysa), needs 9+. Actively open to new opportunities. Location match (Hyderabad, Telangana).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0015967": {
+    "candidate_id": "CAND_0015967",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Razorpay",
+      "years": 5.4,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "qlora",
+        "yolo",
+        "pinecone",
+        "object detection",
+        "semantic search",
+        "asr",
+        "feature engineering",
+        "flask",
+        "llms",
+        "tensorflow",
+        "time series",
+        "django",
+        "embeddings",
+        "deep learning",
+        "forecasting",
+        "reinforcement learning",
+        "weights & biases"
+      ],
+      "industry": "Fintech"
+    },
+    "scores": {
+      "technical_skill_match": 1.8,
+      "career_trajectory": 7.3,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 6.5,
+      "cultural_fit": 8.6,
+      "bonus_signals": 3.2
+    },
+    "composite_score": 48.75,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (llms, embeddings). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 5.4 years experience (senior software engineer (ml) at Razorpay), needs 9+. Actively open to new opportunities. Available quickly (30-day notice). Location match (Hyderabad, Telangana).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0091899": {
+    "candidate_id": "CAND_0091899",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "PhonePe",
+      "years": 5.8,
+      "headline": "Senior Software Engineer (ML) | 5.8 yrs in analytics & ML",
+      "skills": [
+        "statistical modeling",
+        "semantic search",
+        "apache flink",
+        "computer vision",
+        "sentence transformers",
+        "faiss",
+        "machine learning",
+        "nlp",
+        "milvus",
+        "reinforcement learning",
+        "pytorch",
+        "gans",
+        "information retrieval"
+      ],
+      "industry": "Fintech"
+    },
+    "scores": {
+      "technical_skill_match": 1.8,
+      "career_trajectory": 7.5,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 8.6,
+      "cultural_fit": 4.8,
+      "bonus_signals": 5.0
+    },
+    "composite_score": 49.4,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (computer vision, nlp). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 5.8 years experience (senior software engineer (ml) at PhonePe), needs 9+. Location match (Delhi, Delhi).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0080344": {
+    "candidate_id": "CAND_0080344",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Zoho",
+      "years": 4.9,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "sentence transformers",
+        "scikit-learn",
+        "photoshop",
+        "statistical modeling",
+        "speech recognition",
+        "dbt",
+        "recommendation systems",
+        "llamaindex",
+        "prompt engineering",
+        "pytorch",
+        "weights & biases",
+        "llms",
+        "semantic search",
+        "time series",
+        "kubeflow",
+        "computer vision",
+        "forecasting"
+      ],
+      "industry": "SaaS"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 7.0,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 8.1,
+      "cultural_fit": 7.8,
+      "bonus_signals": 5.4
+    },
+    "composite_score": 50.55,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (llms, computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 4.9 years experience (senior software engineer (ml) at Zoho), needs 9+. Actively open to new opportunities. Highly responsive to recruiters (70%). Location match (Hyderabad, Telangana).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0066713": {
+    "candidate_id": "CAND_0066713",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Flipkart",
+      "years": 5.7,
+      "headline": "Senior Software Engineer (ML) | 5.7 yrs in analytics & ML",
+      "skills": [
+        "image classification",
+        "gans",
+        "llamaindex",
+        "python",
+        "computer vision",
+        "learning to rank",
+        "hugging face transformers",
+        "flask",
+        "prompt engineering",
+        "airflow",
+        "lora",
+        "mlflow",
+        "bentoml"
+      ],
+      "industry": "E-commerce"
+    },
+    "scores": {
+      "technical_skill_match": 1.5,
+      "career_trajectory": 7.5,
+      "domain_relevance": 7.4,
+      "behavioral_engagement": 6.8,
+      "cultural_fit": 5.0,
+      "bonus_signals": 2.0
+    },
+    "composite_score": 45.5,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (python, computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 5.7 years experience (senior software engineer (ml) at Flipkart), needs 9+. Long notice period (120 days) may slow hiring. Direct industry match (e-commerce). India-based (Ahmedabad, Gujarat) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0021491": {
+    "candidate_id": "CAND_0021491",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Wysa",
+      "years": 6.1,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "recommendation systems",
+        "docker",
+        "speech recognition",
+        "spring boot",
+        "scikit-learn",
+        "image classification",
+        "statistical modeling",
+        "vector search",
+        "python",
+        "lora",
+        "peft",
+        "computer vision",
+        "elasticsearch",
+        "tts",
+        "pytorch",
+        "object detection",
+        "mlops"
+      ],
+      "industry": "HealthTech AI"
+    },
+    "scores": {
+      "technical_skill_match": 1.8,
+      "career_trajectory": 6.0,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 9.3,
+      "cultural_fit": 5.1,
+      "bonus_signals": 8.6
+    },
+    "composite_score": 48.35,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (python, computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 6.1 years experience (ai research engineer at Wysa), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 64/100). India-based (Bhubaneswar, Odisha) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0065139": {
+    "candidate_id": "CAND_0065139",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Niramai",
+      "years": 5.2,
+      "headline": "AI Research Engineer | 5.2 yrs in analytics & ML",
+      "skills": [
+        "mlops",
+        "apache beam",
+        "cnn",
+        "speech recognition",
+        "statistical modeling",
+        "hugging face transformers",
+        "accounting",
+        "qlora",
+        "rag",
+        "gans",
+        "asr",
+        "node.js",
+        "semantic search",
+        "langchain",
+        "pytorch",
+        "kubeflow",
+        "lora",
+        "computer vision"
+      ],
+      "industry": "HealthTech AI"
+    },
+    "scores": {
+      "technical_skill_match": 1.6,
+      "career_trajectory": 5.4,
+      "domain_relevance": 5.8,
+      "behavioral_engagement": 8.3,
+      "cultural_fit": 5.3,
+      "bonus_signals": 2.0
+    },
+    "composite_score": 45.95,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (rag, computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 5.2 years experience (ai research engineer at Niramai), needs 9+. Highly responsive to recruiters (82%). India-based (Bhubaneswar, Odisha) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0077261": {
+    "candidate_id": "CAND_0077261",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Meesho",
+      "years": 5.7,
+      "headline": "AI Specialist | 5.7 yrs in analytics & ML",
+      "skills": [
+        "time series",
+        "hugging face transformers",
+        "statistical modeling",
+        "bentoml",
+        "reinforcement learning",
+        "data science",
+        "tts",
+        "agile",
+        "pgvector",
+        "lora",
+        "asr",
+        "vector search",
+        "rag",
+        "recommendation systems",
+        "tensorflow",
+        "object detection",
+        "grpc"
+      ],
+      "industry": "E-commerce"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 5.7,
+      "domain_relevance": 7.4,
+      "behavioral_engagement": 6.3,
+      "cultural_fit": 5.6,
+      "bonus_signals": 5.5
+    },
+    "composite_score": 46.7,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (rag). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.7 years experience (ai specialist at Meesho), needs 9+. Actively open to new opportunities. Highly responsive to recruiters (81%). Direct industry match (e-commerce). India-based (Chandigarh, Chandigarh) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0001131": {
+    "candidate_id": "CAND_0001131",
+    "profile": {
+      "title": "ML Engineer",
+      "company": "Wysa",
+      "years": 5.8,
+      "headline": "ML Engineer | Building ML-powered solutions",
+      "skills": [
+        "semantic search",
+        "speech recognition",
+        "computer vision",
+        "vector search",
+        "rag",
+        "time series",
+        "pytorch",
+        "kubeflow",
+        "lora",
+        "data science",
+        "next.js"
+      ],
+      "industry": "HealthTech AI"
+    },
+    "scores": {
+      "technical_skill_match": 1.8,
+      "career_trajectory": 5.8,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 9.2,
+      "cultural_fit": 6.7,
+      "bonus_signals": 7.0
+    },
+    "composite_score": 49.8,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (computer vision, rag). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 5.8 years experience (ml engineer at Wysa), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 51/100). Location match (Chennai, Tamil Nadu).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0084161": {
+    "candidate_id": "CAND_0084161",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Aganitha",
+      "years": 3.9,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "tts",
+        "mongodb",
+        "opensearch",
+        "sentence transformers",
+        "python",
+        "tally",
+        "forecasting",
+        "langchain",
+        "semantic search",
+        "llms",
+        "object detection",
+        "weights & biases"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 6.4,
+      "domain_relevance": 8.0,
+      "behavioral_engagement": 8.5,
+      "cultural_fit": 4.8,
+      "bonus_signals": 2.8
+    },
+    "composite_score": 52.85,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (python, llms). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.9 years experience (senior software engineer (ml) at Aganitha), needs 9+. Highly responsive to recruiters (77%). Direct industry match (ai/ml). Location match (Hyderabad, Telangana).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0070653": {
+    "candidate_id": "CAND_0070653",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Dream11",
+      "years": 5.0,
+      "headline": "AI Specialist | Building ML-powered solutions",
+      "skills": [
+        "bm25",
+        "qlora",
+        "cnn",
+        "hadoop",
+        "mlops",
+        "yolo",
+        "faiss",
+        "apache flink",
+        "pytorch",
+        "computer vision",
+        "sentence transformers",
+        "deep learning",
+        "kubeflow",
+        "python",
+        "learning to rank",
+        "data science"
+      ],
+      "industry": "Gaming"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 5.3,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 7.5,
+      "cultural_fit": 5.3,
+      "bonus_signals": 4.9
+    },
+    "composite_score": 43.5,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (computer vision, python). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 5.0 years experience (ai specialist at Dream11), needs 9+. Available quickly (30-day notice). Location match (Delhi, Delhi).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0004628": {
+    "candidate_id": "CAND_0004628",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "PharmEasy",
+      "years": 3.3,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "feature engineering",
+        "qdrant",
+        "gcp",
+        "weights & biases",
+        "bentoml",
+        "lora",
+        "recommendation systems",
+        "langchain",
+        "semantic search",
+        "opencv",
+        "rust",
+        "webpack"
+      ],
+      "industry": "HealthTech"
+    },
+    "scores": {
+      "technical_skill_match": 0.8,
+      "career_trajectory": 4.3,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.9,
+      "cultural_fit": 7.7,
+      "bonus_signals": 7.9
+    },
+    "composite_score": 43.6,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (rust). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.3 years experience (ai research engineer at PharmEasy), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 62/100). Highly responsive to recruiters (77%). India-based (Bhubaneswar, Odisha) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0060835": {
+    "candidate_id": "CAND_0060835",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Sarvam AI",
+      "years": 6.6,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "sql",
+        "flask",
+        "reinforcement learning",
+        "pytorch",
+        "forecasting",
+        "speech recognition",
+        "asr",
+        "faiss",
+        "weaviate",
+        "image classification",
+        "bentoml",
+        "sentence transformers",
+        "embeddings",
+        "azure",
+        "gans"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 8.0,
+      "domain_relevance": 10.0,
+      "behavioral_engagement": 7.6,
+      "cultural_fit": 6.6,
+      "bonus_signals": 9.0
+    },
+    "composite_score": 61.5,
+    "recommendation": "yes",
+    "reasoning": "Matches 1/13 required skills (embeddings). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 6.6 years experience (senior software engineer (ml) at Sarvam AI), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 82/100). Direct industry match (ai/ml). Location match (Bangalore, Karnataka).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0030967": {
+    "candidate_id": "CAND_0030967",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Wipro",
+      "years": 3.6,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "time series",
+        "sentence transformers",
+        "reinforcement learning",
+        "feature engineering",
+        "six sigma",
+        "qdrant",
+        "python",
+        "hugging face transformers",
+        "mlflow",
+        "speech recognition",
+        "asr",
+        "terraform",
+        "lora",
+        "image classification"
+      ],
+      "industry": "IT Services"
+    },
+    "scores": {
+      "technical_skill_match": 0.7,
+      "career_trajectory": 5.7,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 7.6,
+      "cultural_fit": 4.6,
+      "bonus_signals": 5.3
+    },
+    "composite_score": 14.75,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.6 years experience (senior software engineer (ml) at Wipro), needs 9+. Long notice period (120 days) may slow hiring. Strong open-source presence (GitHub score: 70/100). India-based (Coimbatore, Tamil Nadu) \u2014 relocation may be needed. NOTE: Currently at Wipro \u2014 JD flags consulting-only backgrounds.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0043676": {
+    "candidate_id": "CAND_0043676",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Observe.AI",
+      "years": 6.1,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "asr",
+        "qlora",
+        "scikit-learn",
+        "peft",
+        "diffusion models",
+        "prompt engineering",
+        "semantic search",
+        "tts",
+        "mlflow",
+        "forecasting",
+        "yolo",
+        "lora",
+        "tensorflow",
+        "salesforce crm",
+        "next.js",
+        "reinforcement learning"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 7.7,
+      "domain_relevance": 10.0,
+      "behavioral_engagement": 7.6,
+      "cultural_fit": 9.0,
+      "bonus_signals": 8.3
+    },
+    "composite_score": 45.85,
+    "recommendation": "maybe",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.1 years experience (senior software engineer (ml) at Observe.AI), needs 9+. Actively open to new opportunities. Available quickly (30-day notice). Strong open-source presence (GitHub score: 85/100). Direct industry match (ai/ml). Location match (Delhi, Delhi).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0070525": {
+    "candidate_id": "CAND_0070525",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Mad Street Den",
+      "years": 5.4,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "apache beam",
+        "recommendation systems",
+        "feature engineering",
+        "python",
+        "gans",
+        "statistical modeling",
+        "azure",
+        "yolo",
+        "prompt engineering",
+        "llms",
+        "computer vision",
+        "embeddings"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 3.0,
+      "career_trajectory": 7.3,
+      "domain_relevance": 8.0,
+      "behavioral_engagement": 8.9,
+      "cultural_fit": 7.3,
+      "bonus_signals": 4.6
+    },
+    "composite_score": 62.55,
+    "recommendation": "yes",
+    "reasoning": "Matches 4/13 required skills (python, llms, computer vision, embeddings). Missing: a/b testing, fine-tuning, go.... Below required experience: 5.4 years experience (senior software engineer (ml) at Mad Street Den), needs 9+. Actively open to new opportunities. Highly responsive to recruiters (93%). Direct industry match (ai/ml). Location match (Hyderabad, Telangana).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0088438": {
+    "candidate_id": "CAND_0088438",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Saarthi.ai",
+      "years": 6.6,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "llms",
+        "recommendation systems",
+        "pinecone",
+        "asr",
+        "bm25",
+        "machine learning",
+        "weaviate",
+        "bentoml",
+        "haystack",
+        "yolo",
+        "image classification",
+        "spring boot",
+        "weights & biases",
+        "python"
+      ],
+      "industry": "Voice AI"
+    },
+    "scores": {
+      "technical_skill_match": 1.5,
+      "career_trajectory": 8.0,
+      "domain_relevance": 6.4,
+      "behavioral_engagement": 5.0,
+      "cultural_fit": 3.1,
+      "bonus_signals": 0.3
+    },
+    "composite_score": 39.05,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (llms, python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.6 years experience (senior software engineer (ml) at Saarthi.ai), needs 9+. Long notice period (120 days) may slow hiring. Location match (Hyderabad, Telangana).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0042425": {
+    "candidate_id": "CAND_0042425",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Infosys",
+      "years": 3.3,
+      "headline": "AI Specialist | 3.3 yrs in analytics & ML",
+      "skills": [
+        "gans",
+        "speech recognition",
+        "haystack",
+        "weaviate",
+        "python",
+        "learning to rank",
+        "mlflow",
+        "peft",
+        "elasticsearch",
+        "kafka",
+        "time series",
+        "nlp",
+        "yolo",
+        "reinforcement learning",
+        "pinecone"
+      ],
+      "industry": "IT Services"
+    },
+    "scores": {
+      "technical_skill_match": 1.6,
+      "career_trajectory": 3.8,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 7.2,
+      "cultural_fit": 6.4,
+      "bonus_signals": 4.5
+    },
+    "composite_score": 19.45,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (python, nlp). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.3 years experience (ai specialist at Infosys), needs 9+. Actively open to new opportunities. Available quickly (30-day notice). Highly responsive to recruiters (85%). India-based (Vizag, Andhra Pradesh) \u2014 relocation may be needed. NOTE: Currently at Infosys \u2014 JD flags consulting-only backgrounds.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0088878": {
+    "candidate_id": "CAND_0088878",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Paytm",
+      "years": 4.4,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "statistical modeling",
+        "mlops",
+        "embeddings",
+        "tensorflow",
+        "hugging face transformers",
+        "milvus",
+        "go",
+        "cnn",
+        "fine-tuning llms",
+        "recommendation systems",
+        "speech recognition",
+        "data science"
+      ],
+      "industry": "Fintech"
+    },
+    "scores": {
+      "technical_skill_match": 1.6,
+      "career_trajectory": 6.7,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 7.9,
+      "cultural_fit": 3.5,
+      "bonus_signals": 6.0
+    },
+    "composite_score": 40.35,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (embeddings, go). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 4.4 years experience (senior software engineer (ml) at Paytm), needs 9+. Long notice period (120 days) may slow hiring. Location match (Hyderabad, Telangana).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0082086": {
+    "candidate_id": "CAND_0082086",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Razorpay",
+      "years": 6.0,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "feature engineering",
+        "faiss",
+        "speech recognition",
+        "pinecone",
+        "kubeflow",
+        "pytorch",
+        "apache flink",
+        "forecasting",
+        "kafka",
+        "reinforcement learning",
+        "qlora",
+        "salesforce crm",
+        "milvus",
+        "object detection"
+      ],
+      "industry": "Fintech"
+    },
+    "scores": {
+      "technical_skill_match": 0.2,
+      "career_trajectory": 7.7,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 8.8,
+      "cultural_fit": 6.1,
+      "bonus_signals": 8.3
+    },
+    "composite_score": 33.25,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.0 years experience (senior software engineer (ml) at Razorpay), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 83/100). Highly responsive to recruiters (85%). Location match (Delhi, Delhi).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0073007": {
+    "candidate_id": "CAND_0073007",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Aganitha",
+      "years": 5.8,
+      "headline": "AI Specialist | 5.8 yrs in analytics & ML",
+      "skills": [
+        "milvus",
+        "bentoml",
+        "pytorch",
+        "embeddings",
+        "computer vision",
+        "content writing",
+        "forecasting",
+        "speech recognition",
+        "statistical modeling",
+        "reinforcement learning",
+        "faiss",
+        "mlflow",
+        "opencv",
+        "pgvector"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.8,
+      "career_trajectory": 5.8,
+      "domain_relevance": 8.0,
+      "behavioral_engagement": 9.2,
+      "cultural_fit": 6.7,
+      "bonus_signals": 8.4
+    },
+    "composite_score": 57.7,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (embeddings, computer vision). Missing: a/b testing, fine-tuning, go.... Below required experience: 5.8 years experience (ai specialist at Aganitha), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 66/100). Highly responsive to recruiters (83%). Direct industry match (ai/ml). Location match (Bangalore, Karnataka).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0045475": {
+    "candidate_id": "CAND_0045475",
+    "profile": {
+      "title": "ML Engineer",
+      "company": "Genpact AI",
+      "years": 4.9,
+      "headline": "ML Engineer | Building ML-powered solutions",
+      "skills": [
+        "pytorch",
+        "vue.js",
+        "speech recognition",
+        "photoshop",
+        "pinecone",
+        "feature engineering",
+        "image classification",
+        "yolo",
+        "qlora",
+        "forecasting",
+        "etl",
+        "opensearch",
+        "faiss",
+        "deep learning",
+        "bentoml",
+        "scikit-learn",
+        "bm25"
+      ],
+      "industry": "AI Services"
+    },
+    "scores": {
+      "technical_skill_match": 0.4,
+      "career_trajectory": 5.2,
+      "domain_relevance": 6.4,
+      "behavioral_engagement": 9.1,
+      "cultural_fit": 8.2,
+      "bonus_signals": 6.5
+    },
+    "composite_score": 34.5,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.9 years experience (ml engineer at Genpact AI), needs 9+. Actively open to new opportunities. Location match (Delhi, Delhi).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0067183": {
+    "candidate_id": "CAND_0067183",
+    "profile": {
+      "title": "ML Engineer",
+      "company": "Sarvam AI",
+      "years": 6.1,
+      "headline": "ML Engineer | Building ML-powered solutions",
+      "skills": [
+        "nlp",
+        "mlops",
+        "bentoml",
+        "illustrator",
+        "tensorflow",
+        "reinforcement learning",
+        "rag",
+        "tts",
+        "speech recognition",
+        "grpc",
+        "apache flink",
+        "computer vision",
+        "deep learning",
+        "information retrieval"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 2.2,
+      "career_trajectory": 6.0,
+      "domain_relevance": 9.4,
+      "behavioral_engagement": 6.4,
+      "cultural_fit": 7.0,
+      "bonus_signals": 4.6
+    },
+    "composite_score": 56.3,
+    "recommendation": "maybe",
+    "reasoning": "Matches 3/13 required skills (nlp, rag, computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 6.1 years experience (ml engineer at Sarvam AI), needs 9+. Actively open to new opportunities. Direct industry match (ai/ml). India-based (Vizag, Andhra Pradesh) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0093185": {
+    "candidate_id": "CAND_0093185",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Dream11",
+      "years": 4.1,
+      "headline": "AI Research Engineer | Building ML-powered solutions",
+      "skills": [
+        "mlops",
+        "cnn",
+        "deep learning",
+        "reinforcement learning",
+        "scrum",
+        "yolo",
+        "illustrator",
+        "accounting",
+        "mlflow",
+        "tensorflow",
+        "gans",
+        "vector search",
+        "forecasting",
+        "vue.js",
+        "weights & biases",
+        "lora"
+      ],
+      "industry": "Gaming"
+    },
+    "scores": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 4.8,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 8.6,
+      "cultural_fit": 2.6,
+      "bonus_signals": 6.3
+    },
+    "composite_score": 17.95,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.1 years experience (ai research engineer at Dream11), needs 9+. Long notice period (120 days) may slow hiring. Location match (Bangalore, Karnataka).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0043860": {
+    "candidate_id": "CAND_0043860",
+    "profile": {
+      "title": "Junior ML Engineer",
+      "company": "Aganitha",
+      "years": 6.1,
+      "headline": "Junior ML Engineer | 6.1 yrs in analytics & ML",
+      "skills": [
+        "pgvector",
+        "feature engineering",
+        "object detection",
+        "semantic search",
+        "information retrieval",
+        "redis",
+        "opencv",
+        "deep learning",
+        "qdrant",
+        "pytorch",
+        "vector search",
+        "forecasting",
+        "gans",
+        "diffusion models"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 6.0,
+      "domain_relevance": 7.4,
+      "behavioral_engagement": 9.8,
+      "cultural_fit": 9.8,
+      "bonus_signals": 5.0
+    },
+    "composite_score": 39.7,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.1 years experience (junior ml engineer at Aganitha), needs 9+. Actively open to new opportunities. Available quickly (30-day notice). Highly responsive to recruiters (81%). Direct industry match (ai/ml). India-based (Bhubaneswar, Odisha) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0075504": {
+    "candidate_id": "CAND_0075504",
+    "profile": {
+      "title": "Junior ML Engineer",
+      "company": "Yellow.ai",
+      "years": 3.0,
+      "headline": "Junior ML Engineer | Building ML-powered solutions",
+      "skills": [
+        "yolo",
+        "tensorflow",
+        "embeddings",
+        "semantic search",
+        "gans",
+        "grpc",
+        "rag",
+        "pgvector",
+        "photoshop",
+        "machine learning",
+        "bm25",
+        "nlp",
+        "tts",
+        "ci/cd",
+        "typescript",
+        "mlflow"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 2.6,
+      "career_trajectory": 4.1,
+      "domain_relevance": 10.0,
+      "behavioral_engagement": 8.2,
+      "cultural_fit": 5.7,
+      "bonus_signals": 6.1
+    },
+    "composite_score": 52.05,
+    "recommendation": "maybe",
+    "reasoning": "Matches 3/13 required skills (embeddings, rag, nlp). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 3.0 years experience (junior ml engineer at Yellow.ai), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. Strong open-source presence (GitHub score: 66/100). Direct industry match (ai/ml). Location match (Hyderabad, Telangana).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0072784": {
+    "candidate_id": "CAND_0072784",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Zoho",
+      "years": 3.4,
+      "headline": "AI Specialist | 3.4 yrs in analytics & ML",
+      "skills": [
+        "feature engineering",
+        "photoshop",
+        "statistical modeling",
+        "gans",
+        "reinforcement learning",
+        "bm25",
+        "sql",
+        "rag",
+        "rest apis",
+        "mlops",
+        "python",
+        "scikit-learn",
+        "yolo",
+        "mlflow",
+        "marketing"
+      ],
+      "industry": "SaaS"
+    },
+    "scores": {
+      "technical_skill_match": 1.6,
+      "career_trajectory": 4.3,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 7.5,
+      "cultural_fit": 4.2,
+      "bonus_signals": 5.5
+    },
+    "composite_score": 40.4,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (rag, python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.4 years experience (ai specialist at Zoho), needs 9+. Highly responsive to recruiters (80%). Location match (Chennai, Tamil Nadu).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0002344": {
+    "candidate_id": "CAND_0002344",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "upGrad",
+      "years": 4.7,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "nlp",
+        "tensorflow",
+        "django",
+        "pinecone",
+        "mlops",
+        "hugging face transformers",
+        "haystack",
+        "image classification",
+        "yolo",
+        "information retrieval",
+        "reinforcement learning",
+        "spark",
+        "llms",
+        "typescript",
+        "object detection",
+        "react",
+        "recommendation systems",
+        "feature engineering"
+      ],
+      "industry": "EdTech"
+    },
+    "scores": {
+      "technical_skill_match": 1.5,
+      "career_trajectory": 6.9,
+      "domain_relevance": 4.4,
+      "behavioral_engagement": 8.2,
+      "cultural_fit": 5.5,
+      "bonus_signals": 10.0
+    },
+    "composite_score": 44.9,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (nlp, llms). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.7 years experience (senior software engineer (ml) at upGrad), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. Strong open-source presence (GitHub score: 82/100). Highly responsive to recruiters (83%). Location match (Chennai, Tamil Nadu).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0051545": {
+    "candidate_id": "CAND_0051545",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Flipkart",
+      "years": 3.2,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "statistical modeling",
+        "diffusion models",
+        "opencv",
+        "machine learning",
+        "angular",
+        "cnn",
+        "figma",
+        "django",
+        "hugging face transformers",
+        "rag",
+        "peft",
+        "opensearch",
+        "bentoml",
+        "azure",
+        "tensorflow",
+        "learning to rank"
+      ],
+      "industry": "E-commerce"
+    },
+    "scores": {
+      "technical_skill_match": 0.8,
+      "career_trajectory": 4.2,
+      "domain_relevance": 8.0,
+      "behavioral_engagement": 9.8,
+      "cultural_fit": 5.1,
+      "bonus_signals": 4.7
+    },
+    "composite_score": 48.95,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (rag). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.2 years experience (ai research engineer at Flipkart), needs 9+. Highly responsive to recruiters (84%). Direct industry match (e-commerce). Location match (Chennai, Tamil Nadu).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0095884": {
+    "candidate_id": "CAND_0095884",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Sarvam AI",
+      "years": 3.8,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "forecasting",
+        "statistical modeling",
+        "yolo",
+        "faiss",
+        "rag",
+        "bentoml",
+        "grpc",
+        "machine learning",
+        "python",
+        "pinecone",
+        "bm25",
+        "mlflow",
+        "qlora",
+        "fine-tuning llms",
+        "feature engineering",
+        "gans",
+        "angular",
+        "asr"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.6,
+      "career_trajectory": 6.3,
+      "domain_relevance": 10.0,
+      "behavioral_engagement": 6.5,
+      "cultural_fit": 3.5,
+      "bonus_signals": 4.6
+    },
+    "composite_score": 52.95,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (rag, python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.8 years experience (senior software engineer (ml) at Sarvam AI), needs 9+. Direct industry match (ai/ml). Location match (Bangalore, Karnataka).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0062707": {
+    "candidate_id": "CAND_0062707",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Locobuzz",
+      "years": 5.6,
+      "headline": "Senior Software Engineer (ML) | 5.6 yrs in analytics & ML",
+      "skills": [
+        "elasticsearch",
+        "yolo",
+        "speech recognition",
+        "python",
+        "content writing",
+        "milvus",
+        "deep learning",
+        "object detection",
+        "langchain",
+        "weights & biases",
+        "feature engineering",
+        "information retrieval",
+        "haystack",
+        "sql",
+        "time series"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 7.4,
+      "domain_relevance": 7.4,
+      "behavioral_engagement": 7.7,
+      "cultural_fit": 5.9,
+      "bonus_signals": 3.6
+    },
+    "composite_score": 51.85,
+    "recommendation": "maybe",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.6 years experience (senior software engineer (ml) at Locobuzz), needs 9+. Actively open to new opportunities. Direct industry match (ai/ml). India-based (Kolkata, West Bengal) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0079688": {
+    "candidate_id": "CAND_0079688",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Aganitha",
+      "years": 3.3,
+      "headline": "Senior Software Engineer (ML) | 3.3 yrs in analytics & ML",
+      "skills": [
+        "deep learning",
+        "cnn",
+        "qdrant",
+        "haystack",
+        "sentence transformers",
+        "semantic search",
+        "opencv",
+        "statistical modeling",
+        "image classification",
+        "tts",
+        "diffusion models",
+        "object detection",
+        "weights & biases",
+        "kafka",
+        "pgvector",
+        "recommendation systems",
+        "elasticsearch",
+        "graphql"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 0.4,
+      "career_trajectory": 6.0,
+      "domain_relevance": 8.0,
+      "behavioral_engagement": 8.0,
+      "cultural_fit": 5.0,
+      "bonus_signals": 8.0
+    },
+    "composite_score": 30.2,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.3 years experience (senior software engineer (ml) at Aganitha), needs 9+. Long notice period (120 days) may slow hiring. Strong open-source presence (GitHub score: 51/100). Direct industry match (ai/ml). Location match (Bangalore, Karnataka).",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0049978": {
+    "candidate_id": "CAND_0049978",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Sarvam AI",
+      "years": 6.6,
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "skills": [
+        "deep learning",
+        "weaviate",
+        "bm25",
+        "gans",
+        "lora",
+        "bentoml",
+        "recommendation systems",
+        "yolo",
+        "pytorch",
+        "asr",
+        "bigquery",
+        "hugging face transformers",
+        "sql",
+        "mlflow",
+        "embeddings",
+        "diffusion models"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 8.0,
+      "domain_relevance": 9.4,
+      "behavioral_engagement": 9.4,
+      "cultural_fit": 7.2,
+      "bonus_signals": 7.4
+    },
+    "composite_score": 62.8,
+    "recommendation": "yes",
+    "reasoning": "Matches 1/13 required skills (embeddings). Missing: a/b testing, computer vision, fine-tuning.... Below required experience: 6.6 years experience (senior software engineer (ml) at Sarvam AI), needs 9+. Actively open to new opportunities. Strong open-source presence (GitHub score: 69/100). Highly responsive to recruiters (71%). Direct industry match (ai/ml). India-based (Trivandrum, Kerala) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0033311": {
+    "candidate_id": "CAND_0033311",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Sarvam AI",
+      "years": 4.5,
+      "headline": "AI Specialist | Data Science & ML enthusiast",
+      "skills": [
+        "pgvector",
+        "azure",
+        "qlora",
+        "reinforcement learning",
+        "machine learning",
+        "qdrant",
+        "mongodb",
+        "agile",
+        "image classification",
+        "tensorflow",
+        "forecasting",
+        "sentence transformers",
+        "cnn",
+        "asr",
+        "kubeflow",
+        "diffusion models"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 0.1,
+      "career_trajectory": 5.0,
+      "domain_relevance": 9.4,
+      "behavioral_engagement": 4.5,
+      "cultural_fit": 6.7,
+      "bonus_signals": 3.8
+    },
+    "composite_score": 24.45,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.5 years experience (ai specialist at Sarvam AI), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. Direct industry match (ai/ml). India-based (Trivandrum, Kerala) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0044829": {
+    "candidate_id": "CAND_0044829",
+    "profile": {
+      "title": "AI Specialist",
+      "company": "Observe.AI",
+      "years": 3.4,
+      "headline": "AI Specialist | 3.4 yrs in analytics & ML",
+      "skills": [
+        "semantic search",
+        "gcp",
+        "cnn",
+        "nlp",
+        "rust",
+        "gans",
+        "opencv",
+        "six sigma",
+        "mlops",
+        "opensearch",
+        "weights & biases",
+        "langchain",
+        "css",
+        "diffusion models"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 1.7,
+      "career_trajectory": 4.3,
+      "domain_relevance": 9.4,
+      "behavioral_engagement": 7.8,
+      "cultural_fit": 5.7,
+      "bonus_signals": 3.8
+    },
+    "composite_score": 46.8,
+    "recommendation": "maybe",
+    "reasoning": "Matches 2/13 required skills (nlp, rust). Missing: a/b testing, computer vision, embeddings.... Below required experience: 3.4 years experience (ai specialist at Observe.AI), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. Highly responsive to recruiters (86%). Direct industry match (ai/ml). India-based (Trivandrum, Kerala) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0049540": {
+    "candidate_id": "CAND_0049540",
+    "profile": {
+      "title": "ML Engineer",
+      "company": "Saarthi.ai",
+      "years": 6.8,
+      "headline": "ML Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "gcp",
+        "yolo",
+        "tensorflow",
+        "data science",
+        "statistical modeling",
+        "microservices",
+        "photoshop",
+        "mlflow",
+        "pgvector",
+        "feature engineering",
+        "deep learning",
+        "qlora",
+        "sentence transformers"
+      ],
+      "industry": "Voice AI"
+    },
+    "scores": {
+      "technical_skill_match": 0.2,
+      "career_trajectory": 6.4,
+      "domain_relevance": 5.8,
+      "behavioral_engagement": 10.0,
+      "cultural_fit": 7.4,
+      "bonus_signals": 4.8
+    },
+    "composite_score": 34.8,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.8 years experience (ml engineer at Saarthi.ai), needs 9+. Actively open to new opportunities. Highly responsive to recruiters (86%). India-based (Trivandrum, Kerala) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0006833": {
+    "candidate_id": "CAND_0006833",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Mad Street Den",
+      "years": 5.7,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "tensorflow",
+        "semantic search",
+        "deep learning",
+        "data science",
+        "weights & biases",
+        "object detection",
+        "gans",
+        "java",
+        "nlp"
+      ],
+      "industry": "AI/ML"
+    },
+    "scores": {
+      "technical_skill_match": 0.8,
+      "career_trajectory": 5.7,
+      "domain_relevance": 7.4,
+      "behavioral_engagement": 6.0,
+      "cultural_fit": 5.1,
+      "bonus_signals": 7.6
+    },
+    "composite_score": 41.5,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (nlp). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.7 years experience (ai research engineer at Mad Street Den), needs 9+. Long notice period (120 days) may slow hiring. Strong open-source presence (GitHub score: 84/100). Direct industry match (ai/ml). India-based (Kochi, Kerala) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0075175": {
+    "candidate_id": "CAND_0075175",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "BYJU'S",
+      "years": 3.1,
+      "headline": "AI Research Engineer | 3.1 yrs in analytics & ML",
+      "skills": [
+        "ci/cd",
+        "speech recognition",
+        "image classification",
+        "microservices",
+        "pytorch",
+        "pinecone",
+        "computer vision",
+        "javascript",
+        "peft",
+        "weights & biases",
+        "semantic search",
+        "information retrieval"
+      ],
+      "industry": "EdTech"
+    },
+    "scores": {
+      "technical_skill_match": 0.9,
+      "career_trajectory": 4.1,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 7.8,
+      "cultural_fit": 3.0,
+      "bonus_signals": 3.9
+    },
+    "composite_score": 30.15,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 3.1 years experience (ai research engineer at BYJU'S), needs 9+. Long notice period (120 days) may slow hiring. India-based (Kolkata, West Bengal) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0040677": {
+    "candidate_id": "CAND_0040677",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Swiggy",
+      "years": 4.2,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "postgresql",
+        "lora",
+        "llms",
+        "asr",
+        "feature engineering",
+        "scikit-learn",
+        "qlora",
+        "gans",
+        "image classification",
+        "elasticsearch",
+        "deep learning",
+        "python",
+        "mlflow",
+        "tensorflow",
+        "bentoml"
+      ],
+      "industry": "Food Delivery"
+    },
+    "scores": {
+      "technical_skill_match": 1.5,
+      "career_trajectory": 4.8,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 6.1,
+      "cultural_fit": 7.3,
+      "bonus_signals": 6.3
+    },
+    "composite_score": 36.3,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (llms, python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.2 years experience (ai research engineer at Swiggy), needs 9+. Actively open to new opportunities. Long notice period (120 days) may slow hiring. India-based (Kochi, Kerala) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0082913": {
+    "candidate_id": "CAND_0082913",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "InMobi",
+      "years": 5.5,
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "skills": [
+        "yolo",
+        "faiss",
+        "css",
+        "bentoml",
+        "lora",
+        "scikit-learn",
+        "object detection",
+        "mlops",
+        "opencv",
+        "llms",
+        "speech recognition",
+        "tensorflow",
+        "elasticsearch",
+        "deep learning"
+      ],
+      "industry": "AdTech"
+    },
+    "scores": {
+      "technical_skill_match": 1.0,
+      "career_trajectory": 7.4,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.5,
+      "cultural_fit": 4.9,
+      "bonus_signals": 2.7
+    },
+    "composite_score": 44.4,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (llms). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.5 years experience (senior software engineer (ml) at InMobi), needs 9+. Highly responsive to recruiters (73%). India-based (Trivandrum, Kerala) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0004555": {
+    "candidate_id": "CAND_0004555",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "Dream11",
+      "years": 5.0,
+      "headline": "Senior Software Engineer (ML) | 5.0 yrs in analytics & ML",
+      "skills": [
+        "content writing",
+        "docker",
+        "javascript",
+        "diffusion models",
+        "lora",
+        "gcp",
+        "llms",
+        "tensorflow",
+        "gans",
+        "opencv",
+        "tts",
+        "data science",
+        "pytorch",
+        "image classification",
+        "kubeflow",
+        "statistical modeling"
+      ],
+      "industry": "Gaming"
+    },
+    "scores": {
+      "technical_skill_match": 0.8,
+      "career_trajectory": 7.1,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 8.0,
+      "cultural_fit": 5.3,
+      "bonus_signals": 4.2
+    },
+    "composite_score": 43.6,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (llms). Missing: a/b testing, computer vision, embeddings.... Below required experience: 5.0 years experience (senior software engineer (ml) at Dream11), needs 9+. Actively open to new opportunities. Highly responsive to recruiters (71%). India-based (Kochi, Kerala) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0000422": {
+    "candidate_id": "CAND_0000422",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Haptik",
+      "years": 6.3,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "mlflow",
+        "python",
+        "photoshop",
+        "milvus",
+        "java",
+        "opencv",
+        "learning to rank",
+        "opensearch",
+        "cnn",
+        "yolo",
+        "reinforcement learning"
+      ],
+      "industry": "Conversational AI"
+    },
+    "scores": {
+      "technical_skill_match": 0.8,
+      "career_trajectory": 6.1,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 9.7,
+      "cultural_fit": 5.8,
+      "bonus_signals": 4.8
+    },
+    "composite_score": 44.95,
+    "recommendation": "no",
+    "reasoning": "Matches 1/13 required skills (python). Missing: a/b testing, computer vision, embeddings.... Below required experience: 6.3 years experience (ai research engineer at Haptik), needs 9+. Actively open to new opportunities. Highly responsive to recruiters (79%). India-based (Kolkata, West Bengal) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0058300": {
+    "candidate_id": "CAND_0058300",
+    "profile": {
+      "title": "AI Research Engineer",
+      "company": "Wipro",
+      "years": 4.5,
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "skills": [
+        "mlflow",
+        "python",
+        "powerpoint",
+        "scikit-learn",
+        "docker",
+        "mongodb",
+        "time series",
+        "computer vision",
+        "tts",
+        "bentoml",
+        "reinforcement learning",
+        "vector search",
+        "machine learning",
+        "asr",
+        "haystack",
+        "opensearch",
+        "kubernetes",
+        "kubeflow"
+      ],
+      "industry": "IT Services"
+    },
+    "scores": {
+      "technical_skill_match": 1.6,
+      "career_trajectory": 4.5,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 7.5,
+      "cultural_fit": 7.2,
+      "bonus_signals": 3.5
+    },
+    "composite_score": 21.6,
+    "recommendation": "no",
+    "reasoning": "Matches 2/13 required skills (python, computer vision). Missing: a/b testing, embeddings, fine-tuning.... Below required experience: 4.5 years experience (ai research engineer at Wipro), needs 9+. Actively open to new opportunities. India-based (Kolkata, West Bengal) \u2014 relocation may be needed. NOTE: Currently at Wipro \u2014 JD flags consulting-only backgrounds.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  },
+  "CAND_0092468": {
+    "candidate_id": "CAND_0092468",
+    "profile": {
+      "title": "Senior Software Engineer (ML)",
+      "company": "InMobi",
+      "years": 4.9,
+      "headline": "Senior Software Engineer (ML) | 4.9 yrs in analytics & ML",
+      "skills": [
+        "gans",
+        "illustrator",
+        "pgvector",
+        "marketing",
+        "apache flink",
+        "information retrieval",
+        "lora",
+        "gcp",
+        "prompt engineering",
+        "bentoml",
+        "scikit-learn",
+        "weights & biases",
+        "recommendation systems",
+        "learning to rank",
+        "yolo",
+        "cnn",
+        "speech recognition",
+        "qlora"
+      ],
+      "industry": "AdTech"
+    },
+    "scores": {
+      "technical_skill_match": 0.2,
+      "career_trajectory": 7.0,
+      "domain_relevance": 3.8,
+      "behavioral_engagement": 7.7,
+      "cultural_fit": 3.1,
+      "bonus_signals": 2.7
+    },
+    "composite_score": 18.2,
+    "recommendation": "no",
+    "reasoning": "No direct skill overlap with required skills (a/b testing, computer vision, embeddings). Missing: a/b testing, computer vision, embeddings.... Below required experience: 4.9 years experience (senior software engineer (ml) at InMobi), needs 9+. Long notice period (120 days) may slow hiring. India-based (Kolkata, West Bengal) \u2014 relocation may be needed.",
+    "weights_used": {
+      "technical_skill_match": 0.3,
+      "career_trajectory": 0.2,
+      "domain_relevance": 0.2,
+      "behavioral_engagement": 0.15,
+      "cultural_fit": 0.1,
+      "bonus_signals": 0.05
+    }
+  }
+}
