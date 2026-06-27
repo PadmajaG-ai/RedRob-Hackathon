@@ -23,6 +23,12 @@ Label separation from features:
   - recruiter_response_rate + saved_30d + search_30d + github_score → FEATURES (early-funnel)
   No data leakage: features precede the label in the hiring funnel.
 
+Eval integrity (--test-split):
+  A strict ID-based holdout is carved out BEFORE any feature extraction.
+  Test candidates are never seen during training — their labels are used only
+  for the final Spearman ρ report. This prevents the memorisation issue where
+  the eval shortlist overlaps with the training pool.
+
 Usage:
   python train_ltr_model.py --jd job_description.txt --output ltr_model.pkl
   python generate_submission.py --ltr-model ltr_model.pkl
@@ -166,12 +172,16 @@ def train(
     output_path: str,
     retrieval_df: pd.DataFrame = None,
     use_ranker: bool = True,
+    test_split: float = 0.20,
+    seed: int = 42,
 ) -> dict:
     """
     Train CatBoost model for candidate ranking.
 
-    use_ranker=True  → CatBoostRanker with YetiRank (optimises NDCG directly)
-    use_ranker=False → CatBoostRegressor with RMSE (legacy, faster)
+    test_split: fraction held out as strict test set (never seen during training).
+                IDs are split BEFORE feature extraction to prevent any leakage.
+    use_ranker: True  → CatBoostRanker with YetiRank (optimises NDCG directly)
+                False → CatBoostRegressor with RMSE (legacy, faster)
     """
     try:
         from catboost import CatBoostRanker, CatBoostRegressor
@@ -185,24 +195,53 @@ def train(
     print(f"JD skills: {jd_req['skills'][:8]}")
     print(f"Required years: {jd_req['required_years']}")
 
-    if retrieval_df is not None:
-        print(f"Retrieval scores included as features ({len(retrieval_df)} candidates in pool).")
+    # ── Strict ID-based split BEFORE any feature extraction ──────────────────
+    n_total = len(candidates_df)
+    n_test  = max(500, int(n_total * test_split))
+    n_train = n_total - n_test
 
-    X, y = build_dataset(candidates_df, jd_req, retrieval_df=retrieval_df)
+    rng          = np.random.default_rng(seed)
+    shuffled_pos = rng.permutation(n_total)
+    train_pos    = set(shuffled_pos[:n_train].tolist())
 
-    print(f"\nDataset: {X.shape[0]:,} candidates × {X.shape[1]} features")
-    print(f"Label stats — mean: {y.mean():.4f}  std: {y.std():.4f}  "
-          f"min: {y.min():.4f}  max: {y.max():.4f}")
-    print(f"Candidates with label > 0.5: {(y > 0.5).sum():,} "
-          f"({100*(y > 0.5).mean():.1f}%)")
+    train_df = candidates_df.iloc[list(train_pos)].reset_index(drop=True)
+    test_df  = candidates_df.drop(index=list(train_pos)).reset_index(drop=True)
 
-    train_pool_ref = None  # kept for feature importance (ranker mode needs it)
+    id_col = 'candidate_id' if 'candidate_id' in candidates_df.columns else None
+    test_ids = list(test_df[id_col]) if id_col else []
+
+    print(f"\n{'='*60}")
+    print(f"STRICT TRAIN/TEST SPLIT  (seed={seed})")
+    print(f"  Train : {len(train_df):,} candidates  ({100*(1-test_split):.0f}%)")
+    print(f"  Test  : {len(test_df):,} candidates  ({100*test_split:.0f}%) — NEVER seen during training")
+    print(f"{'='*60}\n")
+
+    # Restrict retrieval features to train candidates so test labels can't leak
+    train_retrieval = None
+    if retrieval_df is not None and id_col:
+        train_ids_set   = set(train_df[id_col].tolist())
+        train_retrieval = retrieval_df[retrieval_df[id_col].isin(train_ids_set)].reset_index(drop=True)
+        print(f"Retrieval pool restricted to {len(train_retrieval):,} train candidates "
+              f"(full pool was {len(retrieval_df):,}).")
+    elif retrieval_df is not None:
+        train_retrieval = retrieval_df
+
+    # ── Feature extraction (train only) ──────────────────────────────────────
+    X_train, y_train = build_dataset(train_df, jd_req, retrieval_df=train_retrieval)
+
+    print(f"\nTrain dataset : {X_train.shape[0]:,} candidates × {X_train.shape[1]} features")
+    print(f"Label stats   — mean: {y_train.mean():.4f}  std: {y_train.std():.4f}  "
+          f"min: {y_train.min():.4f}  max: {y_train.max():.4f}")
+    print(f"Candidates with label > 0.5: {(y_train > 0.5).sum():,} "
+          f"({100*(y_train > 0.5).mean():.1f}%)")
+
+    train_pool_ref = None
 
     if use_ranker:
         print("\nMode: YetiRank (directly optimises NDCG) — building pseudo-groups...")
-        train_pool, val_pool, X_val, y_val = _make_ranking_pools(X, y)
+        train_pool, val_pool, X_val, y_val = _make_ranking_pools(X_train, y_train, seed=seed)
         train_pool_ref = train_pool
-        print(f"  {50} train groups × ~2000 candidates, {len(X_val):,} val candidates")
+        print(f"  50 train groups × ~2000 candidates, {len(X_val):,} internal val candidates")
 
         model = CatBoostRanker(
             iterations=500,
@@ -214,15 +253,15 @@ def train(
             loss_function='YetiRank',
             eval_metric='NDCG',
             early_stopping_rounds=30,
-            random_seed=42,
+            random_seed=seed,
             verbose=50,
         )
         model.fit(train_pool, eval_set=val_pool, use_best_model=True)
 
     else:
         print("\nMode: Regression (RMSE) — legacy mode")
-        X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.1, random_state=42)
-        print(f"Train: {len(X_train):,}  Val: {len(X_val):,}")
+        X_tr, X_val, y_tr, y_val = train_test_split(X_train, y_train, test_size=0.1, random_state=seed)
+        print(f"Internal split — Train: {len(X_tr):,}  Val: {len(X_val):,}")
 
         model = CatBoostRegressor(
             iterations=500,
@@ -233,21 +272,41 @@ def train(
             colsample_bylevel=0.8,
             early_stopping_rounds=30,
             eval_metric='RMSE',
-            random_seed=42,
+            random_seed=seed,
             verbose=50,
         )
-        model.fit(X_train, y_train, eval_set=(X_val, y_val), use_best_model=True)
+        model.fit(X_tr, y_tr, eval_set=(X_val, y_val), use_best_model=True)
 
+    # Internal validation metrics
     val_pred = model.predict(X_val)
-    rmse     = np.sqrt(np.mean((val_pred - y_val) ** 2))
-    rho, _   = spearmanr(y_val, val_pred)
-    print(f"\nVal RMSE:            {rmse:.4f}")
-    print(f"Val Spearman ρ:      {rho:.4f}  (>0.3 = useful signal)")
+    val_rmse = np.sqrt(np.mean((val_pred - y_val) ** 2))
+    val_rho, _ = spearmanr(y_val, val_pred)
+    print(f"\nInternal val RMSE       : {val_rmse:.4f}")
+    print(f"Internal val Spearman ρ : {val_rho:.4f}  (within training distribution — optimistic)")
 
-    # CatBoostRanker requires train_pool for feature importance; regressor does not
+    # ── Strict held-out test evaluation ──────────────────────────────────────
+    print(f"\n{'='*60}")
+    print(f"STRICT HELD-OUT TEST  ({len(test_df):,} never-seen candidates)")
+    print(f"{'='*60}")
+    # At inference time all candidates get retrieval features if available,
+    # so pass the full retrieval_df here to simulate real inference conditions.
+    X_test, y_test = build_dataset(test_df, jd_req, retrieval_df=retrieval_df)
+    test_pred = model.predict(X_test)
+    test_rmse = np.sqrt(np.mean((test_pred - y_test) ** 2))
+    test_rho, _ = spearmanr(y_test, test_pred)
+    print(f"Held-out test RMSE      : {test_rmse:.4f}")
+    print(f"Held-out test Spearman ρ: {test_rho:.4f}  <-- honest unbiased benchmark (report this)")
+
+    delta = test_rho - val_rho
+    if delta < -0.10:
+        print(f"\nWARNING: large val→test gap ({delta:+.4f}) — possible overfitting or distribution shift.")
+    else:
+        print(f"Train→test gap          : {delta:+.4f}  (within acceptable range)")
+
+    # Feature importance
     fi_kwargs = {'data': train_pool_ref} if train_pool_ref is not None else {}
     importance = pd.DataFrame({
-        'feature':    X.columns,
+        'feature':    X_train.columns,
         'importance': model.get_feature_importance(**fi_kwargs),
     }).sort_values('importance', ascending=False)
     print("\nTop feature importances (learned weights):")
@@ -255,31 +314,41 @@ def train(
         print(f"  {row['feature']:<30}  {row['importance']:.2f}")
 
     artifact = {
-        'model':         model,
-        'feature_names': list(X.columns),
-        'jd_req':        jd_req,
-        'val_rmse':      float(rmse),
-        'val_spearman':  float(rho),
-        'mode':          'yetirank' if use_ranker else 'regression',
+        'model':              model,
+        'feature_names':      list(X_train.columns),
+        'jd_req':             jd_req,
+        'val_rmse':           float(val_rmse),
+        'val_spearman':       float(val_rho),
+        'test_rmse':          float(test_rmse),
+        'test_spearman':      float(test_rho),
+        'test_split':         test_split,
+        'test_candidate_ids': test_ids,
+        'mode':               'yetirank' if use_ranker else 'regression',
     }
     with open(output_path, 'wb') as f_out:
         pickle.dump(artifact, f_out)
 
     print(f"\n✓ Model saved to {output_path}")
-    print(f"  Spearman ρ = {rho:.4f}  mode={'YetiRank' if use_ranker else 'RMSE'}")
+    print(f"  Internal val Spearman ρ  = {val_rho:.4f}")
+    print(f"  Held-out test Spearman ρ = {test_rho:.4f}  <-- report this")
+    print(f"  Mode: {'YetiRank' if use_ranker else 'RMSE'}")
     return artifact
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Train CatBoost LTR model for candidate ranking')
     parser.add_argument('--jd',           default='job_description.txt', help='JD text file')
-    parser.add_argument('--output',       default='ltr_model.pkl',       help='Output model pickle')
+    parser.add_argument('--output',       default='ltr_model_retrained.pkl', help='Output model pickle')
     parser.add_argument('--no-retrieval', action='store_true',
                         help='Skip Stage 1 retrieval (faster, but no BM25/dense/RRF features)')
-    parser.add_argument('--full-corpus', action='store_true',
+    parser.add_argument('--full-corpus',  action='store_true',
                         help='Use full-corpus dense retrieval (no BM25) for cleaner LTR features')
-    parser.add_argument('--no-ranker', action='store_true',
+    parser.add_argument('--no-ranker',    action='store_true',
                         help='Use regression (RMSE) instead of YetiRank (legacy mode)')
+    parser.add_argument('--test-split',   type=float, default=0.20,
+                        help='Fraction of candidates held out as strict test set (default 0.20)')
+    parser.add_argument('--seed',         type=int,   default=42,
+                        help='Random seed for reproducible splits (default 42)')
     args = parser.parse_args()
 
     jd_text = Path(args.jd).read_text()
@@ -294,7 +363,6 @@ if __name__ == '__main__':
             print("\nRunning full-corpus dense retrieval (no BM25, all 100K candidates)...")
             from generate_submission import stage1_dense_fullcorpus
             retrieval_df = stage1_dense_fullcorpus(jd_text, candidates)
-            # Remove bm25/rrf columns — they don't exist in full-corpus mode
             retrieval_df['bm25_score'] = 0.0
             retrieval_df['rrf_score']  = 0.0
         else:
@@ -303,5 +371,10 @@ if __name__ == '__main__':
             retrieval_df = stage1_hybrid_retrieval(jd_text, candidates, fetch_per_system=500)
         print(f"Retrieval pool: {len(retrieval_df):,} candidates with retrieval scores.\n")
 
-    train(jd_text, candidates, args.output, retrieval_df=retrieval_df,
-          use_ranker=not args.no_ranker)
+    train(
+        jd_text, candidates, args.output,
+        retrieval_df=retrieval_df,
+        use_ranker=not args.no_ranker,
+        test_split=args.test_split,
+        seed=args.seed,
+    )
