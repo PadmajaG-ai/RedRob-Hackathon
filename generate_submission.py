@@ -559,48 +559,108 @@ def stage2c_rerank(
 # Stage 3: Final ranking + submission
 # ──────────────────────────────────────────────────────────────
 
+def _template_reasoning(row) -> str:
+    """
+    Natural-language reasoning from dimension scores for candidates without LLM reasoning.
+    Ensures every rank position has readable explainability, not just the top 15.
+    """
+    tech   = row.get('technical_skill_match', 0)
+    traj   = row.get('career_trajectory', 0)
+    domain = row.get('domain_relevance', 0)
+    engage = row.get('behavioral_engagement', 0)
+    fit    = row.get('cultural_fit', 0)
+    bonus  = row.get('bonus_signals', 0)
+
+    if tech >= 7:
+        tech_str = f"strong technical skill coverage ({tech:.1f}/10) across the core retrieval and ML stack"
+    elif tech >= 5:
+        tech_str = f"moderate technical fit ({tech:.1f}/10) with some skill gaps"
+    elif tech >= 3:
+        tech_str = f"partial technical overlap ({tech:.1f}/10); missing several core required skills"
+    else:
+        tech_str = f"limited technical skill match ({tech:.1f}/10)"
+
+    if traj >= 9:
+        traj_str = f"excellent career trajectory ({traj:.1f}/10)"
+    elif traj >= 7:
+        traj_str = f"strong seniority progression ({traj:.1f}/10)"
+    elif traj >= 5:
+        traj_str = f"adequate experience level ({traj:.1f}/10)"
+    else:
+        traj_str = f"limited seniority signals ({traj:.1f}/10)"
+
+    extras = []
+    if domain >= 7:
+        extras.append(f"high domain relevance ({domain:.1f}/10)")
+    elif domain >= 5:
+        extras.append(f"moderate domain fit ({domain:.1f}/10)")
+    if engage >= 7:
+        extras.append(f"actively recruiter-responsive ({engage:.1f}/10)")
+    elif engage < 4:
+        extras.append(f"low engagement signals ({engage:.1f}/10)")
+    if fit >= 7:
+        extras.append(f"good availability fit ({fit:.1f}/10)")
+    if bonus >= 7:
+        extras.append(f"strong open-source/market signals ({bonus:.1f}/10)")
+
+    parts = [tech_str, traj_str] + extras
+    sentence = parts[0] + '; ' + '; '.join(parts[1:]) + '.'
+    return sentence[0].upper() + sentence[1:]
+
+
 def stage3_submit(scored_df: pd.DataFrame, output_path: str):
-    """Normalize scores, enforce monotone, write submission CSV."""
+    """Normalize scores, fill reasoning gaps, enforce monotone, write submission CSV."""
+    import math as _math
     print(f"[{elapsed()}] Stage 3: Finalizing submission...")
 
     df = scored_df.copy()
-
-    # Normalize composite to [0, 1]
-    mn, mx = df['composite_score'].min(), df['composite_score'].max()
-    if mx > mn:
-        df['score'] = (df['composite_score'] - mn) / (mx - mn)
-    else:
-        df['score'] = 0.5
-
-    df = df.sort_values(['score', 'candidate_id'], ascending=[False, True]).reset_index(drop=True)
+    df = df.sort_values('composite_score', ascending=False).reset_index(drop=True)
     df['rank'] = range(1, len(df) + 1)
 
-    # Enforce monotone non-increasing score (spec requirement)
-    scores = df['score'].values.copy()
-    for i in range(1, len(scores)):
-        if scores[i] > scores[i - 1]:
-            scores[i] = scores[i - 1]
-    df['score'] = np.round(scores, 6)
+    # Rank-based smooth score: exponential decay gives meaningful separation
+    # across the full top-100 (rank 1=1.0, rank 50≈0.30, rank 100≈0.09).
+    # Min-max normalization was compressing 79 candidates below 0.5.
+    n = len(df)
+    lam = -_math.log(0.30) / 49  # calibrated so rank-50 ≈ 0.30
+    df['score'] = [round(_math.exp(-lam * i), 6) for i in range(n)]
 
     dim_cols = [c for c in ['technical_skill_match', 'career_trajectory', 'domain_relevance',
                              'behavioral_engagement', 'cultural_fit', 'bonus_signals'] if c in df.columns]
+
+    # Fill in template reasoning for any candidate without LLM-generated text
+    # (typically ranks 16–100). Every rank now has human-readable explainability.
+    if dim_cols:
+        def _fill_reasoning(row):
+            existing = str(row.get('reasoning') or '').strip()
+            # LLM reasoning starts with '[Tech:' prefix or is a real sentence
+            if existing and not existing.startswith('[') and len(existing) > 40:
+                return existing  # already has LLM reasoning
+            template = _template_reasoning(row)
+            if existing.startswith('['):
+                # keep dimension prefix, replace generic tail with template
+                prefix = existing[:existing.index(']') + 1] if ']' in existing else ''
+                return (prefix + ' ' + template).strip()
+            return template
+
+        df['reasoning'] = df.apply(_fill_reasoning, axis=1)
+
     submission = df[['candidate_id', 'rank', 'score'] + dim_cols + ['reasoning']].copy()
 
-    # Prepend dimension score summary to reasoning so judges see the breakdown inline
+    # Prepend dimension score summary so judges see the breakdown inline
     if dim_cols:
+        abbrev = {
+            'technical_skill_match': 'Tech',
+            'career_trajectory':     'Traj',
+            'domain_relevance':      'Domain',
+            'behavioral_engagement': 'Engage',
+            'cultural_fit':          'Fit',
+            'bonus_signals':         'Bonus',
+        }
         def _dim_prefix(row):
-            abbrev = {
-                'technical_skill_match': 'Tech',
-                'career_trajectory':     'Traj',
-                'domain_relevance':      'Domain',
-                'behavioral_engagement': 'Engage',
-                'cultural_fit':          'Fit',
-                'bonus_signals':         'Bonus',
-            }
             parts = [f"{abbrev.get(c, c)}:{row[c]:.1f}/10" for c in dim_cols]
             return '[' + ' | '.join(parts) + '] ' + str(row.get('reasoning', ''))
 
-        submission['reasoning'] = submission.apply(_dim_prefix, axis=1).str.slice(0, 900)
+        submission['reasoning'] = submission.apply(_dim_prefix, axis=1).str.slice(0, 950)
     else:
         submission['reasoning'] = submission['reasoning'].str.slice(0, 650)
 

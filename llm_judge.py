@@ -18,6 +18,7 @@ Final score = weighted sum (weights configurable per role type).
 """
 
 import json
+import math
 import re
 import argparse
 import numpy as np
@@ -72,27 +73,111 @@ SKILL_SYNONYMS = {
     'machine learning':     ['ml'],
     'deep learning':        ['dl', 'neural network', 'neural networks'],
     'nlp':                  ['natural language processing', 'text processing', 'computational linguistics'],
-    'llm':                  ['large language model', 'llms', 'language model', 'gpt'],
-    'llms':                 ['llm', 'large language model', 'language model'],
-    'transformers':         ['bert', 'gpt', 'transformer', 'attention mechanism'],
-    'embeddings':           ['embedding', 'vector embedding', 'dense vector', 'text embedding'],
-    'retrieval':            ['information retrieval', 'ir', 'document retrieval'],
-    'rag':                  ['retrieval augmented generation', 'retrieval-augmented generation'],
-    'fine-tuning':          ['finetuning', 'fine tuning', 'model adaptation', 'model training'],
-    'lora':                 ['low-rank adaptation', 'adapter tuning', 'lora fine-tuning'],
-    'qlora':                ['quantized lora', 'quantized fine-tuning'],
-    'vector search':        ['vector database', 'vector store', 'ann', 'similarity search', 'approximate nearest neighbor'],
-    'elasticsearch':        ['elastic', 'elastic search'],
-    'faiss':                ['vector index', 'facebook ai similarity search'],
-    'learning to rank':     ['ltr', 'ranknet', 'lambdamart', 'listwise ranking'],
-    'reranking':            ['reranker', 're-ranking', 'cross-encoder', 'neural reranking'],
-    'hybrid search':        ['hybrid retrieval', 'dense sparse fusion', 'bm25 fusion'],
-    'semantic search':      ['dense retrieval', 'neural search', 'embedding search'],
-    'ndcg':                 ['normalized discounted cumulative gain', 'ranking metric'],
-    'mrr':                  ['mean reciprocal rank', 'ranking evaluation'],
-    'mlops':                ['ml ops', 'ml infrastructure', 'model serving', 'model deployment'],
-    'rest api':             ['api', 'restful', 'web api', 'http api'],
+    'llm':                  ['large language model', 'llms', 'language model', 'gpt', 'chatgpt', 'claude', 'llama'],
+    'llms':                 ['llm', 'large language model', 'language model', 'gpt', 'llama'],
+    'transformers':         ['bert', 'gpt', 'transformer', 'attention mechanism', 'huggingface', 'hugging face'],
+    'embeddings':           ['embedding', 'vector embedding', 'dense vector', 'text embedding',
+                             'sentence embedding', 'semantic embedding', 'sentence-transformers', 'sbert'],
+    'retrieval':            ['information retrieval', 'ir', 'document retrieval', 'vector retrieval'],
+    'rag':                  ['retrieval augmented generation', 'retrieval-augmented generation',
+                             'retrieval augmented', 'document qa', 'knowledge retrieval'],
+    'fine-tuning':          ['finetuning', 'fine tuning', 'model adaptation', 'model training',
+                             'instruction tuning', 'supervised fine', 'sft'],
+    'lora':                 ['low-rank adaptation', 'adapter tuning', 'lora fine-tuning', 'qlora'],
+    'peft':                 ['parameter efficient', 'adapter', 'prompt tuning', 'prefix tuning', 'lora', 'qlora'],
+    'qlora':                ['quantized lora', 'quantized fine-tuning', 'lora', 'peft'],
+    'bge':                  ['baai', 'bge-m3', 'bge-reranker', 'bge-large', 'bge-small',
+                             'sentence-transformers', 'sbert', 'bi-encoder'],
+    'e5':                   ['intfloat', 'e5-large', 'e5-base', 'multilingual-e5',
+                             'sentence-transformers', 'text-embedding'],
+    'vector search':        ['vector database', 'vector store', 'ann', 'similarity search',
+                             'approximate nearest neighbor', 'knn search', 'dense retrieval',
+                             'qdrant', 'weaviate', 'chroma', 'chromadb', 'pgvector'],
+    'embeddings':           ['embedding', 'vector embedding', 'dense vector', 'text embedding',
+                             'sentence embedding', 'semantic embedding', 'sentence-transformers', 'sbert',
+                             'qdrant', 'weaviate', 'chroma', 'chromadb', 'pgvector'],
+    'rag':                  ['retrieval augmented generation', 'retrieval-augmented generation',
+                             'retrieval augmented', 'document qa', 'knowledge retrieval',
+                             'llamaindex', 'llama-index', 'langchain', 'haystack'],
+    'elasticsearch':        ['elastic', 'elastic search', 'opensearch', 'solr'],
+    'opensearch':           ['elasticsearch', 'elastic search', 'opensearch service'],
+    'faiss':                ['vector index', 'facebook ai similarity search', 'ann index', 'hnsw',
+                             'qdrant', 'weaviate', 'pgvector'],
+    'pinecone':             ['vector database', 'managed vector', 'pinecone index',
+                             'qdrant', 'weaviate', 'chroma'],
+    'milvus':               ['vector database', 'zilliz', 'milvus lite',
+                             'qdrant', 'weaviate', 'chroma'],
+    'lora':                 ['low-rank adaptation', 'adapter tuning', 'lora fine-tuning', 'qlora',
+                             'fine-tuning', 'finetuning', 'peft'],
+    'peft':                 ['parameter efficient', 'adapter', 'prompt tuning', 'prefix tuning',
+                             'lora', 'qlora', 'fine-tuning', 'finetuning'],
+    'hybrid search':        ['hybrid retrieval', 'dense sparse fusion', 'bm25 fusion',
+                             'bm25', 'sparse dense', 'rrf', 'reciprocal rank fusion',
+                             'lexical semantic', 'keyword semantic'],
+    'a/b testing':          ['ab testing', 'a/b test', 'split testing', 'experimentation',
+                             'online evaluation', 'experiment design', 'controlled experiment'],
+    'ndcg':                 ['normalized discounted cumulative gain', 'ranking metric',
+                             'ranking evaluation', 'ir metric', 'search metric'],
+    'mrr':                  ['mean reciprocal rank', 'ranking evaluation', 'ir metric'],
+    'learning to rank':     ['ltr', 'ranknet', 'lambdamart', 'listwise ranking', 'lambdarank'],
+    'reranking':            ['reranker', 're-ranking', 'cross-encoder', 'neural reranking',
+                             'bge-reranker', 'colbert', 'pointwise reranking'],
+    'semantic search':      ['dense retrieval', 'neural search', 'embedding search', 'vector search'],
+    'mlops':                ['ml ops', 'ml infrastructure', 'model serving', 'model deployment',
+                             'model monitoring', 'kubeflow', 'mlflow'],
+    'rest api':             ['api', 'restful', 'web api', 'http api', 'fastapi', 'flask'],
     'microservices':        ['microservice', 'distributed systems', 'service oriented'],
+}
+
+# Competency categories for weighted skill scoring.
+# Each required skill is assigned to a category; coverage is scored per-category
+# so that matching 3/4 vector-DB skills gives 75% of that category's weight
+# instead of the misleading 3/20 = 15% from raw counting.
+SKILL_CATEGORIES = {
+    'vector_store': {
+        'weight': 2.0,
+        'skills': {
+            'faiss', 'pinecone', 'milvus', 'opensearch', 'elasticsearch',
+            'qdrant', 'weaviate', 'pgvector', 'chroma', 'chromadb', 'redis',
+        },
+    },
+    'retrieval_rag': {
+        'weight': 2.0,
+        'skills': {
+            'embeddings', 'retrieval', 'vector search', 'hybrid search',
+            'semantic search', 'rag', 'dense retrieval',
+        },
+    },
+    'model_adaptation': {
+        'weight': 2.0,
+        'skills': {
+            'fine-tuning', 'lora', 'peft', 'qlora',
+        },
+    },
+    'llm_nlp': {
+        'weight': 1.5,
+        'skills': {
+            'llm', 'llms', 'nlp', 'transformers',
+        },
+    },
+    'evaluation': {
+        'weight': 1.0,
+        'skills': {
+            'ndcg', 'mrr', 'a/b testing', 'learning to rank',
+        },
+    },
+    'specific_models': {
+        'weight': 0.5,
+        'skills': {
+            'bge', 'e5', 'sentence-transformers',
+        },
+    },
+    'general': {
+        'weight': 1.0,
+        'skills': {
+            'python', 'java', 'go', 'rust', 'scala', 'sql',
+        },
+    },
 }
 
 
@@ -340,33 +425,97 @@ def ltr_score(
 # Heuristic judge
 # ──────────────────────────────────────────────
 
+def _skill_match_single(req: str, skills_list: list, cskills: set, context: str) -> bool:
+    """Return True if the candidate covers a single required skill via any match strategy."""
+    req_l = req.lower()
+    aliases = SKILL_SYNONYMS.get(req_l, [])
+    # 1. Exact match in skills list
+    if req_l in cskills:
+        return True
+    # 2. Substring: req contained inside a multi-word candidate skill ("fine-tuning llms")
+    if any(req_l in cs for cs in skills_list):
+        return True
+    # 3. Synonym in skills list or as substring
+    if any(a in cskills or any(a in cs for cs in skills_list) for a in aliases):
+        return True
+    # 4. Req or synonym found in summary/headline text
+    if req_l in context or any(a in context for a in aliases):
+        return True
+    # 5. Reverse lookup: req_l is itself an alias of a canonical skill the candidate has
+    for canon, canon_aliases in SKILL_SYNONYMS.items():
+        if req_l in canon_aliases:
+            if canon in cskills or any(a in cskills or any(a in cs for cs in skills_list) for a in canon_aliases):
+                return True
+            if canon in context or any(a in context for a in canon_aliases):
+                return True
+    return False
+
+
+def category_skill_score(
+    candidate_skills,
+    required_skills: list,
+    summary_text: str = '',
+    headline_text: str = '',
+) -> tuple[float, list, list]:
+    """
+    Category-weighted technical skill score (0–10).
+
+    Groups required skills into competency categories (vector stores, retrieval/RAG,
+    model adaptation, LLM/NLP, evaluation, specific models, general).  Coverage is
+    computed per-category so a candidate matching 4/5 vector-DB skills gets 80% of
+    that category's weight — not the misleading 4/20 = 20% from raw counting.
+
+    Returns (score, matched_skills, missing_skills).
+    """
+    skills_list = [str(s).lower() for s in (candidate_skills or [])]
+    cskills = set(skills_list)
+    context = (str(summary_text or '') + ' ' + str(headline_text or '')).lower()
+
+    matched, missing = [], []
+    for req in required_skills:
+        if _skill_match_single(req, skills_list, cskills, context):
+            matched.append(req)
+        else:
+            missing.append(req)
+
+    # Assign each required skill to its category (fallback: 'general')
+    cat_total:   dict[str, int]   = {k: 0 for k in SKILL_CATEGORIES}
+    cat_matched: dict[str, int]   = {k: 0 for k in SKILL_CATEGORIES}
+    for req in required_skills:
+        req_l = req.lower()
+        assigned = 'general'
+        for cat_name, cat_info in SKILL_CATEGORIES.items():
+            if req_l in cat_info['skills']:
+                assigned = cat_name
+                break
+        cat_total[assigned]   += 1
+        if req in matched:
+            cat_matched[assigned] += 1
+
+    # Weighted sum: only include categories that have ≥1 required skill
+    total_weight  = 0.0
+    weighted_sum  = 0.0
+    for cat_name, cat_info in SKILL_CATEGORIES.items():
+        if cat_total[cat_name] > 0:
+            coverage      = cat_matched[cat_name] / cat_total[cat_name]
+            weighted_sum += coverage * cat_info['weight']
+            total_weight += cat_info['weight']
+
+    score = (weighted_sum / total_weight * 10.0) if total_weight > 0 else 0.0
+    return round(min(score, 10.0), 1), matched, missing
+
+
 def _skill_overlap(candidate_skills, required_skills) -> float:
-    """
-    Fraction of required skills covered by candidate, with synonym expansion.
-    For each required skill, a match counts if the candidate has it directly
-    or has any known synonym/alias of it.
-    """
+    """Legacy wrapper kept for LTR feature extraction compatibility."""
+    skills_list = [str(s).lower() for s in (candidate_skills or [])]
+    cskills = set(skills_list)
     if not required_skills:
         return 0.5
-    cskills = set(s.lower() for s in (candidate_skills or []))
-    rskills = [s.lower() for s in required_skills]
-    if not rskills:
-        return 0.5
-    matched = 0
-    for req in rskills:
-        if req in cskills:
-            matched += 1
-            continue
-        # Required skill is a canonical key — check if candidate has any of its aliases
-        if any(alias in cskills for alias in SKILL_SYNONYMS.get(req, [])):
-            matched += 1
-            continue
-        # Required skill might itself be an alias — check if candidate has the canonical
-        for canonical, aliases in SKILL_SYNONYMS.items():
-            if req in aliases and (canonical in cskills or any(a in cskills for a in aliases)):
-                matched += 1
-                break
-    return matched / len(rskills)
+    matched = sum(
+        1 for req in required_skills
+        if _skill_match_single(req, skills_list, cskills, '')
+    )
+    return matched / len(required_skills)
 
 
 def heuristic_score(candidate: dict, jd_req: dict) -> tuple[DimensionScores, str]:
@@ -399,11 +548,21 @@ def heuristic_score(candidate: dict, jd_req: dict) -> tuple[DimensionScores, str
     open_to_work = bool(f['open_to_work'])
     prod_count   = round(f['prod_evidence'] * 5)   # un-normalise for title_align logic
 
-    # 1. Technical skill match (0-10)
-    retrieval_bonus = f['retrieval_kw_count'] * 10 * 0.08
-    skill_score = round(min(f['skill_overlap'] * 9 + retrieval_bonus, 10), 1)
+    # 1. Technical skill match — category-weighted, not raw count/N
+    skills_raw = candidate.get('skills') or []
+    if isinstance(skills_raw, str):
+        try:
+            skills_raw = json.loads(skills_raw.replace("'", '"'))
+        except Exception:
+            skills_raw = [s.strip() for s in skills_raw.split(',')]
+    summary_text  = str(candidate.get('summary')  or '')
+    headline_text = str(candidate.get('headline') or '')
+    skill_score, _matched_skills, _missing_skills = category_skill_score(
+        skills_raw, required_skills, summary_text, headline_text,
+    )
 
-    # 2. Career trajectory (0-10)
+    # 2. Career trajectory — diminishing returns above 8.0 so the 8–10 band
+    # discriminates instead of crowning every senior candidate with 10.0
     if is_rejected and prod_count == 0:
         title_align = 0.15
     elif is_rejected:
@@ -413,24 +572,28 @@ def heuristic_score(candidate: dict, jd_req: dict) -> tuple[DimensionScores, str
     else:
         title_align = 1.0
 
-    prod_multiplier  = 1.0 + f['prod_evidence'] * 0.5
-    seniority_bonus  = 1.0 if f['is_senior'] else 0.5
-    product_boost    = 0.5 if not f['is_consulting'] else 0.0
-    traj_score = round(min(
-        (f['years_ratio'] * 4.0 + seniority_bonus * 2.5 + product_boost) * title_align * prod_multiplier, 10
-    ), 1)
+    prod_multiplier = 1.0 + f['prod_evidence'] * 0.5
+    seniority_bonus = 1.0 if f['is_senior'] else 0.5
+    product_boost   = 0.5 if not f['is_consulting'] else 0.0
+    raw_traj = (f['years_ratio'] * 4.0 + seniority_bonus * 2.5 + product_boost) * title_align * prod_multiplier
+    # Compress scores above 8.0: sqrt of excess keeps differentiation without
+    # capping — a raw 10.0 still reaches 10.0, but 8.5 → ~9.0, 9.0 → ~9.4
+    if raw_traj > 8.0:
+        raw_traj = 8.0 + math.sqrt(raw_traj - 8.0) * 1.41
+    traj_score = round(min(raw_traj, 10), 1)
 
     # 3. Domain relevance (0-10)
     ind_mult    = 1.0 if f['industry_match'] else 0.4
     prod_domain = 1.0 if f['is_product_company'] else 0.0
     domain_score = round(min(ind_mult * 6 + prod_domain * 2 + f['location_score'] * 2, 10), 1)
 
-    # 4. Behavioral engagement (0-10)
+    # 4. Behavioral engagement — interview_completion_rate removed: it is an
+    # outcome label that penalises selective senior candidates who attend fewer
+    # interviews by choice, producing the −0.13 anti-correlation.
     resp_norm    = min(f['response_rate'] / 0.8, 1.0)
-    int_norm     = min(interview_rate / 0.7, 1.0)
     inactive_pen = -2.0 if f['response_rate'] < 0.1 and not open_to_work else 0.0
     behavioral_score = round(max(
-        resp_norm * 3 + int_norm * 3 + f['search_30d_norm'] * 2 + f['saved_30d_norm'] * 2 + inactive_pen, 0
+        resp_norm * 5 + f['search_30d_norm'] * 3 + f['saved_30d_norm'] * 2 + inactive_pen, 0
     ), 1)
 
     # 5. Cultural fit (0-10)
@@ -456,13 +619,9 @@ def heuristic_score(candidate: dict, jd_req: dict) -> tuple[DimensionScores, str
     )
 
     # ── Reasoning ────────────────────────────────────────────────
-    skills = candidate.get('skills') or []
-    if isinstance(skills, str):
-        try:
-            skills = json.loads(skills.replace("'", '"'))
-        except Exception:
-            skills = [s.strip() for s in skills.split(',')]
-    skills = [str(s).lower() for s in skills]
+    # _matched_skills and _missing_skills already computed by category_skill_score above
+    matched = _matched_skills
+    missing = _missing_skills
 
     title    = str(candidate.get('current_title') or '').lower()
     company  = str(candidate.get('current_company') or '')
@@ -470,9 +629,6 @@ def heuristic_score(candidate: dict, jd_req: dict) -> tuple[DimensionScores, str
     years    = float(candidate.get('years_of_experience') or 0)
     location_str = str(candidate.get('location') or '').lower()
     country_str  = str(candidate.get('country') or '').lower()
-
-    matched = [s for s in skills if s in [r.lower() for r in required_skills]]
-    missing = [r for r in required_skills if r.lower() not in set(skills)]
 
     reasoning_parts = []
 
