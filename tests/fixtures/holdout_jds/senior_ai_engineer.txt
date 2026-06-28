@@ -1,0 +1,30 @@
+Job Description: Senior AI Engineer — Search and Ranking
+Company: TalentTech (AI-powered HR platform)
+Location: Mumbai or Pune, India (Hybrid)
+Employment Type: Full-time
+Experience Required: 4-8 years
+
+We are building next-generation search and ranking systems for our talent platform.
+
+Required Skills:
+- Python (strong)
+- Information retrieval: BM25, TF-IDF, dense retrieval, or hybrid search
+- Embeddings and vector databases: FAISS, Pinecone, Weaviate, Qdrant, or Elasticsearch
+- Machine learning: ranking models, gradient boosting (XGBoost, LightGBM, CatBoost)
+- LLMs: prompt engineering, fine-tuning, or RAG pipelines
+
+Experience required:
+- 4+ years in applied ML or software engineering roles
+- At least 1 production ML system shipped to real users
+- Comfort with evaluation frameworks (NDCG, MRR, precision/recall)
+
+Nice to have:
+- NLP experience (text classification, NER, embeddings)
+- Experience in HR-tech, recruitment, or marketplace products
+- Open source contributions
+
+What you'll do:
+- Build and improve candidate ranking and JD-matching systems
+- Design offline evaluation pipelines for ranking quality
+- Collaborate with product to translate recruiter needs into ML features
+- Mentor junior engineers on retrieval and ranking best practices

@@ -1,0 +1,26 @@
+Job Description: Junior Data Analyst
+Company: DataCo (B2B SaaS company)
+Location: Bangalore, India (Hybrid)
+Employment Type: Full-time
+Experience Required: 0-2 years
+
+We are looking for a Junior Data Analyst to join our data team.
+
+Required Skills:
+- Python (pandas, numpy)
+- SQL (intermediate level)
+- Data visualization (Tableau, PowerBI, or Matplotlib)
+- Basic statistics and data cleaning
+
+Nice to have:
+- Machine learning fundamentals
+- Experience with cloud data warehouses (BigQuery, Redshift, Snowflake)
+- Excel / Google Sheets proficiency
+
+What you will do:
+- Analyze business data and generate actionable insights
+- Build dashboards and reports for stakeholders
+- Clean and validate datasets from various sources
+- Collaborate with product and engineering teams
+
+We welcome recent graduates and career switchers with relevant project experience.

@@ -695,6 +695,59 @@ def stage3_submit(scored_df: pd.DataFrame, output_path: str):
 
 
 # ──────────────────────────────────────────────────────────────
+# Fairness audit helpers (lazy imports — no hard dependency)
+# ──────────────────────────────────────────────────────────────
+
+def _run_pool_audit(retrieved: pd.DataFrame, all_cands: pd.DataFrame,
+                    output_stem: str) -> None:
+    """Audit retrieval pool for demographic bias. Logs result; never raises."""
+    try:
+        from fairness_audit import (run_audit, save_report, check_violations,
+                                    FAIRNESS_DI_THRESHOLD)
+        pool_size = len(retrieved)
+        k_vals = tuple(k for k in (100, 500) if k <= pool_size) or (pool_size,)
+        ranked_pool = retrieved.reset_index(drop=True).copy()
+        ranked_pool["rank"] = range(1, pool_size + 1)
+        report = run_audit(all_cands, ranked_pool[["candidate_id", "rank"]],
+                           k_values=k_vals)
+        save_report(report, f"{output_stem}_pool_audit.json")
+        violations = check_violations(report, k=100, threshold=FAIRNESS_DI_THRESHOLD)
+        if violations:
+            print(f"[POOL AUDIT] {pool_size} candidates — "
+                  f"{len(violations)} fairness concern(s) at top-100:")
+            for v in violations:
+                print(f"  {v['attribute']}: DI={v['disparate_impact']:.2f}")
+        else:
+            print(f"[POOL AUDIT] {pool_size} candidates — "
+                  f"all attributes pass 4/5ths rule at top-100.")
+    except Exception as exc:
+        print(f"[POOL AUDIT] Skipped: {exc}")
+
+
+def _run_output_audit(submission: pd.DataFrame, all_cands: pd.DataFrame,
+                      output_stem: str) -> None:
+    """Audit final ranked output for demographic bias. Logs result; never raises."""
+    try:
+        from fairness_audit import (run_audit, save_report, check_violations,
+                                    FAIRNESS_K_VALUES, FAIRNESS_DI_THRESHOLD)
+        if "rank" not in submission.columns:
+            submission = submission.copy()
+            submission["rank"] = range(1, len(submission) + 1)
+        report = run_audit(all_cands, submission[["candidate_id", "rank"]],
+                           k_values=FAIRNESS_K_VALUES)
+        save_report(report, f"{output_stem}_output_audit.json")
+        violations = check_violations(report, k=100, threshold=FAIRNESS_DI_THRESHOLD)
+        if violations:
+            print(f"[OUTPUT AUDIT] {len(violations)} concern(s) in final ranking at top-100:")
+            for v in violations:
+                print(f"  {v['attribute']}: DI={v['disparate_impact']:.2f}")
+        else:
+            print(f"[OUTPUT AUDIT] All attributes pass 4/5ths rule at top-100.")
+    except Exception as exc:
+        print(f"[OUTPUT AUDIT] Skipped: {exc}")
+
+
+# ──────────────────────────────────────────────────────────────
 # Main
 # ──────────────────────────────────────────────────────────────
 
@@ -750,14 +803,18 @@ def main():
     else:
         retrieved = stage1_hybrid_retrieval(jd_text, all_cands, fetch_per_system=args.fetch)
 
+    # POINT 1 — pool audit: check retrieved pool for demographic bias before ranking
+    output_stem = str(Path(args.output).with_suffix(""))
+    _run_pool_audit(retrieved, all_cands, output_stem)
+
     # Load LTR model if provided
     ltr_artifact = None
     if args.ltr_model:
         import pickle
         ltr_path = Path(args.ltr_model)
         if not ltr_path.exists():
-            print(f"LTR model not found: {ltr_path}. Train it first:")
-            print(f"  python train_ltr_model.py --jd {args.jd} --output {args.ltr_model}")
+            print(f"LTR model not found: {ltr_path}.")
+            print(f"Use the pre-trained artifact: ltr_model_retrained.pkl")
             sys.exit(1)
         with open(ltr_path, 'rb') as f:
             ltr_artifact = pickle.load(f)
@@ -790,7 +847,10 @@ def main():
         )
 
     # Stage 3: Final submission
-    stage3_submit(scored, args.output)
+    submission = stage3_submit(scored, args.output)
+
+    # POINT 2 — output audit: check final ranking for demographic bias
+    _run_output_audit(submission, all_cands, output_stem)
 
 
 if __name__ == '__main__':

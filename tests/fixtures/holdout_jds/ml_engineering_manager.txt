@@ -1,0 +1,29 @@
+Job Description: Engineering Manager — Machine Learning Platform
+Company: ScaleAI (Series C AI infrastructure company)
+Location: Hyderabad or Remote, India
+Employment Type: Full-time
+Experience Required: 8+ years (3+ in management)
+
+We are seeking an experienced Engineering Manager to lead our ML Platform team of 8-12 engineers.
+
+Requirements:
+- 8+ years of software or ML engineering experience
+- 3+ years managing engineering teams
+- Technical depth in ML systems: training infrastructure, model serving, feature stores
+- Track record of shipping ML features to production at scale
+- Strong communication — able to translate between engineering and product or business stakeholders
+
+Technical Skills (need not be hands-on in all):
+- ML infrastructure: Ray, Spark, Kubeflow, MLflow, or similar
+- Model serving: TensorFlow Serving, TorchServe, Triton, or BentoML
+- Cloud platforms: AWS, GCP, or Azure (one deep, others familiar)
+- Python ecosystem for ML
+
+What you will lead:
+- Set technical direction for our ML platform roadmap
+- Hire, mentor, and grow the ML platform team
+- Partner with ML research team to productionize models
+- Define SLOs for model serving and training pipelines
+- Drive quarterly planning with cross-functional stakeholders
+
+We value technical managers who still code (20-30% hands-on expected).

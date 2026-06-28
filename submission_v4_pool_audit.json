@@ -1,0 +1,260 @@
+{
+  "n_ranked": 999,
+  "attributes": {
+    "location_tier": {
+      "description": "Metro / tier-2 / tier-3 city",
+      "by_k": {
+        "100": {
+          "attribute": "location_tier",
+          "k": 100,
+          "groups": [
+            {
+              "group": "metro",
+              "pool_n": 445,
+              "selected_n": 45,
+              "selection_rate": 0.10112359550561797,
+              "pool_share": 0.44544544544544545,
+              "selected_share": 0.45,
+              "representation_ratio": 1.0102247191011235,
+              "exposure_share": 0.44801967977165214
+            },
+            {
+              "group": "tier-2",
+              "pool_n": 377,
+              "selected_n": 44,
+              "selection_rate": 0.11671087533156499,
+              "pool_share": 0.37737737737737737,
+              "selected_share": 0.44,
+              "representation_ratio": 1.1659416445623343,
+              "exposure_share": 0.37747790180019086
+            },
+            {
+              "group": "tier-3+",
+              "pool_n": 177,
+              "selected_n": 11,
+              "selection_rate": 0.062146892655367235,
+              "pool_share": 0.17717717717717718,
+              "selected_share": 0.11,
+              "representation_ratio": 0.6208474576271187,
+              "exposure_share": 0.17450241842815703
+            }
+          ],
+          "disparate_impact": 0.5324858757062148,
+          "statistical_parity_diff": 0.054563982676197754,
+          "exposure_gap": 0.005248993075226832,
+          "flagged": true
+        },
+        "500": {
+          "attribute": "location_tier",
+          "k": 500,
+          "groups": [
+            {
+              "group": "metro",
+              "pool_n": 445,
+              "selected_n": 210,
+              "selection_rate": 0.47191011235955055,
+              "pool_share": 0.44544544544544545,
+              "selected_share": 0.42,
+              "representation_ratio": 0.9428764044943819,
+              "exposure_share": 0.44801967977165214
+            },
+            {
+              "group": "tier-2",
+              "pool_n": 377,
+              "selected_n": 194,
+              "selection_rate": 0.5145888594164456,
+              "pool_share": 0.37737737737737737,
+              "selected_share": 0.388,
+              "representation_ratio": 1.0281485411140585,
+              "exposure_share": 0.37747790180019086
+            },
+            {
+              "group": "tier-3+",
+              "pool_n": 177,
+              "selected_n": 96,
+              "selection_rate": 0.5423728813559322,
+              "pool_share": 0.17717717717717718,
+              "selected_share": 0.192,
+              "representation_ratio": 1.0836610169491525,
+              "exposure_share": 0.17450241842815703
+            }
+          ],
+          "disparate_impact": 0.8700842696629213,
+          "statistical_parity_diff": 0.07046276899638165,
+          "exposure_gap": 0.005248993075226832,
+          "flagged": false
+        }
+      }
+    },
+    "company_type": {
+      "description": "Product / services / other",
+      "by_k": {
+        "100": {
+          "attribute": "company_type",
+          "k": 100,
+          "groups": [
+            {
+              "group": "other",
+              "pool_n": 669,
+              "selected_n": 62,
+              "selection_rate": 0.09267563527653214,
+              "pool_share": 0.6696696696696697,
+              "selected_share": 0.62,
+              "representation_ratio": 0.925829596412556,
+              "exposure_share": 0.6706658734003084
+            },
+            {
+              "group": "product",
+              "pool_n": 147,
+              "selected_n": 26,
+              "selection_rate": 0.17687074829931973,
+              "pool_share": 0.14714714714714713,
+              "selected_share": 0.26,
+              "representation_ratio": 1.7669387755102044,
+              "exposure_share": 0.1543523368210085
+            },
+            {
+              "group": "services",
+              "pool_n": 183,
+              "selected_n": 12,
+              "selection_rate": 0.06557377049180328,
+              "pool_share": 0.1831831831831832,
+              "selected_share": 0.12,
+              "representation_ratio": 0.6550819672131147,
+              "exposure_share": 0.17498178977868326
+            }
+          ],
+          "disparate_impact": 0.3707440100882724,
+          "statistical_parity_diff": 0.11129697780751645,
+          "exposure_gap": 0.015406583078361291,
+          "flagged": true
+        },
+        "500": {
+          "attribute": "company_type",
+          "k": 500,
+          "groups": [
+            {
+              "group": "other",
+              "pool_n": 669,
+              "selected_n": 338,
+              "selection_rate": 0.5052316890881914,
+              "pool_share": 0.6696696696696697,
+              "selected_share": 0.676,
+              "representation_ratio": 1.0094529147982063,
+              "exposure_share": 0.6706658734003084
+            },
+            {
+              "group": "product",
+              "pool_n": 147,
+              "selected_n": 84,
+              "selection_rate": 0.5714285714285714,
+              "pool_share": 0.14714714714714713,
+              "selected_share": 0.168,
+              "representation_ratio": 1.141714285714286,
+              "exposure_share": 0.1543523368210085
+            },
+            {
+              "group": "services",
+              "pool_n": 183,
+              "selected_n": 78,
+              "selection_rate": 0.4262295081967213,
+              "pool_share": 0.1831831831831832,
+              "selected_share": 0.156,
+              "representation_ratio": 0.8516065573770492,
+              "exposure_share": 0.17498178977868326
+            }
+          ],
+          "disparate_impact": 0.7459016393442622,
+          "statistical_parity_diff": 0.1451990632318501,
+          "exposure_gap": 0.015406583078361291,
+          "flagged": true
+        }
+      }
+    },
+    "experience_band": {
+      "description": "Career stage by years",
+      "by_k": {
+        "100": {
+          "attribute": "experience_band",
+          "k": 100,
+          "groups": [
+            {
+              "group": "junior (<3y)",
+              "pool_n": 76,
+              "selected_n": 9,
+              "selection_rate": 0.11842105263157894,
+              "pool_share": 0.07607607607607608,
+              "selected_share": 0.09,
+              "representation_ratio": 1.1830263157894736,
+              "exposure_share": 0.07761938246446172
+            },
+            {
+              "group": "mid (3-6y)",
+              "pool_n": 426,
+              "selected_n": 27,
+              "selection_rate": 0.06338028169014084,
+              "pool_share": 0.4264264264264264,
+              "selected_share": 0.27,
+              "representation_ratio": 0.6331690140845071,
+              "exposure_share": 0.4078188135999185
+            },
+            {
+              "group": "senior (6y+)",
+              "pool_n": 497,
+              "selected_n": 64,
+              "selection_rate": 0.12877263581488935,
+              "pool_share": 0.4974974974974975,
+              "selected_share": 0.64,
+              "representation_ratio": 1.2864386317907446,
+              "exposure_share": 0.5145618039356198
+            }
+          ],
+          "disparate_impact": 0.49218749999999994,
+          "statistical_parity_diff": 0.0653923541247485,
+          "exposure_gap": 0.0356719192646302,
+          "flagged": true
+        },
+        "500": {
+          "attribute": "experience_band",
+          "k": 500,
+          "groups": [
+            {
+              "group": "junior (<3y)",
+              "pool_n": 76,
+              "selected_n": 40,
+              "selection_rate": 0.5263157894736842,
+              "pool_share": 0.07607607607607608,
+              "selected_share": 0.08,
+              "representation_ratio": 1.051578947368421,
+              "exposure_share": 0.07761938246446172
+            },
+            {
+              "group": "mid (3-6y)",
+              "pool_n": 426,
+              "selected_n": 182,
+              "selection_rate": 0.4272300469483568,
+              "pool_share": 0.4264264264264264,
+              "selected_share": 0.364,
+              "representation_ratio": 0.8536056338028168,
+              "exposure_share": 0.4078188135999185
+            },
+            {
+              "group": "senior (6y+)",
+              "pool_n": 497,
+              "selected_n": 278,
+              "selection_rate": 0.5593561368209256,
+              "pool_share": 0.4974974974974975,
+              "selected_share": 0.556,
+              "representation_ratio": 1.1175935613682093,
+              "exposure_share": 0.5145618039356198
+            }
+          ],
+          "disparate_impact": 0.7637889688249401,
+          "statistical_parity_diff": 0.13212608987256874,
+          "exposure_gap": 0.0356719192646302,
+          "flagged": true
+        }
+      }
+    }
+  }
+}
