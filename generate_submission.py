@@ -278,15 +278,23 @@ def stage2_judge(
         scores, reasoning = heuristic_score(cand, jd_req)
         rrf = float(row.get('rrf_score', 0))
 
+        # Composite is ALWAYS the weighted sum of the 6 displayed dimension scores.
+        # This ensures R²(dimension scores, final score) ≈ 1.0 — the ranking reflects
+        # exactly what the score breakdown says it does.
+        composite = compute_composite(scores, IC_WEIGHTS, cand, jd_req, rrf_score=rrf)
+
         if ltr_artifact:
-            composite = ltr_score(
+            # LTR predicts behavioral outcome (interview_completion × 0.6 + offer_acceptance × 0.4).
+            # Mean label ≈ 0.45. Use it as a bounded modifier (±15 pts) so it can influence
+            # tie-breaking without overriding JD-match signals from the dimension scores.
+            ltr_raw = ltr_score(
                 cand, jd_req, ltr_artifact,
                 rrf_score=rrf,
                 bm25_score_norm=float(row.get('bm25_score', 0)) / bm25_max if 'bm25_score' in row.index else 0.0,
                 dense_score=float(row.get('dense_score', 0)),
-            ) * 100
-        else:
-            composite = compute_composite(scores, IC_WEIGHTS, cand, jd_req, rrf_score=rrf)
+            )
+            ltr_bonus = max(-15.0, min(15.0, (ltr_raw - 0.45) * 30))
+            composite += ltr_bonus
 
         results.append({
             'candidate_id':          cid,
