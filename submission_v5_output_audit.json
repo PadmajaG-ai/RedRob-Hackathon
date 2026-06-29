@@ -16,7 +16,7 @@
               "pool_share": 0.52,
               "selected_share": 0.6,
               "representation_ratio": 1.1538461538461537,
-              "exposure_share": 0.48976742973007265
+              "exposure_share": 0.4949920275635792
             },
             {
               "group": "tier-2",
@@ -26,7 +26,7 @@
               "pool_share": 0.4,
               "selected_share": 0.4,
               "representation_ratio": 1.0,
-              "exposure_share": 0.43541932462789745
+              "exposure_share": 0.43156175023946874
             },
             {
               "group": "tier-3+",
@@ -36,12 +36,12 @@
               "pool_share": 0.08,
               "selected_share": 0.0,
               "representation_ratio": 0.0,
-              "exposure_share": 0.07481324564203015
+              "exposure_share": 0.0734462221969523
             }
           ],
           "disparate_impact": 0.8666666666666667,
           "statistical_parity_diff": 0.015384615384615385,
-          "exposure_gap": 0.0656518948978248,
+          "exposure_gap": 0.056569722675889555,
           "flagged": false
         },
         "50": {
@@ -56,7 +56,7 @@
               "pool_share": 0.52,
               "selected_share": 0.5,
               "representation_ratio": 0.9615384615384615,
-              "exposure_share": 0.48976742973007265
+              "exposure_share": 0.4949920275635792
             },
             {
               "group": "tier-2",
@@ -66,7 +66,7 @@
               "pool_share": 0.4,
               "selected_share": 0.42,
               "representation_ratio": 1.0499999999999998,
-              "exposure_share": 0.43541932462789745
+              "exposure_share": 0.43156175023946874
             },
             {
               "group": "tier-3+",
@@ -76,12 +76,12 @@
               "pool_share": 0.08,
               "selected_share": 0.08,
               "representation_ratio": 1.0,
-              "exposure_share": 0.07481324564203015
+              "exposure_share": 0.0734462221969523
             }
           ],
           "disparate_impact": 0.9157509157509157,
           "statistical_parity_diff": 0.04423076923076924,
-          "exposure_gap": 0.0656518948978248,
+          "exposure_gap": 0.056569722675889555,
           "flagged": false
         },
         "100": {
@@ -96,7 +96,7 @@
               "pool_share": 0.52,
               "selected_share": 0.52,
               "representation_ratio": 1.0,
-              "exposure_share": 0.48976742973007265
+              "exposure_share": 0.4949920275635792
             },
             {
               "group": "tier-2",
@@ -106,7 +106,7 @@
               "pool_share": 0.4,
               "selected_share": 0.4,
               "representation_ratio": 1.0,
-              "exposure_share": 0.43541932462789745
+              "exposure_share": 0.43156175023946874
             },
             {
               "group": "tier-3+",
@@ -116,12 +116,12 @@
               "pool_share": 0.08,
               "selected_share": 0.08,
               "representation_ratio": 1.0,
-              "exposure_share": 0.07481324564203015
+              "exposure_share": 0.0734462221969523
             }
           ],
           "disparate_impact": 1.0,
           "statistical_parity_diff": 0.0,
-          "exposure_gap": 0.0656518948978248,
+          "exposure_gap": 0.056569722675889555,
           "flagged": false
         }
       }
@@ -141,7 +141,7 @@
               "pool_share": 0.67,
               "selected_share": 0.7,
               "representation_ratio": 1.044776119402985,
-              "exposure_share": 0.6516979602618814
+              "exposure_share": 0.6551883960936741
             },
             {
               "group": "product",
@@ -151,7 +151,7 @@
               "pool_share": 0.28,
               "selected_share": 0.2,
               "representation_ratio": 0.7142857142857143,
-              "exposure_share": 0.3016756766601657
+              "exposure_share": 0.29562648048583845
             },
             {
               "group": "services",
@@ -161,12 +161,12 @@
               "pool_share": 0.05,
               "selected_share": 0.1,
               "representation_ratio": 2.0,
-              "exposure_share": 0.04662636307795292
+              "exposure_share": 0.049185123420487684
             }
           ],
           "disparate_impact": 0.6836734693877551,
           "statistical_parity_diff": 0.03304904051172708,
-          "exposure_gap": 0.03997771639828429,
+          "exposure_gap": 0.03043808439216439,
           "flagged": true
         },
         "50": {
@@ -181,7 +181,7 @@
               "pool_share": 0.67,
               "selected_share": 0.66,
               "representation_ratio": 0.9850746268656716,
-              "exposure_share": 0.6516979602618814
+              "exposure_share": 0.6551883960936741
             },
             {
               "group": "product",
@@ -191,7 +191,7 @@
               "pool_share": 0.28,
               "selected_share": 0.32,
               "representation_ratio": 1.1428571428571428,
-              "exposure_share": 0.3016756766601657
+              "exposure_share": 0.29562648048583845
             },
             {
               "group": "services",
@@ -201,12 +201,12 @@
               "pool_share": 0.05,
               "selected_share": 0.02,
               "representation_ratio": 0.39999999999999997,
-              "exposure_share": 0.04662636307795292
+              "exposure_share": 0.049185123420487684
             }
           ],
           "disparate_impact": 0.8619402985074627,
           "statistical_parity_diff": 0.0788912579957356,
-          "exposure_gap": 0.03997771639828429,
+          "exposure_gap": 0.03043808439216439,
           "flagged": false
         },
         "100": {
@@ -221,7 +221,7 @@
               "pool_share": 0.67,
               "selected_share": 0.67,
               "representation_ratio": 1.0,
-              "exposure_share": 0.6516979602618814
+              "exposure_share": 0.6551883960936741
             },
             {
               "group": "product",
@@ -231,7 +231,7 @@
               "pool_share": 0.28,
               "selected_share": 0.28,
               "representation_ratio": 1.0,
-              "exposure_share": 0.3016756766601657
+              "exposure_share": 0.29562648048583845
             },
             {
               "group": "services",
@@ -241,12 +241,12 @@
               "pool_share": 0.05,
               "selected_share": 0.05,
               "representation_ratio": 1.0,
-              "exposure_share": 0.04662636307795292
+              "exposure_share": 0.049185123420487684
             }
           ],
           "disparate_impact": 1.0,
           "statistical_parity_diff": 0.0,
-          "exposure_gap": 0.03997771639828429,
+          "exposure_gap": 0.03043808439216439,
           "flagged": false
         }
       }
@@ -266,32 +266,32 @@
               "pool_share": 0.01,
               "selected_share": 0.0,
               "representation_ratio": 0.0,
-              "exposure_share": 0.008696249230107424
+              "exposure_share": 0.008856771498479249
             },
             {
               "group": "mid (3-6y)",
-              "pool_n": 44,
+              "pool_n": 45,
               "selected_n": 2,
-              "selection_rate": 0.045454545454545456,
-              "pool_share": 0.44,
+              "selection_rate": 0.044444444444444446,
+              "pool_share": 0.45,
               "selected_share": 0.2,
-              "representation_ratio": 0.4545454545454546,
-              "exposure_share": 0.3859177479459956
+              "representation_ratio": 0.4444444444444445,
+              "exposure_share": 0.3967070952551318
             },
             {
               "group": "senior (6y+)",
-              "pool_n": 55,
+              "pool_n": 54,
               "selected_n": 8,
-              "selection_rate": 0.14545454545454545,
-              "pool_share": 0.55,
+              "selection_rate": 0.14814814814814814,
+              "pool_share": 0.54,
               "selected_share": 0.8,
-              "representation_ratio": 1.4545454545454546,
-              "exposure_share": 0.6053860028238972
+              "representation_ratio": 1.4814814814814814,
+              "exposure_share": 0.5944361332463892
             }
           ],
-          "disparate_impact": 0.3125,
-          "statistical_parity_diff": 0.09999999999999999,
-          "exposure_gap": 0.10946825487790157,
+          "disparate_impact": 0.30000000000000004,
+          "statistical_parity_diff": 0.10370370370370369,
+          "exposure_gap": 0.10772903799125738,
           "flagged": true
         },
         "50": {
@@ -306,32 +306,32 @@
               "pool_share": 0.01,
               "selected_share": 0.02,
               "representation_ratio": 2.0,
-              "exposure_share": 0.008696249230107424
+              "exposure_share": 0.008856771498479249
             },
             {
               "group": "mid (3-6y)",
-              "pool_n": 44,
+              "pool_n": 45,
               "selected_n": 14,
-              "selection_rate": 0.3181818181818182,
-              "pool_share": 0.44,
+              "selection_rate": 0.3111111111111111,
+              "pool_share": 0.45,
               "selected_share": 0.28,
-              "representation_ratio": 0.6363636363636365,
-              "exposure_share": 0.3859177479459956
+              "representation_ratio": 0.6222222222222222,
+              "exposure_share": 0.3967070952551318
             },
             {
               "group": "senior (6y+)",
-              "pool_n": 55,
+              "pool_n": 54,
               "selected_n": 35,
-              "selection_rate": 0.6363636363636364,
-              "pool_share": 0.55,
+              "selection_rate": 0.6481481481481481,
+              "pool_share": 0.54,
               "selected_share": 0.7,
-              "representation_ratio": 1.2727272727272725,
-              "exposure_share": 0.6053860028238972
+              "representation_ratio": 1.296296296296296,
+              "exposure_share": 0.5944361332463892
             }
           ],
-          "disparate_impact": 0.5,
-          "statistical_parity_diff": 0.3181818181818182,
-          "exposure_gap": 0.10946825487790157,
+          "disparate_impact": 0.48000000000000004,
+          "statistical_parity_diff": 0.337037037037037,
+          "exposure_gap": 0.10772903799125738,
           "flagged": true
         },
         "100": {
@@ -346,32 +346,32 @@
               "pool_share": 0.01,
               "selected_share": 0.01,
               "representation_ratio": 1.0,
-              "exposure_share": 0.008696249230107424
+              "exposure_share": 0.008856771498479249
             },
             {
               "group": "mid (3-6y)",
-              "pool_n": 44,
-              "selected_n": 44,
+              "pool_n": 45,
+              "selected_n": 45,
               "selection_rate": 1.0,
-              "pool_share": 0.44,
-              "selected_share": 0.44,
+              "pool_share": 0.45,
+              "selected_share": 0.45,
               "representation_ratio": 1.0,
-              "exposure_share": 0.3859177479459956
+              "exposure_share": 0.3967070952551318
             },
             {
               "group": "senior (6y+)",
-              "pool_n": 55,
-              "selected_n": 55,
+              "pool_n": 54,
+              "selected_n": 54,
               "selection_rate": 1.0,
-              "pool_share": 0.55,
-              "selected_share": 0.55,
+              "pool_share": 0.54,
+              "selected_share": 0.54,
               "representation_ratio": 1.0,
-              "exposure_share": 0.6053860028238972
+              "exposure_share": 0.5944361332463892
             }
           ],
           "disparate_impact": 1.0,
           "statistical_parity_diff": 0.0,
-          "exposure_gap": 0.10946825487790157,
+          "exposure_gap": 0.10772903799125738,
           "flagged": false
         }
       }

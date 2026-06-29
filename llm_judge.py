@@ -415,8 +415,6 @@ def ltr_score(
     feats['rrf_score']        = rrf_score
     feats['bm25_score_norm']  = bm25_score_norm
     feats['dense_score']      = dense_score
-    # Mirror the 10x scaling applied during training so inference is consistent.
-    feats['skill_overlap'] = feats.get('skill_overlap', 0.0) * 10.0
     model = ltr_artifact['model']
     feature_names = ltr_artifact['feature_names']
     X = np.array([[feats.get(f, 0.0) for f in feature_names]])

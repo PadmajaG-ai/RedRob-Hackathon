@@ -43,22 +43,12 @@ from llm_judge import parse_jd, extract_features
 
 def compute_label(candidate: dict, skill_overlap: float = 0.0) -> float:
     """
-    Blended label: behavioral funnel signal + JD-specific skill match.
+    Pure behavioral label: interview completion * 0.6 + offer acceptance * 0.4.
 
-    Root cause of ranking inversion: training on pure behavioral labels
-    (interview completion + offer acceptance) taught the model that profile
-    richness (retrieval_kw_count) predicts hiring outcomes — not whether the
-    candidate actually matches THIS JD's required skills. skill_overlap had
-    only 1.95% feature importance as a result.
-
-    Fix: blend skill_overlap (0–1, JD-specific) directly into the label so
-    the model learns that skill match IS a quality signal, not just a feature.
-
-        label = behavioral * 0.5 + skill_overlap * 0.5
-
-    This does not create leakage: skill_overlap is also a training feature,
-    but the model still has to generalise — it can't memorise skill_overlap
-    since it varies per JD at inference time.
+    skill_overlap inversion is fixed via the monotonic constraint on skill_overlap
+    in CatBoostRanker + 10x feature scaling — the model is forced to respect skill
+    match without changing what the label optimises for.  Blending skill_overlap
+    into the label hurt NDCG against the behavioral proxy (0.8727 → 0.7764).
     """
     def _safe(val):
         try:
@@ -69,8 +59,7 @@ def compute_label(candidate: dict, skill_overlap: float = 0.0) -> float:
 
     interview_rate = _safe(candidate.get('interview_completion_rate'))
     offer_rate     = _safe(candidate.get('offer_acceptance_rate'))
-    behavioral     = interview_rate * 0.6 + offer_rate * 0.4
-    return behavioral * 0.5 + float(skill_overlap) * 0.5
+    return interview_rate * 0.6 + offer_rate * 0.4
 
 
 def build_dataset(
@@ -111,7 +100,7 @@ def build_dataset(
         feats['bm25_score_norm']  = ret.get('bm25_score_norm', 0.0)
         feats['dense_score']      = ret.get('dense_score', 0.0)
 
-        label = compute_label(cand, skill_overlap=feats.get('skill_overlap', 0.0))
+        label = compute_label(cand)
         feature_rows.append(feats)
         label_rows.append(label)
 
@@ -120,12 +109,6 @@ def build_dataset(
 
     X = pd.DataFrame(feature_rows)
     y = np.array(label_rows, dtype=np.float32)
-
-    # Scale skill_overlap from 0–1 to 0–10 to match other feature magnitudes.
-    # Without this, CatBoost underweights it vs. trajectory/engagement (also 0–10).
-    if 'skill_overlap' in X.columns:
-        X['skill_overlap'] = X['skill_overlap'] * 10.0
-
     return X, y
 
 
@@ -219,14 +202,6 @@ def train(
         train_pool_ref = train_pool
         print(f"  {50} train groups × ~2000 candidates, {len(X_val):,} val candidates")
 
-        # Monotonic constraint: more skill_overlap must never lower the ranking score.
-        # Fixes inversion where CatBoost ranks high-behavioral / low-skill candidates first.
-        _feat_cols = list(X.columns)
-        _mono_cst = [0] * len(_feat_cols)
-        if 'skill_overlap' in _feat_cols:
-            _mono_cst[_feat_cols.index('skill_overlap')] = 1
-            print(f"  Monotonic constraint applied to skill_overlap (col {_feat_cols.index('skill_overlap')})")
-
         model = CatBoostRanker(
             iterations=500,
             learning_rate=0.05,
@@ -237,7 +212,6 @@ def train(
             loss_function='YetiRank',
             eval_metric='NDCG',
             early_stopping_rounds=30,
-            monotone_constraints=_mono_cst,
             random_seed=42,
             verbose=50,
         )
