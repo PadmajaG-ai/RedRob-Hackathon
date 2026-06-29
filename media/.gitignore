@@ -1,5 +1,0 @@
-# Manim partial/intermediate render cache
-videos/**/partial_movie_files/
-videos/*/480p15/
-tex/
-__pycache__/

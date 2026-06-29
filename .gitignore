@@ -22,3 +22,14 @@ catboost_info/
 
 # EDA output images/plots
 eda_outputs/
+
+# Manim animation outputs (large binary/SVG files)
+manim/
+media/
+architecture_diagram_manim.png
+*.mp4
+
+# Architecture diagrams (generated files)
+architecture_diagram.png
+architecture.png
+architecture.drawio
