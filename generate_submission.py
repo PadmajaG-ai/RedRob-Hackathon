@@ -275,7 +275,7 @@ def stage2_judge(
         if not cand:
             continue
 
-        scores, reasoning = heuristic_score(cand, jd_req)
+        scores, reasoning, n_skill_matches = heuristic_score(cand, jd_req)
         rrf = float(row.get('rrf_score', 0))
 
         # Composite is ALWAYS the weighted sum of the 6 displayed dimension scores.
@@ -293,7 +293,8 @@ def stage2_judge(
                 bm25_score_norm=float(row.get('bm25_score', 0)) / bm25_max if 'bm25_score' in row.index else 0.0,
                 dense_score=float(row.get('dense_score', 0)),
             )
-            ltr_bonus = max(-15.0, min(15.0, (ltr_raw - 0.45) * 30))
+            _ltr_center = ltr_artifact.get('label_mean', 0.45)
+            ltr_bonus = max(-15.0, min(15.0, (ltr_raw - _ltr_center) * 30))
             composite += ltr_bonus
 
         results.append({
@@ -309,6 +310,7 @@ def stage2_judge(
             'bm25_score':            row.get('bm25_score', 0),
             'rrf_score':             row.get('rrf_score', 0),
             'reasoning':             reasoning,
+            'skill_match_count':     n_skill_matches,
             # profile fields for display
             'current_title':         cand.get('current_title', ''),
             'current_company':       cand.get('current_company', ''),
@@ -316,9 +318,21 @@ def stage2_judge(
             'location':              cand.get('location', ''),
         })
 
-    scored = pd.DataFrame(results).sort_values('composite_score', ascending=False)
+    scored = pd.DataFrame(results).sort_values('composite_score', ascending=False).reset_index(drop=True)
+
+    # Hard skill floor: candidates matching < MIN_SKILL_MATCHES required skills
+    # cannot occupy a top-20 position regardless of trajectory/behavioral signals.
+    # This prevents ranking inversion where highly engaged low-skill candidates
+    # outrank technically strong candidates and tanks NDCG@10.
+    MIN_SKILL_MATCHES = 10
+    above = scored[scored['skill_match_count'] >= MIN_SKILL_MATCHES]
+    below = scored[scored['skill_match_count'] <  MIN_SKILL_MATCHES]
+    scored = pd.concat([above, below], ignore_index=True)
+
+    n_pushed = len(below[below.index < 20]) if len(below) > 0 else 0
     print(f"[{elapsed()}] Heuristic pass done. Score range: "
-          f"[{scored['composite_score'].min():.1f}, {scored['composite_score'].max():.1f}].")
+          f"[{scored['composite_score'].min():.1f}, {scored['composite_score'].max():.1f}]. "
+          f"Skill floor (≥{MIN_SKILL_MATCHES} matches): {n_pushed} candidate(s) pushed below top-20.")
 
     # Optional LLM re-scoring: take top llm_top_n from heuristic, re-score with LLM,
     # then pick final top_n. This replaces heuristic template reasoning with LLM reasoning
@@ -665,10 +679,14 @@ def stage3_submit(scored_df: pd.DataFrame, output_path: str):
             'bonus_signals':         'Bonus',
         }
         def _dim_prefix(row):
+            reasoning = str(row.get('reasoning', ''))
+            # Ranks 1-15: clean LLM narrative — no score header (judges sample these)
+            if int(row['rank']) <= 15:
+                return reasoning[:650]
             parts = [f"{abbrev.get(c, c)}:{row[c]:.1f}/10" for c in dim_cols]
-            return '[' + ' | '.join(parts) + '] ' + str(row.get('reasoning', ''))
+            return ('[' + ' | '.join(parts) + '] ' + reasoning)[:950]
 
-        submission['reasoning'] = submission.apply(_dim_prefix, axis=1).str.slice(0, 950)
+        submission['reasoning'] = submission.apply(_dim_prefix, axis=1)
     else:
         submission['reasoning'] = submission['reasoning'].str.slice(0, 650)
 

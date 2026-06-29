@@ -1,0 +1,380 @@
+{
+  "n_ranked": 100,
+  "attributes": {
+    "location_tier": {
+      "description": "Metro / tier-2 / tier-3 city",
+      "by_k": {
+        "10": {
+          "attribute": "location_tier",
+          "k": 10,
+          "groups": [
+            {
+              "group": "metro",
+              "pool_n": 52,
+              "selected_n": 6,
+              "selection_rate": 0.11538461538461539,
+              "pool_share": 0.52,
+              "selected_share": 0.6,
+              "representation_ratio": 1.1538461538461537,
+              "exposure_share": 0.48976742973007265
+            },
+            {
+              "group": "tier-2",
+              "pool_n": 40,
+              "selected_n": 4,
+              "selection_rate": 0.1,
+              "pool_share": 0.4,
+              "selected_share": 0.4,
+              "representation_ratio": 1.0,
+              "exposure_share": 0.43541932462789745
+            },
+            {
+              "group": "tier-3+",
+              "pool_n": 8,
+              "selected_n": 0,
+              "selection_rate": 0.0,
+              "pool_share": 0.08,
+              "selected_share": 0.0,
+              "representation_ratio": 0.0,
+              "exposure_share": 0.07481324564203015
+            }
+          ],
+          "disparate_impact": 0.8666666666666667,
+          "statistical_parity_diff": 0.015384615384615385,
+          "exposure_gap": 0.0656518948978248,
+          "flagged": false
+        },
+        "50": {
+          "attribute": "location_tier",
+          "k": 50,
+          "groups": [
+            {
+              "group": "metro",
+              "pool_n": 52,
+              "selected_n": 25,
+              "selection_rate": 0.4807692307692308,
+              "pool_share": 0.52,
+              "selected_share": 0.5,
+              "representation_ratio": 0.9615384615384615,
+              "exposure_share": 0.48976742973007265
+            },
+            {
+              "group": "tier-2",
+              "pool_n": 40,
+              "selected_n": 21,
+              "selection_rate": 0.525,
+              "pool_share": 0.4,
+              "selected_share": 0.42,
+              "representation_ratio": 1.0499999999999998,
+              "exposure_share": 0.43541932462789745
+            },
+            {
+              "group": "tier-3+",
+              "pool_n": 8,
+              "selected_n": 4,
+              "selection_rate": 0.5,
+              "pool_share": 0.08,
+              "selected_share": 0.08,
+              "representation_ratio": 1.0,
+              "exposure_share": 0.07481324564203015
+            }
+          ],
+          "disparate_impact": 0.9157509157509157,
+          "statistical_parity_diff": 0.04423076923076924,
+          "exposure_gap": 0.0656518948978248,
+          "flagged": false
+        },
+        "100": {
+          "attribute": "location_tier",
+          "k": 100,
+          "groups": [
+            {
+              "group": "metro",
+              "pool_n": 52,
+              "selected_n": 52,
+              "selection_rate": 1.0,
+              "pool_share": 0.52,
+              "selected_share": 0.52,
+              "representation_ratio": 1.0,
+              "exposure_share": 0.48976742973007265
+            },
+            {
+              "group": "tier-2",
+              "pool_n": 40,
+              "selected_n": 40,
+              "selection_rate": 1.0,
+              "pool_share": 0.4,
+              "selected_share": 0.4,
+              "representation_ratio": 1.0,
+              "exposure_share": 0.43541932462789745
+            },
+            {
+              "group": "tier-3+",
+              "pool_n": 8,
+              "selected_n": 8,
+              "selection_rate": 1.0,
+              "pool_share": 0.08,
+              "selected_share": 0.08,
+              "representation_ratio": 1.0,
+              "exposure_share": 0.07481324564203015
+            }
+          ],
+          "disparate_impact": 1.0,
+          "statistical_parity_diff": 0.0,
+          "exposure_gap": 0.0656518948978248,
+          "flagged": false
+        }
+      }
+    },
+    "company_type": {
+      "description": "Product / services / other",
+      "by_k": {
+        "10": {
+          "attribute": "company_type",
+          "k": 10,
+          "groups": [
+            {
+              "group": "other",
+              "pool_n": 67,
+              "selected_n": 7,
+              "selection_rate": 0.1044776119402985,
+              "pool_share": 0.67,
+              "selected_share": 0.7,
+              "representation_ratio": 1.044776119402985,
+              "exposure_share": 0.6516979602618814
+            },
+            {
+              "group": "product",
+              "pool_n": 28,
+              "selected_n": 2,
+              "selection_rate": 0.07142857142857142,
+              "pool_share": 0.28,
+              "selected_share": 0.2,
+              "representation_ratio": 0.7142857142857143,
+              "exposure_share": 0.3016756766601657
+            },
+            {
+              "group": "services",
+              "pool_n": 5,
+              "selected_n": 1,
+              "selection_rate": 0.2,
+              "pool_share": 0.05,
+              "selected_share": 0.1,
+              "representation_ratio": 2.0,
+              "exposure_share": 0.04662636307795292
+            }
+          ],
+          "disparate_impact": 0.6836734693877551,
+          "statistical_parity_diff": 0.03304904051172708,
+          "exposure_gap": 0.03997771639828429,
+          "flagged": true
+        },
+        "50": {
+          "attribute": "company_type",
+          "k": 50,
+          "groups": [
+            {
+              "group": "other",
+              "pool_n": 67,
+              "selected_n": 33,
+              "selection_rate": 0.4925373134328358,
+              "pool_share": 0.67,
+              "selected_share": 0.66,
+              "representation_ratio": 0.9850746268656716,
+              "exposure_share": 0.6516979602618814
+            },
+            {
+              "group": "product",
+              "pool_n": 28,
+              "selected_n": 16,
+              "selection_rate": 0.5714285714285714,
+              "pool_share": 0.28,
+              "selected_share": 0.32,
+              "representation_ratio": 1.1428571428571428,
+              "exposure_share": 0.3016756766601657
+            },
+            {
+              "group": "services",
+              "pool_n": 5,
+              "selected_n": 1,
+              "selection_rate": 0.2,
+              "pool_share": 0.05,
+              "selected_share": 0.02,
+              "representation_ratio": 0.39999999999999997,
+              "exposure_share": 0.04662636307795292
+            }
+          ],
+          "disparate_impact": 0.8619402985074627,
+          "statistical_parity_diff": 0.0788912579957356,
+          "exposure_gap": 0.03997771639828429,
+          "flagged": false
+        },
+        "100": {
+          "attribute": "company_type",
+          "k": 100,
+          "groups": [
+            {
+              "group": "other",
+              "pool_n": 67,
+              "selected_n": 67,
+              "selection_rate": 1.0,
+              "pool_share": 0.67,
+              "selected_share": 0.67,
+              "representation_ratio": 1.0,
+              "exposure_share": 0.6516979602618814
+            },
+            {
+              "group": "product",
+              "pool_n": 28,
+              "selected_n": 28,
+              "selection_rate": 1.0,
+              "pool_share": 0.28,
+              "selected_share": 0.28,
+              "representation_ratio": 1.0,
+              "exposure_share": 0.3016756766601657
+            },
+            {
+              "group": "services",
+              "pool_n": 5,
+              "selected_n": 5,
+              "selection_rate": 1.0,
+              "pool_share": 0.05,
+              "selected_share": 0.05,
+              "representation_ratio": 1.0,
+              "exposure_share": 0.04662636307795292
+            }
+          ],
+          "disparate_impact": 1.0,
+          "statistical_parity_diff": 0.0,
+          "exposure_gap": 0.03997771639828429,
+          "flagged": false
+        }
+      }
+    },
+    "experience_band": {
+      "description": "Career stage by years",
+      "by_k": {
+        "10": {
+          "attribute": "experience_band",
+          "k": 10,
+          "groups": [
+            {
+              "group": "junior (<3y)",
+              "pool_n": 1,
+              "selected_n": 0,
+              "selection_rate": 0.0,
+              "pool_share": 0.01,
+              "selected_share": 0.0,
+              "representation_ratio": 0.0,
+              "exposure_share": 0.008696249230107424
+            },
+            {
+              "group": "mid (3-6y)",
+              "pool_n": 44,
+              "selected_n": 2,
+              "selection_rate": 0.045454545454545456,
+              "pool_share": 0.44,
+              "selected_share": 0.2,
+              "representation_ratio": 0.4545454545454546,
+              "exposure_share": 0.3859177479459956
+            },
+            {
+              "group": "senior (6y+)",
+              "pool_n": 55,
+              "selected_n": 8,
+              "selection_rate": 0.14545454545454545,
+              "pool_share": 0.55,
+              "selected_share": 0.8,
+              "representation_ratio": 1.4545454545454546,
+              "exposure_share": 0.6053860028238972
+            }
+          ],
+          "disparate_impact": 0.3125,
+          "statistical_parity_diff": 0.09999999999999999,
+          "exposure_gap": 0.10946825487790157,
+          "flagged": true
+        },
+        "50": {
+          "attribute": "experience_band",
+          "k": 50,
+          "groups": [
+            {
+              "group": "junior (<3y)",
+              "pool_n": 1,
+              "selected_n": 1,
+              "selection_rate": 1.0,
+              "pool_share": 0.01,
+              "selected_share": 0.02,
+              "representation_ratio": 2.0,
+              "exposure_share": 0.008696249230107424
+            },
+            {
+              "group": "mid (3-6y)",
+              "pool_n": 44,
+              "selected_n": 14,
+              "selection_rate": 0.3181818181818182,
+              "pool_share": 0.44,
+              "selected_share": 0.28,
+              "representation_ratio": 0.6363636363636365,
+              "exposure_share": 0.3859177479459956
+            },
+            {
+              "group": "senior (6y+)",
+              "pool_n": 55,
+              "selected_n": 35,
+              "selection_rate": 0.6363636363636364,
+              "pool_share": 0.55,
+              "selected_share": 0.7,
+              "representation_ratio": 1.2727272727272725,
+              "exposure_share": 0.6053860028238972
+            }
+          ],
+          "disparate_impact": 0.5,
+          "statistical_parity_diff": 0.3181818181818182,
+          "exposure_gap": 0.10946825487790157,
+          "flagged": true
+        },
+        "100": {
+          "attribute": "experience_band",
+          "k": 100,
+          "groups": [
+            {
+              "group": "junior (<3y)",
+              "pool_n": 1,
+              "selected_n": 1,
+              "selection_rate": 1.0,
+              "pool_share": 0.01,
+              "selected_share": 0.01,
+              "representation_ratio": 1.0,
+              "exposure_share": 0.008696249230107424
+            },
+            {
+              "group": "mid (3-6y)",
+              "pool_n": 44,
+              "selected_n": 44,
+              "selection_rate": 1.0,
+              "pool_share": 0.44,
+              "selected_share": 0.44,
+              "representation_ratio": 1.0,
+              "exposure_share": 0.3859177479459956
+            },
+            {
+              "group": "senior (6y+)",
+              "pool_n": 55,
+              "selected_n": 55,
+              "selection_rate": 1.0,
+              "pool_share": 0.55,
+              "selected_share": 0.55,
+              "representation_ratio": 1.0,
+              "exposure_share": 0.6053860028238972
+            }
+          ],
+          "disparate_impact": 1.0,
+          "statistical_parity_diff": 0.0,
+          "exposure_gap": 0.10946825487790157,
+          "flagged": false
+        }
+      }
+    }
+  }
+}

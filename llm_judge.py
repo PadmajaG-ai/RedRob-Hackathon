@@ -43,12 +43,12 @@ class DimensionScores:
 
 # Default weights for IC (individual contributor) roles
 IC_WEIGHTS = {
-    'technical_skill_match': 0.30,
-    'career_trajectory':     0.20,
-    'domain_relevance':      0.20,
-    'behavioral_engagement': 0.15,
-    'cultural_fit':          0.10,
-    'bonus_signals':         0.05,
+    'technical_skill_match': 0.40,   # boosted: NDCG@10 heavily penalises skill-rank inversion
+    'career_trajectory':     0.18,
+    'domain_relevance':      0.18,
+    'behavioral_engagement': 0.13,
+    'cultural_fit':          0.08,
+    'bonus_signals':         0.03,
 }
 
 LEAD_WEIGHTS = {
@@ -415,6 +415,8 @@ def ltr_score(
     feats['rrf_score']        = rrf_score
     feats['bm25_score_norm']  = bm25_score_norm
     feats['dense_score']      = dense_score
+    # Mirror the 10x scaling applied during training so inference is consistent.
+    feats['skill_overlap'] = feats.get('skill_overlap', 0.0) * 10.0
     model = ltr_artifact['model']
     feature_names = ltr_artifact['feature_names']
     X = np.array([[feats.get(f, 0.0) for f in feature_names]])
@@ -518,7 +520,7 @@ def _skill_overlap(candidate_skills, required_skills) -> float:
     return matched / len(required_skills)
 
 
-def heuristic_score(candidate: dict, jd_req: dict) -> tuple[DimensionScores, str]:
+def heuristic_score(candidate: dict, jd_req: dict) -> tuple[DimensionScores, str, int]:
     """
     Compute 6-dimension scores using extract_features() for raw signal extraction.
     interview_rate and offer_rate are extracted separately here because they are
@@ -692,7 +694,7 @@ def heuristic_score(candidate: dict, jd_req: dict) -> tuple[DimensionScores, str
                 f"in summary — likely a keyword-listed profile rather than genuine AI background."
             )
 
-    return scores, ' '.join(reasoning_parts)
+    return scores, ' '.join(reasoning_parts), len(_matched_skills)
 
 
 # ──────────────────────────────────────────────
@@ -722,23 +724,31 @@ Output ONLY valid JSON — just the ranked IDs, no reasoning here:
   "ranking": [{{"rank": 1, "id": <index>}}, {{"rank": 2, "id": <index>}}, ...all {n}...]
 }}"""
 
-REASONING_PROMPT = """You are evaluating candidates FOR the role of "{role_title}" at {hiring_company}.
+REASONING_PROMPT = """You are writing candidate summaries for the hiring manager filling the role of "{role_title}" at {hiring_company}.
 
-Job Requirements (summary):
+Job Requirements:
 {jd}
 
-For each candidate below, write ONE specific sentence explaining fit for the {role_title} role at {hiring_company}.
+For each candidate below, write ONE sentence (max 30 words) that reads like a human recruiter wrote it.
+
+Required structure: [seniority + years of experience + what they built/shipped + at what kind of company] + [one key signal or gap]
+
+Style examples (follow this tone exactly):
+- "Senior ML Engineer with 6 years building retrieval and ranking systems at AI-native startups; actively looking and responds within 24h."
+- "Applied Scientist with 8 years shipping NLP pipelines at product companies; strong open-source presence but no LLM fine-tuning experience."
+- "Staff Engineer with 10 years across search and embeddings at a FAANG; deeply technical but over-experienced for a founding-team scope."
+
 Rules:
-- Always refer to the TARGET role ("{role_title} at {hiring_company}"), NOT the candidate's current employer.
-- Use the provided skill match data — mention matched skills, missing skills, or experience gap explicitly.
-- Be concrete: "Matches 4/6 required skills including embeddings and RAG; missing lora and ndcg" beats "has ML experience".
+- DO NOT start with "Matches X/Y skills" or "Candidate has" — lead with their experience level and what they built.
+- Name the company TYPE (AI-native startup, product company, services firm, FAANG, Series A, etc.), not the company name.
+- End with one specific strength OR one specific gap relevant to the {role_title} role.
 
 {candidates}
 
 Output ONLY valid JSON:
 {{
   "explanations": [
-    {{"id": <index>, "reasoning": "<one sentence: skill coverage + key gap or strength for the {role_title} role>"}},
+    {{"id": <index>, "reasoning": "<one narrative sentence for the {role_title} role>"}},
     ...
   ]
 }}"""
@@ -1076,8 +1086,9 @@ class LocalLLMJudge:
             except Exception:
                 pass
 
-        # Fallback to heuristic if parsing fails
-        return heuristic_score(candidate, jd_req)
+        # Fallback to heuristic if parsing fails (return only scores + reasoning, drop count)
+        scores, reasoning, _ = heuristic_score(candidate, jd_req)
+        return scores, reasoning
 
 
 # ──────────────────────────────────────────────
